@@ -20,16 +20,16 @@ In some cases, our policies may specify some explicit requirements or steps.  Th
 # Company Policies
 
 * [Identity and Access Management Policy](policies/IAM_Policy.md)
-* Privacy Policy
-* Acceptable Use Policy
-* Data Classification, Confidentiality and Encryption Policy
-* Network Security Policy
-* Application Security Policy
-* Endpoint, Desktop and Mobile Security Policy
-* Partner and Third Party Security Policy
-* Business Continuity Policy
-* Risk Assessment and Management Policy
-* Incident Response Policy
+* [Privacy Policy](policies/Privacy_Policy.md)
+* [Acceptable Use Policy](policies/Acceptable_Use_Policy.md)
+* [Data Classification, Confidentiality and Encryption Policy](policies/Data_Classification_and_Encryption_Policy.md)
+* [Network Security Policy](policies/Network_Security_Policy.md)
+* [Application Security Policy](policies/Application_Security_Policy.md)
+* [Endpoint, Desktop and Mobile Security Policy](policies/Endpoint_Desktop_Mobile_Security_Policy.md)
+* [Partner and Third Party Security Policy](policies/Partner_And_Third_Party_Security_Policy.md)
+* [Business Continuity Policy](policies/BCP_Policy.md)
+* [Risk Assessment and Management Policy](policies/Risk_Policy.md)
+* [Incident Response Policy](policies/Indicent_Response_Policy.md)
 
 # Approval Process
 Each policy will have designated approvers representing the stakeholders for the area described by the policy.  Each change to policy shall be submitted in a github pull request and approvals tracked through pull request approval.
