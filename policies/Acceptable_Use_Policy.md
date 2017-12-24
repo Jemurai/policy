@@ -15,7 +15,7 @@ Jemurai employees shall never use security tools provided at work for
 
 
 # Audience
-All Jemurai employees need to be aware of the Acceptable Use Policy.
+All Jemurai employees need to be aware of the policy.
 
 # Policy Tracking
 

@@ -1,6 +1,6 @@
 # Endpoint Desktop and Mobile Security Policy
 
-This policy describes how endpoint security will be handled.
+This policy describes how systems security will be handled.
 
 # Security Standards
 
@@ -19,7 +19,7 @@ Jemurai engineers need to be aware of the policy.
 
 | Tracking Item   | Detail |
 |-----------------|--------|
-| Policy Name     | Endpoint, Desktop and Mobile Security Policy |
+| Policy Name     | Systems Security Policy |
 | Policy Owner    | Konda |
 | In Force Date   | 12/31/2017 |
 | Approval Date   | 12/31/2017 |

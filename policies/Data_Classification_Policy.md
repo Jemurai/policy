@@ -2,6 +2,10 @@
 
 This policy describes the different types of data that Jemurai sees and how it needs to be handled.
 
+# Levels of Data
+
+## Specific Examples
+
 # Confidentiality
 
 
