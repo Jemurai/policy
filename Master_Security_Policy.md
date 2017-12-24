@@ -25,11 +25,13 @@ In some cases, our policies may specify some explicit requirements or steps.  Th
 * [Data Classification, Confidentiality and Encryption Policy](policies/Data_Classification_Policy.md)
 * [Network Security Policy](policies/Network_Security_Policy.md)
 * [Application Security Policy](policies/Application_Security_Policy.md)
-* [Endpoint, Desktop and Mobile Security Policy](policies/Endpoint_Desktop_Mobile_Security_Policy.md)
-* [Partner and Third Party Security Policy](policies/Partner_And_Third_Party_Security_Policy.md)
+* [Systems Security Policy](policies/Systems_Security_Policy.md)
+* [Partner Security Policy](policies/Partner_Security_Policy.md)
+* [Physical Security Policy](policies/Physical_Security_Policy.md)
 * [Business Continuity Policy](policies/BCP_Policy.md)
 * [Risk Assessment and Management Policy](policies/Risk_Policy.md)
 * [Incident Response Policy](policies/Incident_Response_Policy.md)
+* [Asset Management Policy](policies/Asset_Management_Policy.md)
 
 # Approval Process
 Each policy will have designated approvers representing the stakeholders for the area described by the policy.  Each change to policy shall be submitted in a github pull request and approvals tracked through pull request approval.

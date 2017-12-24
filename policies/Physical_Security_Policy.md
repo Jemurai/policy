@@ -1,16 +1,6 @@
-# Risk Policy
+# Physical Security Policy
 
-This policy describes how we will handle risk.
-
-# Threat Modeling
-
-# Active Risk 
-
-# Threat Intelligence
-
-# Laws and Regulations
-
-# Compliance
+This policy describes how we will handle physical security measures.
 
 
 # Audience
@@ -21,7 +11,7 @@ Jemurai engineers need to be aware of the policy.
 
 | Tracking Item   | Detail |
 |-----------------|--------|
-| Policy Name     | Risk Policy |
+| Policy Name     | Physical Policy |
 | Policy Owner    | Konda |
 | In Force Date   | 12/31/2017 |
 | Approval Date   | 12/31/2017 |

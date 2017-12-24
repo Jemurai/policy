@@ -1,18 +1,4 @@
-# Network Security Policy
-
-This policy describes how network security will be handled.
-
-# Internal
-
-## Segmentation
-
-
-## Default Port Status
-
-# External
-
-
-# Vulnerability Scanning
+# Asset Management Policy
 
 
 # Audience
@@ -23,12 +9,12 @@ All Jemurai employees need to be aware of the policy.
 
 | Tracking Item   | Detail |
 |-----------------|--------|
-| Policy Name     | Network Security Policy |
+| Policy Name     | Asset Management Policy |
 | Policy Owner    | Konda |
 | In Force Date   | 12/31/2017 |
 | Approval Date   | 12/31/2017 |
 | Update Date     | 12/31/2018 |
-| Approvers       | Konda |
+| Approvers       | Konda, Caldwell |
 | Applies To      | All of Jemurai |
 
 # Trackback
