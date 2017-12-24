@@ -1,6 +1,6 @@
 # Endpoint Desktop and Mobile Security Policy
 
-This policy describes how application security will be handled.
+This policy describes how endpoint security will be handled.
 
 # Security Standards
 

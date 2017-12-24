@@ -1,6 +1,6 @@
 # Partner and Third Party Security Policy
 
-This policy describes how we will handle partnre and third parties.
+This policy describes how we will handle partners and third parties.
 
 # Audience
 

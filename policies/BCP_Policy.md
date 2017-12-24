@@ -1,6 +1,6 @@
 # Business Continuity Policy
 
-This policy describes how we will handle partnre and third parties.
+This policy describes how we will handle business continuity and disaster recovery.
 
 # Audience
 
