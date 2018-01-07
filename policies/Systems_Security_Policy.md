@@ -5,6 +5,8 @@ This policy describes how systems security will be handled.
 # Security Standards
 
 
+# Vulnerability Scanning
+
 # Patching
 
 # DLP
