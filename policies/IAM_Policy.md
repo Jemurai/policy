@@ -22,6 +22,8 @@ With an increasing focus on cloud based document repositories, it is critical fo
 
 Whenever possible, Jemurai shall leverage a common source of the truth for identity such as Google Apps.  This should allow any Jemurai employee to access their most common applications with one username and password.
 
+Any applications used by Jemurai that are not SSO with our core identity provider shall be tracked in our Risk program.
+
 # Multi Factor Authentication
 
 For any system that supports MFA with SSO, this will be required for Jemurai users.  Jemurai supports SMS or Authenticator based two factor.

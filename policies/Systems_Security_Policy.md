@@ -1,17 +1,25 @@
-# Endpoint Desktop and Mobile Security Policy
+# Systems Security Policy
 
 This policy describes how systems security will be handled.
 
 # Security Standards
-
+Production server systems shall be help tdo 
 
 # Vulnerability Scanning
 
+As described in the [Network Security Policy](./Network_Security_Policy.md), vulnerability scanning will be performed at least quarterly.
+
 # Patching
+Unless otherwise identified, vendor patches shall be applied as soon as they are available.  
 
 # DLP
+Since DLP (Data Loss Prevention) solutions inherently involve monitoring user behavior and intercepting traffic or analyzing data in ways that inherently compromise security, we do not employ DLP solutions.
+
+As an active alternative countermeasure, we offer training and clear definition of data classification measures.
 
 # Antivirus
+
+Although AntiVirus is a security standby, we will depend on Google Drive to scan any files we share internally.  We will not install AntiVirus on laptops.
 
 # Audience
 

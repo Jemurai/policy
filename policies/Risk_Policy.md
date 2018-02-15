@@ -35,10 +35,6 @@ Naturally, Jemurai must comply with pertinent laws and regulations.  At this tim
 
 Jemurai does not process credit cards, finance, health care or other regulated data.
 
-# Privacy
-
-Privacy risk assessments 
-
 # Audience
 
 Jemurai engineers need to be aware of the policy.

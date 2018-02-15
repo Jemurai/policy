@@ -1,3 +1,3 @@
-ID,Vendor Name,Service,Start Date,End Date,Assessment Date,Data Handled,Processes Confirmed,Status
-1,Google,Google Apps for Business,1/2012,,12/24/2017,"Email, Documents, Client Data",Confirmed,OK
-2,Amazon,AWS,1/2012,,12/24/2017,"Web site, scanner, training, testing tools.",Confirmed, OK
+ID,Vendor Name,Service,Start Date,End Date,Assessment Date,Data Handled,Processes Confirmed,BCP,Status
+1,Google,Google Apps for Business,1/2012,,12/24/2017,"Email, Documents, Client Data",Confirmed,OK,OK
+2,Amazon,AWS,1/2012,,12/24/2017,"Web site, scanner, training, testing tools.",Confirmed, OK, OK

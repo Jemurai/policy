@@ -15,3 +15,6 @@ Some orgnizations will undoubtedly produce word documents or PDFs that will be c
 How does the policy set work?  Every company has different needs.  The main policy set contained here on Master is a rich full set of policies that can be adopted by a fairly large and mature organization.  Look for branches for other specific policy targets like _startups in the cloud_.
 
 In each case, there will be a _master_ policy that describes what other policies will be in place and how they should be used.
+
+# Limitation of Liability
+These policy templates are provided as a guide for what we believe are best practices.  *We cannot be responsible for whether the policy is complete or whether it is followed.*

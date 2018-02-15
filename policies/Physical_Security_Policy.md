@@ -1,7 +1,16 @@
 # Physical Security Policy
-
 This policy describes how we will handle physical security measures.
 
+# Data Centers
+We will leverage cloud providers that have clear physical security measures in place (eg. Google, Amazon) for the services we are using.
+
+# Offices
+Only current active Jemurai employees shall have access to Jemurai offices.  Keys to the office will be tracked with assets.  See the [Asset Management Policy](./Asset_Management_Policy.md).
+
+# Visitors
+Jemurai will not allow visitors to data centers.
+
+Jemurai will track visitors to Jemurai offices in a sheet or form.
 
 # Audience
 

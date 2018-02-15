@@ -2,17 +2,24 @@
 This policy describes how Jemurai employees will be expected to use the resources we provide, including laptops, cloud resources, security tools and more.
 
 # Personal Devices
-It is acceptable for employees to use their personal smart phones for email.
+It is acceptable for employees to use their personal smart phones for email and messaging.
 
 It is not expected that employees use their personal devices for: 
 1. Storing any client data
-1. 
+1. Conducting security testing or code review
+1. This includes personal Dropbox or shared storage devices
 
 # Cloud Resources
+In the course of providing services, Jemurai employees shall have access to training resources and other cloud based services ranging from vulnerability scanning systems to CRM systems to shared storage
+like Drive.  Throughout, employees are expected to use these systems in appropriate and intended manners.
 
 # Security Tools
-Jemurai employees shall never use security tools provided at work for 
+Jemurai employees shall never use security tools provided at work for testing other 3rd parties without explicit approval.  Generally, the exceptions may be granted for volunteer activities but not for commercial arrangements.  In all cases, we will want a clear statement of liability to be in place.
 
+# Content 
+All content shared with Jemurai employees is intended to be used internally.  Sharing or adapting internal Jemurai content with 3rd parties or for ongoing personal development outside of Jemurai is strictly prohibited.
+
+Content can include training materials, templates, checklists and any other internally facing material.
 
 # Audience
 All Jemurai employees need to be aware of the policy.
