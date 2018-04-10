@@ -8,10 +8,8 @@ In the event that an officer of the company is no longer able to perform their d
 
 The current plan will be: 
 1. Konda
-    1. Ownership - Transition to Vani Konda
-    1. Executive Function - Transition to Aaron Bedra
-    1. Sales Function - Transition to Warren Chain
-1. Chain - Handled by Konda pending hire.
+    1. Ownership - Transition to Konda family.
+    1. Executive Function - Transition to Aaron Bedra.
 1. Bedra - Handled by Konda pending hire.
 
 # Internal Systems
