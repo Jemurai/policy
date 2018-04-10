@@ -12,8 +12,7 @@ All code delivered as part of a Jemurai product or consulting solution shall be 
 
 # Penetration Testing
 
-Any solution produced and run by Jemurai shall be pen tested on a 
-quarterly basis.
+Any solution produced and run by Jemurai shall be pen tested on a quarterly basis.
 
 # AppSec Program Activities
 

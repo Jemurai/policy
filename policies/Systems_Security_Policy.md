@@ -3,7 +3,8 @@
 This policy describes how systems security will be handled.
 
 # Security Standards
-Production server systems shall be help tdo 
+
+Production server systems shall be hardened.
 
 # Vulnerability Scanning
 
