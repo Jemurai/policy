@@ -27,5 +27,7 @@ The policies herein should be considered work in progress.  We are sharing here 
 
 We are still in the process of mapping standards into the policies so that it can be explicitly clear how we know we are meeting standards.
 
+Please create issues to request improvements or ask questions.
+
 # Limitation of Liability
 These policy templates are provided as a guide for what we believe are best practices.  *We cannot be responsible for whether the policy is complete or whether it is followed.*
