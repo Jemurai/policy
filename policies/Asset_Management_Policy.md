@@ -8,6 +8,9 @@ Assets shall be tracked and updated in the tracking system on a monthly basis an
 
 The tracking system shall be based on: [asset tracker](../materials/asset_tracker.csv).
 
+## Servers
+Jemurai servers and infrastructure will be tracked. A dynamic solution is acceptable.
+
 ## Computers
 Jemurai supplied computers shall be tracked in an asset tracking system.
 
@@ -35,7 +38,7 @@ Jemurai IT and Admin need to be aware of the policy.
 | Policy Owner    | Konda |
 | In Force Date   | 12/31/2017 |
 | Approval Date   | 12/31/2017 |
-| Update Date     | 12/31/2018 |
+| Update Date     | 08/01/2018 |
 | Approvers       | Konda, Caldwell |
 | Applies To      | All of Jemurai |
 

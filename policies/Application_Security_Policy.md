@@ -18,6 +18,15 @@ Any solution produced and run by Jemurai shall be pen tested on a quarterly basi
 
 Jemurai shall run an Application Security Program that tracks applications and ensures that all applications are subjected to appropriate controls.
 
+# Change Control
+
+Jemurai shall employ a change control process that enables a reviewer to see:
+
+* What changed functionally, including a reference to a requirement
+* The code and configurations that changed
+* Who approved it
+
+
 ## Tiers
 
 Jemurai shall maintain three tiers of applications as follows.
@@ -44,7 +53,7 @@ Jemurai engineers need to be aware of the policy.
 | Policy Owner    | Konda |
 | In Force Date   | 12/31/2017 |
 | Approval Date   | 12/31/2017 |
-| Update Date     | 12/31/2018 |
+| Update Date     | 08/01/2018 |
 | Approvers       | Konda |
 | Applies To      | Engineering |
 

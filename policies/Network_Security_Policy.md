@@ -29,6 +29,12 @@ Any port being open externaly other than 22, 80 and 443 shall require a specific
 
 We shall conduct quarterly vulnerability scans to ensure that any externally facing systems are being identified and patched properly.
 
+# Customer Testing
+Customers may conduct their own security assessments of Jemurai applications. These must:
+
+Be scheduled in advance at a mutually agreeable time
+Include communication of any findings or issues identified back to Jemurai.
+
 # Audience
 
 All Jemurai employees need to be aware of the policy.

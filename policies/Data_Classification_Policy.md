@@ -64,6 +64,12 @@ It is expected that all Tier 1, 2 and 3 data will be encrypted in transit.
 
 All Tier 1, 2 and 3 data shall have access controls in place to ensure that only intended consumers can access data.
 
+# Labeling Ownership
+Wherever possible, data stewardship shall be captured and self documented through file, folder, or other data item naming conventions.
+
+# Destruction
+In the event that a client requests data be destroyed, Jemurai will track that request in a ticketing system and follow a process to ensure that the data is fully purged from the Jemurai systems.
+
 # Audience
 
 All Jemurai employees need to be aware of the policy.

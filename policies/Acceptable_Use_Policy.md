@@ -9,6 +9,9 @@ It is not expected that employees use their personal devices for:
 1. Conducting security testing or code review
 1. This includes personal Dropbox or shared storage devices
 
+# Company Devices
+For the purposes of getting work done, Jemurai employees and contractors may be granted access to computers (laptops). Such computers are intended for use doing work for Jemurai. It is expected that these devices will be handled in a safe and secure manner to the extent possible. In addition, it is expected that these devices will not be used for unlawful activities or paid work for other entities.
+
 # Cloud Resources
 In the course of providing services, Jemurai employees shall have access to training resources and other cloud based services ranging from vulnerability scanning systems to CRM systems to shared storage
 like Drive.  Throughout, employees are expected to use these systems in appropriate and intended manners.
@@ -32,7 +35,7 @@ All Jemurai employees need to be aware of the policy.
 | Policy Owner    | Konda |
 | In Force Date   | 12/31/2017 |
 | Approval Date   | 12/31/2017 |
-| Update Date     | 12/31/2018 |
+| Update Date     | 08/01/2018 |
 | Approvers       | Konda, Caldwell |
 | Applies To      | All of Jemurai |
 

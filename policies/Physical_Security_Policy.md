@@ -12,6 +12,9 @@ Jemurai will not allow visitors to data centers.
 
 Jemurai will track visitors to Jemurai offices in a sheet or form.
 
+# Clean Desk
+Jemurai has a clean desk clear screen policy. This means that sensitive information including client documents, post its with passwords, etc. should never be left on desks.
+
 # Audience
 
 Jemurai engineers need to be aware of the policy.
