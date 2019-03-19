@@ -2,13 +2,13 @@
 This repository contains security policy templates that can be adopted by organizations of different sizes.
 
 # Why?
-Well, to be honest, we don't really like doing policy work and like good programmers we're lazy.  So we figured it would be 
-useful to have these out there and that if people had their policy taken care of they could spend more time and energy on 
+Well, to be honest, we don't really like doing policy work and like good programmers we're lazy.  So we figured it would be
+useful to have these out there and that if people had their policy taken care of they could spend more time and energy on
 technical security things we can help with.
 
 # How To Use the Templates
 The easiest way to use the templates is to fork the repository and
-keep your own working copy.  If you check back with Jemurai's main repository, 
+keep your own working copy.  If you check back with Jemurai's main repository,
 you will be able to naturally pick up changes as our recommendations evolve.
 
 We believe that there is a great value to keeping policy in github or a similar open system so that it is accessible and changes are tracked and easy to find.
@@ -28,6 +28,13 @@ The policies herein should be considered work in progress.  We are sharing here 
 We are still in the process of mapping standards into the policies so that it can be explicitly clear how we know we are meeting standards.
 
 Please create issues to request improvements or ask questions.
+
+# Export to other formats
+
+Using [Pandoc](https://pandoc.org) it is possible to easily convert the markdown files in the repository to other formats (e.g. Microsoft Word).
+
+1. [Install Pandoc](https://pandoc.org/installing.html). Brew and Chocolatey packages are available to make this easy on Mac or Windows systems.
+1. Run the export script. On Mac/Linux `export_to_word.sh`. On Windows `Export-PolicyToWord.ps1`.
 
 # Limitation of Liability
 These policy templates are provided as a guide for what we believe are best practices.  *We cannot be responsible for whether the policy is complete or whether it is followed.*
