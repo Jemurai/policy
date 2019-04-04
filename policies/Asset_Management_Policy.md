@@ -2,35 +2,41 @@
 
 The purpose of the asset management policy is to ensure that any Jemurai resources that get lost, stolen or otherwise compromised are tracked and any related incident can be accounted for accordingly.
 
-# Tracking Assets
+## Tracking Assets
 
 Assets shall be tracked and updated in the tracking system on a monthly basis and upon hiring or termination.
 
 The tracking system shall be based on: [asset tracker](../materials/asset_tracker.csv).
 
-## Servers
+### Servers
+
 Jemurai servers and infrastructure will be tracked. A dynamic solution is acceptable.
 
-## Computers
+### Computers
+
 Jemurai supplied computers shall be tracked in an asset tracking system.
 
-## Phones
+### Phones
+
 If Jemurai purchased a phone, it will be tracked in an asset tracking sheet.
 
-## Keys
+### Keys
+
 Keys to offices or other Jemurai resources shall tracked.
 
-## Software Licenses
+### Software Licenses
+
 Software licenses shall be tracked.
 
-## New Assets
+### New Assets
+
 On a quarterly basis, operations will be reviewed to identify new assets that may need to be tracked.
 
-# Audience
+## Audience
 
 Jemurai IT and Admin need to be aware of the policy.
 
-# Policy Tracking
+## Policy Tracking
 
 | Tracking Item   | Detail |
 |-----------------|--------|
@@ -41,6 +47,3 @@ Jemurai IT and Admin need to be aware of the policy.
 | Update Date     | 08/01/2018 |
 | Approvers       | Konda, Caldwell |
 | Applies To      | All of Jemurai |
-
-# Trackback
-[Master Security Policy](../Master_Security_Policy.md)
