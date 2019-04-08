@@ -1,6 +1,6 @@
 # Acceptable Use Policy
 
-This policy describes how Jemurai employees will be expected to use the resources we provide, including laptops, cloud resources, security tools and more.
+This policy describes how {{company_name}} employees will be expected to use the resources we provide, including laptops, cloud resources, security tools and more.
 
 ## Personal Devices
 
@@ -14,41 +14,38 @@ It is not expected that employees use their personal devices for:
 
 ## Company Devices
 
-For the purposes of getting work done, Jemurai employees and contractors may be granted access to computers (laptops). Such computers are intended for use doing work for Jemurai. It is expected that these devices will be handled in a safe and secure manner to the extent possible. In addition, it is expected that these devices will not be used for unlawful activities or paid work for other entities.
+For the purposes of getting work done, {{company_name}} employees and contractors may be granted access to computers (laptops). Such computers are intended for use doing work for {{company_name}}. It is expected that these devices will be handled in a safe and secure manner to the extent possible. In addition, it is expected that these devices will not be used for unlawful activities or paid work for other entities.
 
 ## Cloud Resources
 
-In the course of providing services, Jemurai employees shall have access to training resources and other cloud based services ranging from vulnerability scanning systems to CRM systems to shared storage
+In the course of providing services, {{company_name}} employees shall have access to training resources and other cloud based services ranging from vulnerability scanning systems to CRM systems to shared storage
 like Drive.  Throughout, employees are expected to use these systems in appropriate and intended manners.
 
 ## Security Tools
 
-Jemurai employees shall never use security tools provided at work for testing other 3rd parties without explicit approval.  Generally, the exceptions may be granted for volunteer activities but not for commercial arrangements.  In all cases, we will want a clear statement of liability to be in place.
+{{company_name}} employees shall never use security tools provided at work for testing other 3rd parties without explicit approval.  Generally, the exceptions may be granted for volunteer activities but not for commercial arrangements.  In all cases, we will want a clear statement of liability to be in place.
 
-All content shared with Jemurai employees is intended to be used internally.  Sharing or adapting internal Jemurai content with 3rd parties or for ongoing personal development outside of Jemurai is strictly prohibited.
+All content shared with {{company_name}} employees is intended to be used internally.  Sharing or adapting internal {{company_name}} content with 3rd parties or for ongoing personal development outside of {{company_name}} is strictly prohibited.
 
 Content can include training materials, templates, checklists and any other internally facing material.
 
 ## Audience
 
-All Jemurai employees need to be aware of the policy.
+All {{company_name}} employees need to be aware of the policy.
 
 ## Policy Tracking
 
 | Tracking Item   | Detail |
 |-----------------|--------|
 | Policy Name     | Acceptable Use Policy |
-| Policy Owner    | Konda |
-| In Force Date   | 12/31/2017 |
-| Approval Date   | 12/31/2017 |
-| Next Update Date     | 12/15/2019 |
-| Approvers       | Konda, Caldwell |
-| Applies To      | All of Jemurai |
+| Policy Owner    | {{owner}}  |
+| In Force Date   | {{in_force_date}} |
+| Update Date     | {{next_update_date}} |
+| Approvers       | {{approver}} |
+| Applies To      | All of {{company_name}} |
 
-## Version History 
+### Version History 
 
-| Version | Date | Approvers | Changes | 
+| Version | Date | Approvers | Changes |
 |--|--|--|--|
-| 1.0 | 12/31/2017 | Konda | Initial Policy |
-| 1.0 | 12/15/2018 | Konda | Reapproved |
-| 1.1 | 4/8/2019 | Konda | Prepare to move to SPIO |
+| 1.0 | {{approval_date}} | {{approver}} | Initial Policy |
