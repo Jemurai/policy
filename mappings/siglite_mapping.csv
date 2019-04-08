@@ -1,189 +1,189 @@
-	A. Risk Assessment and Treatment
-SL.1	Is there a risk assessment program that has been approved by management, communicated to constituents and an owner to maintain and review the program? if yes, does it include:
-SL.2	Is there a program to manage the treatment of risks identified during assessments?
-SL.3	A formal process for assigning appropriate management ownership for each risk?
-SL.4	A formal process for appropriate management knowingly and objectively accepting risks and approving action plans?
-SL.5	A formal process for tracking the status of action plans and reporting them to management?
-SL.6	Controls identified for each material risk?
-SL.7	Measures for defining, monitoring, and reporting risk metrics?
-SL.8	Do Subcontractors have access to Scoped Systems and Data? (backup vendors, service providers, equipment support maintenance, software maintenance vendors, data recovery vendors, etc.)? If yes, is there:
-SL.9	A documented vendor management process in place for the selection, oversight and risk assessment of third party vendors? If yes, does it include:
-SL.10	Approval by management?
-SL.11	Annual review?
-SL.12	Required reassessment when service delivery or contract changes?
-SL.13	Review of the subcontractor's vendor management policy and procedures?
-SL.14	Is there a process to identify and log subcontractor information security, privacy and/or data breach issues?
-SL.15	Is there a vendor management program?
-SL.16	Do external parties have access to Scoped Systems and Data or processing facilities?
-SL.17	Is the maturity of IT management processes formally evaluated at least annually using an established benchmark (e.g., COBIT maturity models)?
-SL.18	Are there regular privacy risk assessments conducted? If yes, provide frequency and scope. If no, explain reason.
-SL.19	Are identified privacy risks and associated mitigation plans formally documented and reviewed by management?
-SL.20	Are reasonable resources (in time and money) allocated to mitigating identified privacy risks?
-SL.21	Is there a compliance risk management system that addresses the quality and accuracy of reported consumer data?
-SL.22	Is there a compliance risk management system that addresses the quality of assembling and maintaining the data?
-	B. Security Policy
-SL.23	Is there an information security policy that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy?
-SL.24	Have the policies been reviewed in the last 12 months?
-	C. Organizational Security
-SL.25	Is there a respondent information security function responsible for security initiatives?
-	D. Asset and Information Management
-SL.26	Is there an asset management policy approved by management, communicated to constituents and an owner to maintain and review?
-SL.27	Is information classified?
-SL.28	Is there a removable media policy or program (CDs, DVDs, tapes, disk drives) that has been approved by management, communicated to appropriate constituents, and an owner to maintain and review the policy?
-SL.29	Is Scoped Data sent or received via physical media?
-SL.30	Are encryption tools managed and maintained for Scoped Data? If yes:
-SL.31	Are clients provided with the ability to generate a unique encryption key?
-SL.32	Are clients provided with the ability to rotate their encryption key on a scheduled basis?
-SL.33	Are staff able to access client Scoped Data in an unencrypted state?
-SL.34	Are staff able to access client's encryption keys?
-SL.35	Is data segmentation and separation capability between clients provided?
-SL.36	Does the ability exist to legally demonstrate sufficient data segmentation, in the event of a client subpoena or a forensics incident, so as not to impact other clients data if using resource pooling?
-SL.37	Is there a data classification retention program that identifies the data types that require additional management and governance?
-SL.38	Is there a self-service portal or API call available to clients which provides the ability to place a "Legal hold" on client data which may be subject to a legal action, without impacting other clients data retention or destruction schedules?
-	E. Human Resource Security
-SL.39	Is there a Human Resource policy approved by management, communicated to constituents and an owner to maintain and review? If yes, does it include:
-SL.40	Security roles and responsibilities?
-SL.41	Background screening?
-SL.42	Employment agreements?
-SL.43	Security awareness training?
-SL.44	Disciplinary process for non-compliance?
-SL.45	Termination or change of status process?
-SL.46	Are background checks performed for Service Provider Contractors and Subcontractors?
-SL.47	Do information security personnel have professional security certifications?
-	F. Physical and Environmental Security
-SL.48	Is there a physical security program?
-SL.49	Are physical security and environmental controls in the data center and office buildings?
-SL.50	Are visitors permitted in the facility?
-	G. Operations Management
-SL.51	Are management approved operating procedures utilized?
-SL.52	Is there an operational change management/change control policy or program that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy?
-SL.53	Are backups of Scoped Systems and Data performed?
-SL.54	Are Cloud Services provided? If yes, what service model is provided (select all that apply):
-SL.55	Software as a Service (SaaS)?
-SL.56	Infrastructure as a Service (IaaS)?
-SL.57	Private cloud?
-SL.58	Public cloud?
-SL.59	Community cloud?
-SL.60	Hybrid cloud?
-SL.61	Is there a client management portal which allows distributed business accounts (business units/departments) to be managed under a single central corporate account?
-SL.62	Are application self service features or an Internet accessible self-service portal available to clients?
-SL.63	Can clients run their own security services within their own cloud environment?
-SL.64	Is there a management approved process to ensure that image snapshots containing Scoped Data are authorized prior to being snapped?
-SL.65	Is there a formal process to ensure clients are notified prior to changes being made which may impact their service? If yes, what is the communication method:
-SL.66	Is there a scheduled maintenance window? If yes, what is the frequency:
-SL.67	Is there a scheduled maintenance window which results in client downtime? If yes, what is the downtime:
-SL.68	Is there an online incident response status portal, which outlines planned and unplanned outages? If yes, how long after an unplanned outage is this updated:
-	H. Access Control
-SL.69	Are electronic systems used to transmit, process or store Scoped Systems and Data?
-SL.70	Are individual IDs required for user authentication to applications, operating systems, databases and network devices?
-SL.71	Are passwords used?
-SL.72	Is there a password policy for systems that transmit, process or store Scoped Systems and Data that has been approved by management, communicated to constituents, and enforced on all platforms?
-SL.73	Is remote access permitted?
-SL.74	Is standards based federated ID capability available to clients (e.g., SAML, OpenID)?
-SL.75	Is two factor authentication required to access the production environment containing Scoped Data?
-SL.76	Are staff able to access client Scoped Data? If not, please identify the controls used to prevent this.
-SL.77	Is there a process which allows the client to specifically list who from the provider will have access to their Scoped Systems and Data?
-	I. Application Security
-SL.78	Are applications used to transmit, process or store Scoped Data?
-SL.79	Is a web site supported, hosted or maintained that has access to Scoped Systems and Data?
-SL.80	Are Web Servers used for transmitting, processing or storing Scoped Data? If yes, for all server platforms is/are:
-SL.81	Is HTTPS enabled for all web pages used as part of the scoped service?
-SL.82	All available high-risk security patches applied and verified at least monthly?
-SL.83	Are third party alert services used to keep up to date with the latest vulnerabilities?
-SL.84	Events relevant to supporting incident investigation regularly reviewed using a specific methodology to uncover potential incidents?
-SL.85	Operating system and application logs relevant to supporting incident investigation protected against modification, deletion, and/or inappropriate access?
-SL.86	Is application development performed?
-SL.87	Is there a secure software development lifecycle policy (including mobile software applications) that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy?
-SL.88	Is development, test, and staging environment separate from the production environment? If so, how are they segmented:
-SL.89	Is there a formal Software Development Life Cycle (SDLC) process?
-SL.90	Are change control procedures required for all changes to the production environment?
-SL.91	Is Scoped Systems and Data ever used in the test, development, or QA environments? If yes, is:
-SL.92	Is there a documented change management / change control process? If yes, does it include:
-SL.93	Are compilers, editors or other development tools present in the production environment?
-SL.94	Is a secure code review performed at least annually?
-SL.95	Is each release subject to a full secure code review?
-SL.96	Are applications analyzed on a regular basis to determine their vulnerability against recent attacks?
-SL.97	Is there a formal development methodology in operation? If yes, which groups does it include?:
-SL.98	Are mobile applications that access Scoped Systems and Data developed?
-	J. Incident Event and Communications Management
-SL.99	Is there an Incident Management Program that has been approved by management, communicated to constituents and an owner to maintain and review the program? If yes, does the program include:
-SL.100	Privacy Incidents?
-SL.101	Is there a formal Incident Response Plan?
-SL.102	Is there a 24x7x365 staffed phone number available to clients to report security incidents?
-	K. Business Resiliency
-SL.103	Is there an established Business Resiliency program that has been approved by management and communicated to appropriate constituents?
-SL.104	Has a Business Impact Analysis been conducted?
-SL.105	Is there a formal process focused on identifying and addressing risks of disruptive incidents to the organization?
-SL.106	Are specific response and recovery strategies defined for the prioritized activities?
-SL.107	Are formal business continuity procedures developed and documented?
-SL.108	Has senior management assigned the responsibility for the overall management of the response and recovery efforts?
-SL.109	Is there a periodic (at least annual) review of your Business Resiliency Program?
-SL.110	Are there any dependencies on critical third party service providers?
-SL.111	Is there a formal, documented exercise and testing program in place?
-SL.112	Is there an Influenza Pandemic / Infectious Disease Outbreak Plan?
-SL.113	Is there a specific Recovery Time Objective (RTO)? If yes, what is it?
-SL.114	Are all suppliers of critical hardware, network services and facility services involved in annual continuity and recovery tests?
-SL.115	Are site failover tests performed at least annually?
-SL.116	Do contracts with Critical Service Providers include a penalty or remediation clause for breach of availability and continuity SLAs?
-SL.117	Is there sufficient redundancy capacity to ensure services are not impacted in multi-tenancy environments during peak usage and above?
-	L. Compliance
-SL.118	Is there an internal audit, risk management, or compliance department, or similar management oversight unit with responsibility for assessing, identifying and tracking resolution of outstanding regulatory issues?
-SL.119	Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements including intellectual property rights on business processes or information technology software products?
-SL.120	Is there a records retention policy covering paper and electronic records, including email in support of applicable regulations, standards and contractual requirements?
-SL.121	Is licensing maintained in all jurisdictions where required?
-SL.122	Is there an documented internal compliance and ethics program to ensure professional ethics and business practices are implemented and maintained?
-SL.123	Are marketing or selling activities conducted directly to Client's customers?
-SL.124	Are there direct interactions with your client's customers?
-SL.125	Are documented policies and procedures maintained for enabling compliance with applicable legal, regulatory, or contractual obligations related to information security requirements?
-SL.126	Is there a documented governance process to identify and assess changes that could significantly affect the system of internal controls for security, confidentiality and availability?
-SL.127	Are accounts opened, transactions initiated or other account initiation activity applying payments, taking payments, transferring funds, etc. through either electronic, telephonic, written or in-person requests made on behalf of your client's?
-SL.128	Are these sites, applications and systems used to also transmit, process or store non-scoped data?
-SL.129	Are all transaction details (such as payment card info and information about the parties conducting transactions) prohibited from being stored in the DMZ?
-SL.130	Does the service provider permit client audits and assessments?
-	M. End User Device Security
-SL.131	Are End User Devices (Desktops, Laptops, Tablets, Smartphones) used for transmitting, processing or storing Scoped Data? If yes, for all platforms, are:
-SL.132	Security configuration standards documented? If yes, are:
-SL.133	All available high-risk security patches applied and verified at least monthly on all server platforms?
-SL.134	Sufficient detail contained in Operating System and application logs to support incident investigation, including successful and failed login attempts and changes to sensitive configuration settings and files?
-SL.135	Operating system and application logs relevant to supporting incident investigation protected against modification, deletion, and/or inappropriate access?
-SL.136	Are constituents allowed to utilize mobile devices within your environment? If yes, which of the following functions are allowed:
-SL.137	View Scoped Data?
-SL.138	Process Scoped Data?
-SL.139	Delete Scoped Data?
-SL.140	Store Scoped Data?
-SL.141	Is there a mobile device management program in place that has been approved by management and communicated to appropriate constituents?
-SL.142	Is there a Mobile Device Management solution in place?
-SL.143	Is there an approved process for IT to off-board mobile devices when a constituent terminates, or requests to on-board a new mobile device? If yes, does it:
-SL.144	Are staff technically prevented from accessing the administrative environment via non-managed private devices? If yes, is it from:
-	N. Network Security
-SL.145	Are there external network connections (Internet, extranet, etc.)?
-SL.146	Security and hardening standards for network devices, including Firewalls, Switches, Routers and Wireless Access Points (baseline configuration, patching, passwords, access control)?
-SL.147	Are firewalls used to isolate critical and sensitive systems into network segments separate from network segments with less sensitive systems?
-SL.148	Is there a process that requires security approval to allow external networks to connect to the company network, and enforces the least privilege necessary?
-SL.149	Are all available high-risk security patches applied and verified at least monthly?
-SL.150	Are Intrusion Detection/Prevention Systems employed in all sensitive network zones and wherever firewalls are enabled?
-SL.151	Are wireless networking devices connected to networks containing scoped systems and data?
-SL.152	Are there controls to prevent one client attempting to compromise another client in a resource pooled environment?
-	P. Privacy
-SL.153	Is Scoped Data transmitted, processed, or stored that can be classified as non-public information (NPI), personally identifiable information (PII), or sensitive customer financial information? If yes, describe and list types of data.
-SL.154	Do agreements with third parties who have access or potential access to Scoped Data, address confidentiality, audit, security, and privacy, including but not limited to incident response, ongoing monitoring, data sharing and secure disposal of Scoped Data?
-SL.155	Is a business associate contract in place to address obligations for the privacy and security requirements for the services provided?
-SL.156	For Scoped Data, is personal information about individuals transmitted to or received from countries outside the United States? If yes, list the countries.
-SL.157	Is personal information transmitted, processed, stored, or disclosed to or retained by third parties? If yes, describe.
-SL.158	Are there contractual controls to ensure that personal information transmitted, processed, stored or disclosed to or retained by third parties is limited to defined parameters for access, use and disclosure? If yes, describe. If no, explain reason.
-SL.159	Is personal information accessed, disclosed, processed, transmitted or retained with third parties outside the US? If yes, describe and list the countries.
-SL.160	Is there a documented privacy policy or procedures for the protection of information transmitted, processed, or maintained on behalf of the client?
-SL.161	Are transactions for covered accounts accessed, modified, or processed, including address changes and discrepancies? If yes, describe.
-	T. Threat Management
-SL.162	Is there an anti-malware policy or program that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy?
-SL.163	Prohibition of disabling anti-malware with exceptions requiring Security approval and reenablement as soon as possible.
-SL.164	Is there a vulnerability management policy or program that has been approved by management, communicated to appropriate constituents and an owner assigned to maintain and review the policy?
-SL.165	Are vulnerability scans performed on all internet-facing applications at least monthly and after significant changes?
-SL.166	Are vulnerability scans performed against internal networks and systems?
-SL.167	Are penetration tests performed?
-SL.168	Are there processes to manage threat and vulnerability assessment tools and the data they collect?
-	U. Server Security
-SL.169	Are Servers used for transmitting, processing or storing Scoped Data?
-SL.170	Are systems and applications patched?
-SL.171	Are default hardened base virtual images applied to virtualized operating systems?
-SL.172	Are Hypervisors used to manage systems used to transmit, process or store Scoped Data?
+"","A. Risk Assessment and Treatment"
+"SL.1","Is there a risk assessment program that has been approved by management, communicated to constituents and an owner to maintain and review the program? if yes, does it include:"
+"SL.2","Is there a program to manage the treatment of risks identified during assessments?"
+"SL.3","A formal process for assigning appropriate management ownership for each risk?"
+"SL.4","A formal process for appropriate management knowingly and objectively accepting risks and approving action plans?"
+"SL.5","A formal process for tracking the status of action plans and reporting them to management?"
+"SL.6","Controls identified for each material risk?"
+"SL.7","Measures for defining, monitoring, and reporting risk metrics?"
+"SL.8","Do Subcontractors have access to Scoped Systems and Data? (backup vendors, service providers, equipment support maintenance, software maintenance vendors, data recovery vendors, etc.)? If yes, is there:"
+"SL.9","A documented vendor management process in place for the selection, oversight and risk assessment of third party vendors? If yes, does it include:"
+"SL.10","Approval by management?"
+"SL.11","Annual review?"
+"SL.12","Required reassessment when service delivery or contract changes?"
+"SL.13","Review of the subcontractor's vendor management policy and procedures?"
+"SL.14","Is there a process to identify and log subcontractor information security, privacy and/or data breach issues?"
+"SL.15","Is there a vendor management program?"
+"SL.16","Do external parties have access to Scoped Systems and Data or processing facilities?"
+"SL.17","Is the maturity of IT management processes formally evaluated at least annually using an established benchmark (e.g., COBIT maturity models)?"
+"SL.18","Are there regular privacy risk assessments conducted? If yes, provide frequency and scope. If no, explain reason."
+"SL.19","Are identified privacy risks and associated mitigation plans formally documented and reviewed by management?"
+"SL.20","Are reasonable resources (in time and money) allocated to mitigating identified privacy risks?"
+"SL.21","Is there a compliance risk management system that addresses the quality and accuracy of reported consumer data?"
+"SL.22","Is there a compliance risk management system that addresses the quality of assembling and maintaining the data?"
+"","B. Security Policy"
+"SL.23","Is there an information security policy that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy?"
+"SL.24","Have the policies been reviewed in the last 12 months?"
+"","C. Organizational Security"
+"SL.25","Is there a respondent information security function responsible for security initiatives?"
+"","D. Asset and Information Management"
+"SL.26","Is there an asset management policy approved by management, communicated to constituents and an owner to maintain and review?"
+"SL.27","Is information classified?"
+"SL.28","Is there a removable media policy or program (CDs, DVDs, tapes, disk drives) that has been approved by management, communicated to appropriate constituents, and an owner to maintain and review the policy?"
+"SL.29","Is Scoped Data sent or received via physical media?"
+"SL.30","Are encryption tools managed and maintained for Scoped Data? If yes:"
+"SL.31","Are clients provided with the ability to generate a unique encryption key?"
+"SL.32","Are clients provided with the ability to rotate their encryption key on a scheduled basis?"
+"SL.33","Are staff able to access client Scoped Data in an unencrypted state?"
+"SL.34","Are staff able to access client's encryption keys?"
+"SL.35","Is data segmentation and separation capability between clients provided?"
+"SL.36","Does the ability exist to legally demonstrate sufficient data segmentation, in the event of a client subpoena or a forensics incident, so as not to impact other clients data if using resource pooling?"
+"SL.37","Is there a data classification retention program that identifies the data types that require additional management and governance?"
+"SL.38","Is there a self-service portal or API call available to clients which provides the ability to place a 'Legal hold' on client data which may be subject to a legal action, without impacting other clients data retention or destruction schedules?"
+"","E. Human Resource Security"
+"SL.39","Is there a Human Resource policy approved by management, communicated to constituents and an owner to maintain and review? If yes, does it include:"
+"SL.40","Security roles and responsibilities?"
+"SL.41","Background screening?"
+"SL.42","Employment agreements?"
+"SL.43","Security awareness training?"
+"SL.44","Disciplinary process for non-compliance?"
+"SL.45","Termination or change of status process?"
+"SL.46","Are background checks performed for Service Provider Contractors and Subcontractors?"
+"SL.47","Do information security personnel have professional security certifications?"
+"","F. Physical and Environmental Security"
+"SL.48","Is there a physical security program?"
+"SL.49","Are physical security and environmental controls in the data center and office buildings?"
+"SL.50","Are visitors permitted in the facility?"
+"","G. Operations Management"
+"SL.51","Are management approved operating procedures utilized?"
+"SL.52","Is there an operational change management/change control policy or program that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy?"
+"SL.53","Are backups of Scoped Systems and Data performed?"
+"SL.54","Are Cloud Services provided? If yes, what service model is provided (select all that apply):"
+"SL.55","Software as a Service (SaaS)?"
+"SL.56","Infrastructure as a Service (IaaS)?"
+"SL.57","Private cloud?"
+"SL.58","Public cloud?"
+"SL.59","Community cloud?"
+"SL.60","Hybrid cloud?"
+"SL.61","Is there a client management portal which allows distributed business accounts (business units/departments) to be managed under a single central corporate account?"
+"SL.62","Are application self service features or an Internet accessible self-service portal available to clients?"
+"SL.63","Can clients run their own security services within their own cloud environment?"
+"SL.64","Is there a management approved process to ensure that image snapshots containing Scoped Data are authorized prior to being snapped?"
+"SL.65","Is there a formal process to ensure clients are notified prior to changes being made which may impact their service? If yes, what is the communication method:"
+"SL.66","Is there a scheduled maintenance window? If yes, what is the frequency:"
+"SL.67","Is there a scheduled maintenance window which results in client downtime? If yes, what is the downtime:"
+"SL.68","Is there an online incident response status portal, which outlines planned and unplanned outages? If yes, how long after an unplanned outage is this updated:"
+"","H. Access Control"
+"SL.69","Are electronic systems used to transmit, process or store Scoped Systems and Data?"
+"SL.70","Are individual IDs required for user authentication to applications, operating systems, databases and network devices?"
+"SL.71","Are passwords used?"
+"SL.72","Is there a password policy for systems that transmit, process or store Scoped Systems and Data that has been approved by management, communicated to constituents, and enforced on all platforms?"
+"SL.73","Is remote access permitted?"
+"SL.74","Is standards based federated ID capability available to clients (e.g., SAML, OpenID)?"
+"SL.75","Is two factor authentication required to access the production environment containing Scoped Data?"
+"SL.76","Are staff able to access client Scoped Data? If not, please identify the controls used to prevent this."
+"SL.77","Is there a process which allows the client to specifically list who from the provider will have access to their Scoped Systems and Data?"
+"","I. Application Security"
+"SL.78","Are applications used to transmit, process or store Scoped Data?"
+"SL.79","Is a web site supported, hosted or maintained that has access to Scoped Systems and Data?"
+"SL.80","Are Web Servers used for transmitting, processing or storing Scoped Data? If yes, for all server platforms is/are:"
+"SL.81","Is HTTPS enabled for all web pages used as part of the scoped service?"
+"SL.82","All available high-risk security patches applied and verified at least monthly?"
+"SL.83","Are third party alert services used to keep up to date with the latest vulnerabilities?"
+"SL.84","Events relevant to supporting incident investigation regularly reviewed using a specific methodology to uncover potential incidents?"
+"SL.85","Operating system and application logs relevant to supporting incident investigation protected against modification, deletion, and/or inappropriate access?"
+"SL.86","Is application development performed?"
+"SL.87","Is there a secure software development lifecycle policy (including mobile software applications) that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy?"
+"SL.88","Is development, test, and staging environment separate from the production environment? If so, how are they segmented:"
+"SL.89","Is there a formal Software Development Life Cycle (SDLC) process?"
+"SL.90","Are change control procedures required for all changes to the production environment?"
+"SL.91","Is Scoped Systems and Data ever used in the test, development, or QA environments? If yes, is:"
+"SL.92","Is there a documented change management / change control process? If yes, does it include:"
+"SL.93","Are compilers, editors or other development tools present in the production environment?"
+"SL.94","Is a secure code review performed at least annually?"
+"SL.95","Is each release subject to a full secure code review?"
+"SL.96","Are applications analyzed on a regular basis to determine their vulnerability against recent attacks?"
+"SL.97","Is there a formal development methodology in operation? If yes, which groups does it include?:"
+"SL.98","Are mobile applications that access Scoped Systems and Data developed?"
+"","J. Incident Event and Communications Management"
+"SL.99","Is there an Incident Management Program that has been approved by management, communicated to constituents and an owner to maintain and review the program? If yes, does the program include:"
+"SL.100","Privacy Incidents?"
+"SL.101","Is there a formal Incident Response Plan?"
+"SL.102","Is there a 24x7x365 staffed phone number available to clients to report security incidents?"
+"","K. Business Resiliency"
+"SL.103","Is there an established Business Resiliency program that has been approved by management and communicated to appropriate constituents?"
+"SL.104","Has a Business Impact Analysis been conducted?"
+"SL.105","Is there a formal process focused on identifying and addressing risks of disruptive incidents to the organization?"
+"SL.106","Are specific response and recovery strategies defined for the prioritized activities?"
+"SL.107","Are formal business continuity procedures developed and documented?"
+"SL.108","Has senior management assigned the responsibility for the overall management of the response and recovery efforts?"
+"SL.109","Is there a periodic (at least annual) review of your Business Resiliency Program?"
+"SL.110","Are there any dependencies on critical third party service providers?"
+"SL.111","Is there a formal, documented exercise and testing program in place?"
+"SL.112","Is there an Influenza Pandemic / Infectious Disease Outbreak Plan?"
+"SL.113","Is there a specific Recovery Time Objective (RTO)? If yes, what is it?"
+"SL.114","Are all suppliers of critical hardware, network services and facility services involved in annual continuity and recovery tests?"
+"SL.115","Are site failover tests performed at least annually?"
+"SL.116","Do contracts with Critical Service Providers include a penalty or remediation clause for breach of availability and continuity SLAs?"
+"SL.117","Is there sufficient redundancy capacity to ensure services are not impacted in multi-tenancy environments during peak usage and above?"
+"","L. Compliance"
+"SL.118","Is there an internal audit, risk management, or compliance department, or similar management oversight unit with responsibility for assessing, identifying and tracking resolution of outstanding regulatory issues?"
+"SL.119","Are there policies and procedures to ensure compliance with applicable legislative, regulatory and contractual requirements including intellectual property rights on business processes or information technology software products?"
+"SL.120","Is there a records retention policy covering paper and electronic records, including email in support of applicable regulations, standards and contractual requirements?"
+"SL.121","Is licensing maintained in all jurisdictions where required?"
+"SL.122","Is there an documented internal compliance and ethics program to ensure professional ethics and business practices are implemented and maintained?"
+"SL.123","Are marketing or selling activities conducted directly to Client's customers?"
+"SL.124","Are there direct interactions with your client's customers?"
+"SL.125","Are documented policies and procedures maintained for enabling compliance with applicable legal, regulatory, or contractual obligations related to information security requirements?"
+"SL.126","Is there a documented governance process to identify and assess changes that could significantly affect the system of internal controls for security, confidentiality and availability?"
+"SL.127","Are accounts opened, transactions initiated or other account initiation activity applying payments, taking payments, transferring funds, etc. through either electronic, telephonic, written or in-person requests made on behalf of your client's?"
+"SL.128","Are these sites, applications and systems used to also transmit, process or store non-scoped data?"
+"SL.129","Are all transaction details (such as payment card info and information about the parties conducting transactions) prohibited from being stored in the DMZ?"
+"SL.130","Does the service provider permit client audits and assessments?"
+"","M. End User Device Security"
+"SL.131","Are End User Devices (Desktops, Laptops, Tablets, Smartphones) used for transmitting, processing or storing Scoped Data? If yes, for all platforms, are:"
+"SL.132","Security configuration standards documented? If yes, are:"
+"SL.133","All available high-risk security patches applied and verified at least monthly on all server platforms?"
+"SL.134","Sufficient detail contained in Operating System and application logs to support incident investigation, including successful and failed login attempts and changes to sensitive configuration settings and files?"
+"SL.135","Operating system and application logs relevant to supporting incident investigation protected against modification, deletion, and/or inappropriate access?"
+"SL.136","Are constituents allowed to utilize mobile devices within your environment? If yes, which of the following functions are allowed:"
+"SL.137","View Scoped Data?"
+"SL.138","Process Scoped Data?"
+"SL.139","Delete Scoped Data?"
+"SL.140","Store Scoped Data?"
+"SL.141","Is there a mobile device management program in place that has been approved by management and communicated to appropriate constituents?"
+"SL.142","Is there a Mobile Device Management solution in place?"
+"SL.143","Is there an approved process for IT to off-board mobile devices when a constituent terminates, or requests to on-board a new mobile device? If yes, does it:"
+"SL.144","Are staff technically prevented from accessing the administrative environment via non-managed private devices? If yes, is it from:"
+"","N. Network Security"
+"SL.145","Are there external network connections (Internet, extranet, etc.)?"
+"SL.146","Security and hardening standards for network devices, including Firewalls, Switches, Routers and Wireless Access Points (baseline configuration, patching, passwords, access control)?"
+"SL.147","Are firewalls used to isolate critical and sensitive systems into network segments separate from network segments with less sensitive systems?"
+"SL.148","Is there a process that requires security approval to allow external networks to connect to the company network, and enforces the least privilege necessary?"
+"SL.149","Are all available high-risk security patches applied and verified at least monthly?"
+"SL.150","Are Intrusion Detection/Prevention Systems employed in all sensitive network zones and wherever firewalls are enabled?"
+"SL.151","Are wireless networking devices connected to networks containing scoped systems and data?"
+"SL.152","Are there controls to prevent one client attempting to compromise another client in a resource pooled environment?"
+"","P. Privacy"
+"SL.153","Is Scoped Data transmitted, processed, or stored that can be classified as non-public information (NPI), personally identifiable information (PII), or sensitive customer financial information? If yes, describe and list types of data."
+"SL.154","Do agreements with third parties who have access or potential access to Scoped Data, address confidentiality, audit, security, and privacy, including but not limited to incident response, ongoing monitoring, data sharing and secure disposal of Scoped Data?"
+"SL.155","Is a business associate contract in place to address obligations for the privacy and security requirements for the services provided?"
+"SL.156","For Scoped Data, is personal information about individuals transmitted to or received from countries outside the United States? If yes, list the countries."
+"SL.157","Is personal information transmitted, processed, stored, or disclosed to or retained by third parties? If yes, describe."
+"SL.158","Are there contractual controls to ensure that personal information transmitted, processed, stored or disclosed to or retained by third parties is limited to defined parameters for access, use and disclosure? If yes, describe. If no, explain reason."
+"SL.159","Is personal information accessed, disclosed, processed, transmitted or retained with third parties outside the US? If yes, describe and list the countries."
+"SL.160","Is there a documented privacy policy or procedures for the protection of information transmitted, processed, or maintained on behalf of the client?"
+"SL.161","Are transactions for covered accounts accessed, modified, or processed, including address changes and discrepancies? If yes, describe."
+"","T. Threat Management"
+"SL.162","Is there an anti-malware policy or program that has been approved by management, communicated to appropriate constituents and an owner to maintain and review the policy?"
+"SL.163","Prohibition of disabling anti-malware with exceptions requiring Security approval and reenablement as soon as possible."
+"SL.164","Is there a vulnerability management policy or program that has been approved by management, communicated to appropriate constituents and an owner assigned to maintain and review the policy?"
+"SL.165","Are vulnerability scans performed on all internet-facing applications at least monthly and after significant changes?"
+"SL.166","Are vulnerability scans performed against internal networks and systems?"
+"SL.167","Are penetration tests performed?"
+"SL.168","Are there processes to manage threat and vulnerability assessment tools and the data they collect?"
+"","U. Server Security"
+"SL.169","Are Servers used for transmitting, processing or storing Scoped Data?"
+"SL.170","Are systems and applications patched?"
+"SL.171","Are default hardened base virtual images applied to virtualized operating systems?"
+"SL.172","Are Hypervisors used to manage systems used to transmit, process or store Scoped Data?"

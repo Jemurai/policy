@@ -1,6 +1,4 @@
 # Definitions
 
-1.  A *breach* shall refer specifically to an event in which there is clear data loss and a sense that the .
-
-1.  An *incident* shall refer to any potential intrusion, breach or other suspicious activity that we need to track and follow up on.
-
+1. *Breach*: An event in which there is clear unauthorized access or exfiltration of data, applications, services, networks, and/or devices
+1. *Incident*: Any potential intrusion, breach, or other suspicious activity which needs to be tracked and requires follow-up.
