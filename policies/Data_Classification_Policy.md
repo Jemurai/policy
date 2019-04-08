@@ -87,7 +87,6 @@ All Jemurai employees need to be aware of the policy.
 | Policy Name     | Data Classification Policy |
 | Policy Owner    | Konda |
 | In Force Date   | 12/31/2017 |
-| Approval Date   | 12/31/2017 |
-| Update Date     | 12/31/2018 |
+| Next Update Date     | 12/15/2019 |
 | Approvers       | Konda |
 | Applies To      | All of Jemurai |

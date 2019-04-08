@@ -41,6 +41,14 @@ All Jemurai employees need to be aware of the policy.
 | Policy Owner    | Konda |
 | In Force Date   | 12/31/2017 |
 | Approval Date   | 12/31/2017 |
-| Update Date     | 08/01/2018 |
+| Next Update Date     | 12/15/2019 |
 | Approvers       | Konda, Caldwell |
 | Applies To      | All of Jemurai |
+
+## Version History 
+
+| Version | Date | Approvers | Changes | 
+|--|--|--|--|
+| 1.0 | 12/31/2017 | Konda | Initial Policy |
+| 1.0 | 12/15/2018 | Konda | Reapproved |
+| 1.1 | 4/8/2019 | Konda | Prepare to move to SPIO |
