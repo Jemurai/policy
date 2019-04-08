@@ -29,6 +29,10 @@ All content shared with {{company_name}} employees is intended to be used intern
 
 Content can include training materials, templates, checklists and any other internally facing material.
 
+## Sharing Documents
+
+With an increasing focus on cloud based document repositories, it is critical for employees to understand that direct access to {{company_name} documents or code artifacts should never be given to clients, partners or third parties except for under very specific circumstances and with the explicit approval of the security officer.
+
 ## Audience
 
 All {{company_name}} employees need to be aware of the policy.
