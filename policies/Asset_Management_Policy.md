@@ -1,32 +1,35 @@
 # Asset Management Policy
 
-The purpose of the asset management policy is to ensure that any {{company_name}} resources that get lost, stolen or otherwise compromised are tracked and any related incident can be accounted for accordingly.
+The purpose of the asset management policy is to ensure that any {{company_name}} resources are properly tracked and protected so that any related incident can be accounted for accordingly.  [NIST800-53:CM-8](https://nvd.nist.gov/800-53/Rev4/control/CM-8)
+[NIST800-53:PM-5](https://nvd.nist.gov/800-53/Rev4/control/PM-5)
 
 ## Tracking Assets
 
 Assets shall be tracked and updated in the tracking system on a monthly basis and upon hiring or termination.
 
-The tracking system shall be based on: [asset tracker](../materials/asset_tracker.csv).
+The tracking system may be a system or systems that together produce a complete picture.  
+
+An asset tracking template is provided with the policies in case it is needed: [asset tracker](../materials/asset_tracker.csv).
 
 ### Servers
 
-{{company_name}} servers and infrastructure will be tracked. A dynamic solution is acceptable.
+{{company_name}} servers and infrastructure will be tracked in an asset tracking sheet or other system. A dynamic solution is acceptable.
 
 ### Computers
 
-{{company_name}} supplied computers shall be tracked in an asset tracking system.
+{{company_name}} supplied computers shall be tracked in an asset tracking sheet or other system.
 
 ### Phones
 
-If {{company_name}} purchased a phone, it will be tracked in an asset tracking sheet.
+If {{company_name}} purchased a phone, it will be tracked in an asset tracking sheet or other system.
 
 ### Keys
 
-Keys to offices or other {{company_name}} resources shall tracked.
+Keys to offices or other {{company_name}} resources shall tracked in an asset tracking sheet or other system.
 
 ### Software Licenses
 
-Software licenses shall be tracked.
+Software licenses shall be tracked in an asset tracking sheet or other system.
 
 ### New Assets
 

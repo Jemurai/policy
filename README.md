@@ -1,6 +1,6 @@
 # Policy Template
 
-This repository contains security policy templates that can be adopted by organizations of different sizes.
+This repository contains security policy templates that can be adopted by organizations of different sizes.  It is in support of securityprogram.io.
 
 ## Version
 

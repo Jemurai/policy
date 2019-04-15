@@ -35,6 +35,8 @@ The following are our policies.  We include their audience in the table so that 
 
 {{company_name}} shall designate a clear responsiblity for security to an acting security officer.  The security officer shall ultimately be responsible for policy adoption and implementation, and other aspects of effective implementation of security measures at {{company_name}}.
 
+In addition, the security officer will be responsible for maintaining industry contacts to ensure that their program and status continues to evolve and respond to important threats. [NIST800-53:AT-5](https://nvd.nist.gov/800-53/Rev4/control/AT-5)
+
 ## Approval Process
 
 Each policy will have designated approvers representing the stakeholders for the area described by the policy.  Each change to policy shall be submitted in a github pull request and approvals tracked through pull request approval.
@@ -49,7 +51,11 @@ Part of the review process will be to evaluate who the appropriate approvers are
 
 ## Audience
 
-Each policy shall have a specific audience that indicates who needs to be aware of the policy.  It is expected that the audience for a given policy will be given training around the policy.
+Each policy shall have a specific audience that indicates who needs to be aware of the policy.  It is expected that the audience for a given policy will be given training around the policy.  [NIST800-53:AT-1](https://nvd.nist.gov/800-53/Rev4/control/AT-1), [NIST800-53:AT-3](https://nvd.nist.gov/800-53/Rev4/control/AT-3)
+
+In addition, {{company_name}} shall provide general security awareness training. [NIST800-53:AT-2](https://nvd.nist.gov/800-53/Rev4/control/AT-2)
+
+Training shall be tracked to ensure that employees and contractors have had appropriate direction around security.  [NIST800-53:AT-4](https://nvd.nist.gov/800-53/Rev4/control/AT-4).  
 
 ## Consequences for Policy Violation
 
