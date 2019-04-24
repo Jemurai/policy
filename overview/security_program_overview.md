@@ -9,7 +9,7 @@
 
 {{company_name}}’s security policy establishes its position on a range of security-related topics. While executive leadership is accountable for the execution of the program, the entire company works diligently to ensure that the security of our customers comes first. Our policies reflect our commitment to providing a trusted solution.
 
-We understand that security due diligence includes reviewing company policies. While it is our policy not to share or distribute the {{company_name}} Information Security & Privacy Policies, we are happy to share the table of contents, which reflects all topics covered in {{company_name}}’s data security program, and answer questions about its contents. The Information Security & Privacy Policies themselves are internal documents containing confidential information on how we secure our customer’s data and conduct business operations.
+We understand that security due diligence includes reviewing company policies. While it is our policy not to share or distribute the {{company_name}} Security Policies, we are happy to share a summary, which reflects all topics covered in {{company_name}}’s data security program, and answer questions about its contents. The Security Policies themselves are internal documents containing confidential information on how we secure our customer’s data and conduct business operations.
 
 ### Alignment with NIST 800-53
 
