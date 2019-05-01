@@ -47,10 +47,11 @@ Only current active {{company_name}} employees shall have access to {{company_na
 | Tracking Item   | Detail |
 |-----------------|--------|
 | Policy Name     | Physical Policy |
-| Policy Owner    | {{owner}}  |
+| Policy Owner    | {{owner}} |
+| Approvers       | {{approver}} |
+| Approval Date   | {{approval_date}} |
 | In Force Date   | {{in_force_date}} |
 | Update Date     | {{next_update_date}} |
-| Approvers       | {{approver}} |
 | Applies To      | All of {{company_name}} |
 
 ### Version History

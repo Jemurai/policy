@@ -70,10 +70,11 @@ In addition, we will have plans for how to respond to an incident and will condu
 | Tracking Item   | Detail |
 |-----------------|--------|
 | Policy Name     | Incident Response Policy |
-| Policy Owner    | {{owner}}  |
+| Policy Owner    | {{owner}} |
+| Approvers       | {{approver}} |
+| Approval Date   | {{approval_date}} |
 | In Force Date   | {{in_force_date}} |
 | Update Date     | {{next_update_date}} |
-| Approvers       | {{approver}} |
 | Applies To      | {{company_name}} Engineering |
 
 ### Version History

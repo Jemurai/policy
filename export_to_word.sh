@@ -11,7 +11,7 @@ then
     exit 1
 fi
 
-if [ ! -d "${OUTPUT_DIR}" ]
+if [[ ! -d "${OUTPUT_DIR}" ]]
 then
     echo -n Creating output directory
     mkdir "${OUTPUT_DIR}"

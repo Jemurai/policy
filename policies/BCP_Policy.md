@@ -1,6 +1,6 @@
 # Business Continuity Policy
 
-This policy describes how {{company_name} will handle business continuity and disaster recovery.
+This policy describes how {{company_name}} will handle business continuity and disaster recovery.
 
 ## Contingency Planning
 
@@ -27,10 +27,11 @@ If business critical, part of contingency planning is developing an understandin
 | Tracking Item   | Detail |
 |-----------------|--------|
 | Policy Name     | Business Continuity Policy |
-| Policy Owner    | {{owner}}  |
+| Policy Owner    | {{owner}} |
+| Approvers       | {{approver}} |
+| Approval Date   | {{approval_date}} |
 | In Force Date   | {{in_force_date}} |
 | Update Date     | {{next_update_date}} |
-| Approvers       | {{approver}} |
 | Applies To      | Engineering |
 
 ### Version History
