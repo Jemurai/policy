@@ -48,7 +48,7 @@ All {{company_name}} employees need to be aware of the policy.
 | Approvers       | {{approver}} |
 | Applies To      | All of {{company_name}} |
 
-### Version History 
+### Version History
 
 | Version | Date | Approvers | Changes |
 |--|--|--|--|
