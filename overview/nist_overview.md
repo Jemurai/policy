@@ -12,7 +12,7 @@ NIST maintains a [Computer Security Resource Center - CSRC](https://csrc.nist.go
 
 {{company_name}}'s program leverages two of the most widely used NIST standards and we provide some background on each so that you can understand our program better:
 
-* [NIST 800-53](https://csrc.nist.gov/CSRC/media//Publications/sp/800-53/rev-5/draft/documents/sp800-53r5-draft.pdf) - Security and Privacy Controls for Information Systems and Organizations
+* [NIST 800-53](https://nvd.nist.gov/800-53) - (Revision 4) Recommended Security Controls for Federal Information Systems and Organizations
 * [NIST CSF](https://www.nist.gov/cyberframework) - The NIST Cybersecurity Framework
 
 ## NIST 800-53
@@ -44,11 +44,13 @@ An example of a specific control (AC-1) from the Access Control family would be:
 |-------|-------|----------|
 | Number| AC-1  | Each item has a code.  These are referenced in policies. |
 | Title | Access Control Policy and Procedures | |
-| Impact | LOW_MODERATE_HIGH | | 
+| Impact | LOW_MODERATE_HIGH | This means the items applies at LOW / MODERATE and HIGH levels. See the section on NIST Levels. | 
 | Priority |P1 | |
 | Description | The organization develops, disseminates, and reviews/updates [  Assignment: organization-defined frequency ]: A formal, documented access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and Formal, documented procedures to facilitate the implementation of the access control policy and associated access controls. | Based on the description, we build appropriate policy and activities to ensure that we are handling it.|
 
 In this specific case, this item is covered in our IAM Policy.
+
+{{company_name}} is using Version 4 of the NIST 800-53 Standard.  There is also a _draft_ of [Version 5](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/draft) of the Standard which is planned to be published in the Summer of 2019.  Since that is still a moving target, we are aligned to the stable published official version.
 
 Our security program takes each of the 205 controls in the current version of the standard and based on expert guidance, incorporates those into our policies and the activities we undertake to meet our policies.
 
@@ -78,6 +80,24 @@ Two examples of items from NIST CSF are:
 The PM-9 control is one of the NIST 800-53 controls.  This CSF item (ID.RM-1) is covered in our Risk Management Policy.
 
 The AC-2, AC-7 etc. controls are also from NIST 800-53.  This CSF item (PR.AC-1) is covered in our IAM Policy.
+
+## NIST Impact Levels
+
+The NIST 800-53 standard uses _IMPACT_ levels LOW, MODERATE and HIGH.  These are referenced from [FIPS 199](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.199.pdf) which defines the levels and how to assess a system.  The following table summarizes the detail from that document specifically: 
+
+| Level | How to assess | Comments | 
+|-------|---------------|----------|
+| LOW   | The loss of confidentiality, integrity, or availability could be expected to have a limited adverse effect on organizational operations, organizational assets, or individuals. (Page 2) | Minor loss, Loss of privacy is considered LOW |
+| MODERATE| The loss of confidentiality, integrity, or availability could be expected to have a serious adverse effect on organizational operations, organizational assets, or individuals.  (Page 2) | Significant financial loss or harm but not loss of life or life threatening injuries. |
+| HIGH | The loss of confidentiality, integrity, or availability could be expected to have a severe or catastrophic adverse effect on organizational operations, organizational assets, or individuals. | Major damage, major financial loss, loss of life. |  
+
+The intent of the levels is to help apply the controls appropriately for the level of data processed by the organization or information system.
+
+Systems with HIGH impact must do essentially everything in the list of controls because they have the most to protect.  Our standards include everything at a MODERATE level.
+
+## Errata
+
+Note that there are several controls that are not specifically not mapped into our policies.  This is based on the recommendation of security experts that advise us that certain controls are very difficult to implement or are not widely used.  Our standards keep those enumerated explicitly in an Errata section to ensure that the intent is clear.
 
 ## Conclusion
 
