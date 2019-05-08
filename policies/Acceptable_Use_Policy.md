@@ -12,6 +12,8 @@ It is not expected that employees use their personal devices for:
 1. Conducting security testing or code review
 1. This includes personal Dropbox or shared storage devices
 
+Additionally, personal devices should not be connected to the {{company_name}} internal network.  [NIST800-53:AC-18](https://nvd.nist.gov/800-53/Rev4/control/AC-18), [NIST800-53:AC-19](https://nvd.nist.gov/800-53/Rev4/control/AC-19)
+
 ## Company Devices
 
 For the purposes of getting work done, {{company_name}} employees and contractors may be granted access to computers (laptops). Such computers are intended for use doing work for {{company_name}}. It is expected that these devices will be handled in a safe and secure manner to the extent possible. In addition, it is expected that these devices will not be used for unlawful activities or paid work for other entities.
@@ -19,7 +21,8 @@ For the purposes of getting work done, {{company_name}} employees and contractor
 ## Cloud Resources
 
 In the course of providing services, {{company_name}} employees shall have access to training resources and other cloud based services ranging from vulnerability scanning systems to CRM systems to shared storage
-like Drive.  Throughout, employees are expected to use these systems in appropriate and intended manners.
+like Drive.  Throughout, employees are expected to use these systems in appropriate and intended manners.  Without exception, these systems should be tracked as part of the vendor management program as defined in the Partner Security Policy.
+[NIST800-53:AC-20](https://nvd.nist.gov/800-53/Rev4/control/AC-20)
 
 ## Security Tools
 
@@ -29,9 +32,12 @@ All content shared with {{company_name}} employees is intended to be used intern
 
 Content can include training materials, templates, checklists and any other internally facing material.
 
-## Sharing Documents
+## Sharing Data and Documents
 
 With an increasing focus on cloud based document repositories, it is critical for employees to understand that direct access to {{company_name} documents or code artifacts should never be given to clients, partners or third parties except for under very specific circumstances and with the explicit approval of the security officer.
+[NIST800-53:AC-21](https://nvd.nist.gov/800-53/Rev4/control/AC-21)
+
+Note that only specifically designated individuals should share information publicly in the form of posts to the website or parts of an application that are publicly available.  [NIST800-53:AC-22](https://nvd.nist.gov/800-53/Rev4/control/AC-22)
 
 ## Audience
 

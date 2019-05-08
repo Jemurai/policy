@@ -22,14 +22,23 @@ In some cases, our policies may specify some explicit requirements or steps.  Th
 
 ## Company Policies
 
-The following are our policies.  We include their audience in the table so that we can help people find the policies that are most relevant to them.
+The following are {{company_name}}'s security policies.  We include their audience in the table so that people can find the policies that are most relevant to them.
 
-| Policy | Audience | 
+| Policy | Audience |
 |--------|----------|
-| [Privacy Policy](policies/Privacy_Policy.md) | Everyone |
-| [Asset Management Policy](policies/Asset_Management_Policy.md) | IT |
-| [Identity and Access Management Policy](policies/IAM_Policy.md) | IT |
 | [Acceptable Use Policy](policies/Acceptable_Use_Policy.md) | Everyone |
+| [Application Security Policy](policies/Application_Security_Policy.md) | Engineering |
+| [Asset Management Policy](policies/Asset_Management_Policy.md) | IT |
+| [BCP Policy](policies/BCP_Policy.md) | IT |
+| [Data Classification Policy](policies/Data_Classification_Policy.md) | IT, Engineering |
+| [Identity and Access Management Policy](policies/IAM_Policy.md) | IT |
+| [Incident Response Policy](policies/Incident_Response_Policy.md) | IT, Mgmt |
+| [Network Security Policy](policies/Network_Security_Policy.md) | IT |
+| [Partner Security Policy](policies/Partner_Security_Policy.md) | IT |
+| [Physical Security Policy](policies/Physical_Security_Policy.md) | IT |
+| [Privacy Policy](policies/Privacy_Policy.md) | Everyone |
+| [Risk Policy](policies/Risk_Policy.md) | Management |
+| [Systems Security Policy](policies/Systems_Security_Policy.md) | IT |
 
 ## Responsiblity
 
@@ -39,7 +48,7 @@ In addition, the security officer will be responsible for maintaining industry c
 
 ## Approval Process
 
-Each policy will have designated approvers representing the stakeholders for the area described by the policy.  Each change to policy shall be submitted in a github pull request and approvals tracked through pull request approval.
+Each policy will have designated approvers representing the stakeholders for the area described by the policy.  Each change to policy shall be reviewed and approved by the policy approvers.  The approval process shall be tracked in the policies and in documents capturing the approval either in a system or by hand.
 
 ## Update Process
 
@@ -95,8 +104,8 @@ Each policy shall have have tracking data at the end of the policy that captures
 | Approvers       | {{approver}} |
 | Applies To      | All of {{company_name}} |
 
-### Version History 
+### Version History
 
-| Version | Date | Approvers | Changes | 
+| Version | Date | Approvers | Changes |
 |--|--|--|--|
 | 1.0 | {{approval_date}} | {{approver}} | Initial Policy |

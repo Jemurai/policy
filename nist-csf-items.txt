@@ -1,0 +1,99 @@
+Subcategory	All SP 800-53 Controls
+ID.AM-1: Physical devices and systems within the organization are inventoried	CM-8, PM-5
+ID.AM-2: Software platforms and applications within the organization are inventoried	CM-8, PM-5
+ID.AM-3: Organizational communication and data flows are mapped	AC-4, CA-3, CA-9, PL-8
+ID.AM-4: External information systems are catalogued	AC-20, SA-9
+ID.AM-5: Resources (e.g., hardware, devices, data, and software) are prioritized based on their classification, criticality, and business value 	CP-2, RA-2, SA-14, SC-6,
+ID.AM-6: Cybersecurity roles and responsibilities for the entire workforce and third-party stakeholders (e.g., suppliers, customers, partners) are established	CP-2, PS-7, PM-11 
+ID.BE-1: The organization’s role in the supply chain is identified and communicated	CP-2, SA-12
+ID.BE-2: The organization’s place in critical infrastructure and its industry sector is identified and communicated	PM-8
+ID.BE-3: Priorities for organizational mission, objectives, and activities are established and communicated	PM-11, SA-14
+ID.BE-4: Dependencies and critical functions for delivery of critical services are established	CP-8, PE-9, PE-11, PM-8, SA-14
+ID.BE-5: Resilience requirements to support delivery of critical services are established	CP-2, CP-11, SA-13, SA-14
+ID.GV-1: Organizational information security policy is established	-1 controls from all families
+ID.GV-2: Information security roles & responsibilities are coordinated and aligned with internal roles and external partners	PM-1, PM-2, PS-7
+ID.GV-3: Legal and regulatory requirements regarding cybersecurity, including privacy and civil liberties obligations, are understood and managed	-1 controls from all families (except PM-1)
+ID.GV-4: Governance and risk management processes address cybersecurity risks	PM-3, PM-7, PM-9, PM-10, PM-11, SA-2
+ID.RA-1: Asset vulnerabilities are identified and documented	CA-2, CA-7, CA-8, RA-3, RA-5, SA-5, SA-11, SI-2, SI-4, SI-5
+ID.RA-2: Threat and vulnerability information is received from information sharing forums and sources	PM-15, PM-16, SI-5
+ID.RA-3: Threats, both internal and external, are identified and documented	RA-3, SI-5, PM-12, PM-16
+ID.RA-4: Potential business impacts and likelihoods are identified	RA-2, RA-3, PM-9, PM-11, SA-14
+ID.RA-5: Threats, vulnerabilities, likelihoods, and impacts are used to determine risk	RA-2, RA-3, PM-16
+ID.RA-6: Risk responses are identified and prioritized	PM-4, PM-9
+ID.RM-1: Risk management processes are established, managed, and agreed to by organizational stakeholders	PM-9
+ID.RM-2: Organizational risk tolerance is determined and clearly expressed	PM-9
+ID.RM-3: The organization’s determination of risk tolerance is informed by its role in critical infrastructure and sector specific risk analysis	PM-8, PM-9, PM-11, SA-14
+PR.AC-1: Identities and credentials are managed for authorized devices and users	AC-2, AC-7, AC-8, AC-9, IA-1, IA-2, IA-3, IA-4, IA-5, IA-6, IA-7, IA-8, IA-9, IA-10, IA-11, SC-17
+PR.AC-2: Physical access to assets is managed and protected	PE-2, PE-3, PE-4, PE-5, PE-6, PE-8, PE-9
+PR.AC-3: Remote access is managed	AC‑17, AC-19, AC-20, PE-17, SC-15
+PR.AC-4: Access permissions are managed, incorporating the principles of least privilege and separation of duties	AC-2, AC-3, AC-5, AC-6, AC-10, AC-11, AC-12, AC-14, AC-16, AC-24, SC-2, SC-3, SC-4
+PR.AC-5: Network integrity is protected, incorporating network segregation where appropriate	AC-4, SC-7
+PR.AT-1: All users are informed and trained 	AT-2, PM-13
+PR.AT-2: Privileged users understand roles & responsibilities 	AT-3, PM-13
+PR.AT-3: Third-party stakeholders (e.g., suppliers, customers, partners) understand roles & responsibilities 	PS-7, SA-9, SA-16
+PR.AT-4: Senior executives understand roles & responsibilities 	AT-3, PM-13
+PR.AT-5: Physical and information security personnel understand roles & responsibilities 	AT-3, IR-2, PM-13
+PR.DS-1: Data-at-rest is protected	MP-8, SC-12, SC-28
+PR.DS-2: Data-in-transit is protected	SC-8, SC-11, SC-12
+PR.DS-3: Assets are formally managed throughout removal, transfers, and disposition	CM-8, MP-6, PE-16
+PR.DS-4: Adequate capacity to ensure availability is maintained	AU-4, CP-2, SC-5
+PR.DS-5: Protections against data leaks are implemented	AC-4, AC-5, AC-6, PE-19, PS-3, PS-6, SC-7, SC-8, SC-13, SC-31, SI-4
+PR.DS-6: Integrity checking mechanisms are used to verify software, firmware, and information integrity	SC-16, SI-7
+PR.DS-7: The development and testing environment(s) are separate from the production environment	CM-2
+PR.IP-1: A baseline configuration of information technology/industrial control systems is created and maintained	CM-2, CM-3, CM-4, CM-5, CM-6, CM-7, CM-9, SA-10
+PR.IP-2: A System Development Life Cycle to manage systems is implemented	PL-8, SA-3, SA-4, SA-8, SA-10, SA-11, SA-12, SA-15, SA-17, SI-12, SI-13, SI-14, SI-16, SI-17
+PR.IP-3: Configuration change control processes are in place	CM-3, CM-4, SA-10
+PR.IP-4: Backups of information are conducted, maintained, and tested periodically	CP-4, CP-6, CP-9
+PR.IP-5: Policy and regulations regarding the physical operating environment for organizational assets are met	PE-10, PE-12, PE-13, PE-14, PE-15, PE-18
+PR.IP-6: Data is destroyed according to policy	MP-6
+PR.IP-7: Protection processes are continuously improved	CA-2, CA-7, CP-2, IR-8, PL-2, PM-6
+PR.IP-8: Effectiveness of protection technologies is shared with appropriate parties	AC-21, CA-7, SI-4
+PR.IP-9: Response plans (Incident Response and Business Continuity) and recovery plans (Incident Recovery and Disaster Recovery) are in place and managed	CP-2, CP-7, CP-12, CP-13, IR-7, IR-8, IR-9, PE-17
+PR.IP-10: Response and recovery plans are tested	CP-4, IR-3, PM-14
+PR.IP-11: Cybersecurity is included in human resources practices (e.g., deprovisioning, personnel screening)	PS-1, PS-2, PS-3, PS-4, PS-5, PS-6, PS-7, PS-8, SA-21
+PR.IP-12: A vulnerability management plan is developed and implemented	RA-3, RA-5, SI-2
+PR.MA-1: Maintenance and repair of organizational assets is performed and logged in a timely manner, with approved and controlled tools	MA-2, MA-3, MA-5, MA-6
+PR.MA-2: Remote maintenance of organizational assets is approved, logged, and performed in a manner that prevents unauthorized access	MA-4
+PR.PT-1: Audit/log records are determined, documented, implemented, and reviewed in accordance with policy	AU Family
+PR.PT-2: Removable media is protected and its use restricted according to policy	MP-2, MP-3, MP-4, MP-5, MP-7, MP-8
+PR.PT-3: Access to systems and assets is controlled, incorporating the principle of least functionality	AC-3, CM-7
+PR.PT-4: Communications and control networks are protected	AC-4, AC-17, AC-18, CP-8, SC-7, SC-19, SC-20, SC-21, SC-22, SC-23, SC-24, SC-25, SC-29,  SC-32, SC-36, SC-37, SC-38, SC-39, SC-40, SC-41, SC-43
+DE.AE-1: A baseline of network operations and expected data flows for users and systems is established and managed	AC-4, CA-3, CM-2, SI-4
+DE.AE-2: Detected events are analyzed to understand attack targets and methods	AU-6, CA-7, IR-4, SI-4
+DE.AE-3: Event data are aggregated and correlated from multiple sources and sensors	AU-6, CA-7, IR-4, IR-5, IR-8, SI-4
+DE.AE-4: Impact of events is determined	CP-2, IR-4, RA-3, SI -4
+DE.AE-5: Incident alert thresholds are established	IR-4, IR-5, IR-8
+DE.CM-1: The network is monitored to detect potential cybersecurity events	AC-2, AU-12, CA-7, CM-3, SC-5, SC-7, SI-4
+DE.CM-2: The physical environment is monitored to detect potential cybersecurity events	CA-7, PE-3, PE-6, PE-20
+DE.CM-3: Personnel activity is monitored to detect potential cybersecurity events	AC-2, AU-12, AU-13, CA-7, CM-10, CM-11
+DE.CM-4: Malicious code is detected	SI-3, SI-8
+DE.CM-5: Unauthorized mobile code is detected	SC-18, SI-4. SC-44
+DE.CM-6: External service provider activity is monitored to detect potential cybersecurity events	CA-7, PS-7, SA-4, SA-9, SI-4
+DE.CM-7: Monitoring for unauthorized personnel, connections, devices, and software is performed	AU-12, CA-7, CM-3, CM-8, PE-3, PE-6, PE-20, SI-4
+DE.CM-8: Vulnerability scans are performed	RA-5
+DE.DP-1: Roles and responsibilities for detection are well defined to ensure accountability	CA-2, CA-7, PM-14
+DE.DP-2: Detection activities comply with all applicable requirements	AC-25, CA-2, CA-7, PM-14, SA-18, SI-4
+DE.DP-3: Detection processes are tested	CA-2, CA-7, PE-3, PM-14, SI-3, SI-4
+DE.DP-4: Event detection information is communicated to appropriate parties	AU-6, CA-2, CA-7,  RA-5, SI-4
+DE.DP-5: Detection processes are continuously improved	CA-2, CA-7, PL-2, RA-5, SI-4, PM-14
+RS.RP-1: Response plan is executed during or after an event	CP-2, CP-10, IR-4, IR-8
+RS.CO-1: Personnel know their roles and order of operations when a response is needed	CP-2, CP-3, IR-3, IR-8
+RS.CO-2: Events are reported consistent with established criteria	AU-6, IR-6, IR-8
+RS.CO-3: Information is shared consistent with response plans	CA-2, CA-7, CP-2, IR-4, IR-8, PE-6, RA-5, SI-4 
+RS.CO-4: Coordination with stakeholders occurs consistent with response plans	CP-2, IR-4, IR-8
+RS.CO-5: Voluntary information sharing occurs with external stakeholders to achieve broader cybersecurity situational awareness 	PM-15, SI-5
+RS.AN-1: Notifications from detection systems are investigated 	AU-6, CA-7, IR-4, IR-5, PE-6, SI-4 
+RS.AN-2: The impact of the incident is understood	CP-2, IR-4
+RS.AN-3: Forensics are performed	AU-7, IR-4
+RS.AN-4: Incidents are categorized consistent with response plans	CP-2, IR-4, IR-5, IR-8
+RS.MI-1: Incidents are contained	IR-4
+RS.MI-2: Incidents are mitigated	IR-4
+RS.MI-3: Newly identified vulnerabilities are mitigated or documented as accepted risks	CA-7, RA-3, RA-5
+RS.IM-1: Response plans incorporate lessons learned	CP-2, IR-4, IR-8
+RS.IM-2: Response strategies are updated	CP-2, IR-4, IR-8
+RC.RP-1: Recovery plan is executed during or after an event	CP-10, IR-4, IR-8
+RC.IM-1: Recovery plans incorporate lessons learned	CP-2, IR-4, IR-8
+RC.IM-2: Recovery strategies are updated	CP-2, IR-4, IR-8
+RC.CO-1: Public relations are managed	
+RC.CO-2: Reputation after an event is repaired	
+RC.CO-3: Recovery activities are communicated to internal stakeholders and executive and management teams	CP-2, IR-4

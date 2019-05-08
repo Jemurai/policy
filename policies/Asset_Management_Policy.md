@@ -50,7 +50,7 @@ On a quarterly basis, operations will be reviewed to identify new assets that ma
 | Approvers       | {{approver}} |
 | Applies To      | All of {{company_name}} |
 
-### Version History 
+### Version History
 
 | Version | Date | Approvers | Changes |
 |--|--|--|--|

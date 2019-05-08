@@ -24,6 +24,9 @@ if [ "$1" != "" ]; then
     sed s/{{company_name}}/$COMPANY_NAME/g overview/policy_summary.md > ${OUTPUT_DIR}/policy_summary.md
     pandoc -t ${OUTPUT_FORMAT} -o ${OUTPUT_DIR}/PolicySummary.${OUTPUT_FORMAT} ${OUTPUT_DIR}/policy_summary.md
 
+    sed s/{{company_name}}/$COMPANY_NAME/g overview/nist_overview.md > ${OUTPUT_DIR}/nist_overview.md
+    pandoc -t ${OUTPUT_FORMAT} -o ${OUTPUT_DIR}/NISTOverview.${OUTPUT_FORMAT} ${OUTPUT_DIR}/nist_overview.md
+
     sed s/{{company_name}}/$COMPANY_NAME/g overview/faq.md > ${OUTPUT_DIR}/faq.md
     pandoc -t ${OUTPUT_FORMAT} -o ${OUTPUT_DIR}/FAQ.${OUTPUT_FORMAT} ${OUTPUT_DIR}/faq.md
 

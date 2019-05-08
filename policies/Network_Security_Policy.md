@@ -22,6 +22,18 @@ In any case where systems are developed or multiple computers are joined togethe
 
 Between network segments, only the ports required for data access shall be opened.
 
+### Remote Administration and Management
+
+Remote access to administrative controls and management systems is expected in a cloud based architecture.  Remote access should require both a second factor (eg. MFA with Authy) and in appropriate cases, structured network that administrators must come through to access the management systems.  [NIST800-53:AC-17](https://nvd.nist.gov/800-53/Rev4/control/AC-17)
+
+## Wireless
+
+{{company_name}} may use wireless networks in offices.  Such wireless networks should not be public and should use current industry standard security configurations (eg. no WEP).  In the event that they are shared networks, a VPN should be used to isolate company traffic from other traffic on the local wireless network.  
+
+If {{company_name}} allows personal devices to connect to wireless networks, these must be public networks not the company internal network.
+[NIST800-53:AC-18](https://nvd.nist.gov/800-53/Rev4/control/AC-18),
+[NIST800-53:AC-19](https://nvd.nist.gov/800-53/Rev4/control/AC-19)
+
 ## External
 
 Any port being open externally other than 22, 80 and 443 shall require a specific exception and will be tracked.

@@ -4,7 +4,9 @@ This policy describes how {{company_name}} will handle partners and third partie
 
 ## Vendor Management Program
 
-{{company_name}} shall implement a vendor management program where each provider will be tracked, access approved and reviewed quarterly.  Vendors shall also be re-evaluated when contracts or service delivery changes.
+{{company_name}} shall implement a vendor management program where each provider will be tracked, access approved and reviewed quarterly.  This applies both to vendors like contractors that assist with internal company operations and vendors that supply SaaS or other solutions that {{company_name}} chooses to leverage.
+
+Vendors shall also be re-evaluated when contracts or service delivery changes.  [NIST800-53:AC-20](https://nvd.nist.gov/800-53/Rev4/control/AC-20)
 
 Vendor security issues (breaches) shall also be explicitly tracked.
 

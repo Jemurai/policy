@@ -68,6 +68,8 @@ It is expected that all Tier 1 and 2 data will be encrypted in transit.
 
 All Tier 1 and 2 data shall have access controls in place to ensure that only intended consumers can access data.
 
+The flows of Tier 1 and Tier 2 data shall be documented, with flows being tracked and approved. [NIST800-53:AC-4](https://nvd.nist.gov/800-53/Rev4/control/AC-4)
+
 ## Labeling Ownership
 
 Wherever possible, data stewardship shall be captured and self documented through file, folder, or other data item naming conventions.
