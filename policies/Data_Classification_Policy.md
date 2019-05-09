@@ -70,6 +70,8 @@ All Tier 1 and 2 data shall have access controls in place to ensure that only in
 
 The flows of Tier 1 and Tier 2 data shall be documented, with flows being tracked and approved. [NIST800-53:AC-4](https://nvd.nist.gov/800-53/Rev4/control/AC-4)
 
+Any sharing of data in Tier 1 or Tier 2 with third parties shall be tracked as a specific risk and approved.  [NIST800-53:CA-3](https://nvd.nist.gov/800-53/Rev4/control/CA-3)
+
 ## Labeling Ownership
 
 Wherever possible, data stewardship shall be captured and self documented through file, folder, or other data item naming conventions.

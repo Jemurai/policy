@@ -12,6 +12,11 @@ Risks may be identified by {{company_name}} employees or third parties.  Each ri
 
 In addition to detailed tracking, summary metrics shall be produced to support high level risk decisions.
 
+## Security Assessments
+
+An element of managing risk is to conduct security assessments.  A security assessment is a process or project that confirms that security program policies and practices are being adhered to.
+[NIST800-53:CA-1](https://nvd.nist.gov/800-53/Rev4/control/CA-1), [NIST800-53:CA-2](https://nvd.nist.gov/800-53/Rev4/control/CA-2)
+
 ## Threat Intelligence
 
 {{company_name}} shall maintain a relationship with a security firm that will provide insight around current threats.

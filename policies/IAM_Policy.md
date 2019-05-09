@@ -8,7 +8,7 @@ Access management is about how we manage which resources a person should have ac
 
 ## Provisioning 
 
-All provisioning of identities (users) and access shall be approved by management and tracked. ([NIST800-53:AC-4](https://nvd.nist.gov/800-53/Rev4/control/AC-4)) 
+All provisioning of identities (users) and access shall be approved by management and tracked. ([NIST800-53:AC-4](https://nvd.nist.gov/800-53/Rev4/control/AC-4)), [NIST800-53:IA-4](https://nvd.nist.gov/800-53/Rev4/control/IA-4)
 
 In addition, as accounts are approved, due consideration shall be given to what account type they are.  All accounts shall be identifyable as individual, group, system, applicatoin, guest, anonymous and temporary. ([NIST800-53:AC-2](https://nvd.nist.gov/800-53/Rev4/control/AC-2)) 
 
@@ -29,9 +29,7 @@ At {{company_name}}, this translates in some specific ways.
 1. Only data that is explicitly intended to be public and accessed without authentication should ever be accessed without authentication. ([NIST800-53:AC-14](https://nvd.nist.gov/800-53/Rev4/control/AC-14))
 1. For systems that are public (eg. blog), there are explicitly designated people that may post information. ([NIST800-53:AC-22](https://nvd.nist.gov/800-53/Rev4/control/AC-22))
 
-In terms of separation of duties, it is imperative that systems in production be traceable to an exact process that provisioned them and that suitable controls be in place to prevent abuse.  That can be accomplished with controls around strict separation of duties, where one team may develop software and another would be responsible for running it.  It may also be accomplished by fully automating the deployment process in a DevOps process that can be audited.  ([NIST800-53:AC-5](https://nvd.nist.gov/800-53/Rev4/control/AC-5))
-
-
+In terms of separation of duties, it is imperative that systems in production be traceable to an exact process that provisioned them and that suitable controls be in place to prevent abuse.  That can be accomplished with controls around strict separation of duties, where one team may develop software and another would be responsible for running it.  It may also be accomplished by fully automating the deployment process in a DevOps process that can be audited.  ([NIST800-53:AC-5](https://nvd.nist.gov/800-53/Rev4/control/AC-5))  See also the Change Control section of the Application Security Policy.
 
 ## Authentication
 

@@ -26,6 +26,10 @@ Between network segments, only the ports required for data access shall be opene
 
 Remote access to administrative controls and management systems is expected in a cloud based architecture.  Remote access should require both a second factor (eg. MFA with Authy) and in appropriate cases, structured network that administrators must come through to access the management systems.  [NIST800-53:AC-17](https://nvd.nist.gov/800-53/Rev4/control/AC-17)
 
+### Integration
+
+Integration with 3rd party systems shall be approved by {{company_name}} security officer.  Both partner (vendor) security evaluation and data flow will also be considered when building connections to 3rd party sytems.  [NIST800-53:CA-3](https://nvd.nist.gov/800-53/Rev4/control/CA-3)
+
 ## Wireless
 
 {{company_name}} may use wireless networks in offices.  Such wireless networks should not be public and should use current industry standard security configurations (eg. no WEP).  In the event that they are shared networks, a VPN should be used to isolate company traffic from other traffic on the local wireless network.  
@@ -47,7 +51,10 @@ We shall conduct quarterly vulnerability scans to ensure that any externally fac
 Customers may conduct their own security assessments of {{company_name}} applications. These must:
 
 1. Be scheduled in advance at a mutually agreeable time
-1. Include communication of any findings or issues identified back to {{company_name}}.
+1. Be co-ordinated and scoped clearly with our security officer
+1. Include communication of any findings or issues identified back to {{company_name}}
+
+[NIST800-53:CA-1](https://nvd.nist.gov/800-53/Rev4/control/CA-1)
 
 ## Audience
 

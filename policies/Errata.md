@@ -9,6 +9,8 @@ Certain NIST Items were introduced and then removed:
 * AC-12
 * AC-13
 * AC-15
+* CA-4
+* CP-5
 
 ## Gaps
 

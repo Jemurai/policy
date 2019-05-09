@@ -17,7 +17,7 @@ NIST maintains a [Computer Security Resource Center - CSRC](https://csrc.nist.go
 
 ## NIST 800-53
 
-NIST 800-53 is a broad standard that captures programmatic activities required to maintain security and privacy at technically focused organizations.  It consists of 205 specific controls across the following 18 control "Families": 
+[NIST 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf) is a broad standard that captures programmatic activities required to maintain security and privacy at technically focused organizations.  It consists of 205 specific controls across the following 18 control "Families": 
 
 1. Access Control
 1. Awareness and Training

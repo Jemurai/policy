@@ -16,6 +16,10 @@ Vendors in turn will be asked to provide evidence of their security program and 
 
 Vendor access to {{company_name}} data shall be explicitly captured, tracked and approved.  Documentation shall be tracked.
 
+Connections that share data with vendors / partners will be reviewed and approved.  
+
+Data may only be shared with Vendors that can demonstrate that they have policies and procedures in place to protect the shared data, or such data sharing must be approved based on the nature of the data being shared (Tier 3 from Data Classification).  [NIST800-53:CA-3](https://nvd.nist.gov/800-53/Rev4/control/CA-3)
+
 ## Audience
 
 {{company_name}} engineers need to be aware of the policy.

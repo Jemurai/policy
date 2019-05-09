@@ -5,7 +5,7 @@ The purpose of the asset management policy is to ensure that any {{company_name}
 
 ## Tracking Assets
 
-Assets shall be tracked and updated in the tracking system on a monthly basis and upon hiring or termination.
+Assets shall be tracked and updated in the tracking system on a monthly basis and upon hiring or termination. [NIST800-53:IA-4](https://nvd.nist.gov/800-53/Rev4/control/IA-4)
 
 The tracking system may be a system or systems that together produce a complete picture.  
 

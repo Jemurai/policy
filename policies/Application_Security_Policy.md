@@ -14,6 +14,16 @@ All code delivered as part of a {{company_name}} product or consulting solution 
 
 Any solution produced and run by {{company_name}} that contains Tier 1 data based on the Data Classification Policy shall be pen tested on an  annual basis.
 
+## Monitoring and Security Auditing
+
+Applications shall be monitorable for health status and shall produce security audits that include events around at least the following key activities:
+
+1. User provisioning / deprovisioning
+1. Logins / Failed logins
+1. Exceptions
+
+[NIST800-53:CA-7](https://nvd.nist.gov/800-53/Rev4/control/CA-7)
+
 ## AppSec Program Activities
 
 {{company_name}} shall run an Application Security Program that tracks applications and ensures that all applications are subjected to appropriate controls.
@@ -24,9 +34,17 @@ Any solution produced and run by {{company_name}} that contains Tier 1 data base
 
 * What changed functionally, including a reference to a requirement
 * The code and configurations that changed
+* Potential security impact [NIST800-53:CM-4](https://nvd.nist.gov/800-53/Rev4/control/CM-4)
 * Who approved it
 
-[NIST800-53:AU-1](https://nvd.nist.gov/800-53/Rev4/control/AU-1)
+[NIST800-53:AU-1](https://nvd.nist.gov/800-53/Rev4/control/AU-1), [NIST800-53:CA-6](https://nvd.nist.gov/800-53/Rev4/control/CA-6), [NIST800-53:CM-3](https://nvd.nist.gov/800-53/Rev4/control/CM-3)
+
+Changes may either be made:
+
+1. with separation of duty between operational staff running the system and developers building a system.
+1. with scripted and documented provisioning that is repeatable, tracked and auditable
+
+In no situations shall developers or other non operational roles have access to perform ad hoc changes on production systems.  [NIST800-53:CM-5](https://nvd.nist.gov/800-53/Rev4/control/CM-5)  In any case, there should be an explicit plan that describes how changes will be handled including what the processes are. [NIST800-53:CM-9](https://nvd.nist.gov/800-53/Rev4/control/CM-9)
 
 ### Tiers
 

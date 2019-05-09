@@ -46,6 +46,8 @@ The following are {{company_name}}'s security policies.  We include their audien
 
 In addition, the security officer will be responsible for maintaining industry contacts to ensure that their program and status continues to evolve and respond to important threats. [NIST800-53:AT-5](https://nvd.nist.gov/800-53/Rev4/control/AT-5)
 
+It shall be the designated security officer's responsibilty to develop and implement a plan around security.  This may be implemented through a project management tool, task tracker or security program tool but ultimately it is the security officers responsibility to understand and advance the program. [NIST800-53:CA-5](https://nvd.nist.gov/800-53/Rev4/control/CA-5), [NIST800-53:CA-6](https://nvd.nist.gov/800-53/Rev4/control/CA-6)
+
 ## Approval Process
 
 Each policy will have designated approvers representing the stakeholders for the area described by the policy.  Each change to policy shall be reviewed and approved by the policy approvers.  The approval process shall be tracked in the policies and in documents capturing the approval either in a system or by hand.
@@ -84,10 +86,11 @@ The process for reviewing policy violation shall be:
 {{company_name}}'s policies and operating practices are designed to meet industry standard security practices including:
 
 * Aligned to NIST 800-53
-* Clear coverage of SIG Lite
 * Coverage of NIST Cybersecurity Framework
 
-To make it clear how we are interpreting and meeting the standards, policies shall be annotated with tags for:  NIST-CSF, NIST-800-53 and SIGLite controls.
+To make it clear how we are interpreting and meeting the standards, policies shall be annotated with tags for:  NIST-CSF and NIST-800-53 controls.
+
+We are implementing MODERATE Impact level controls.
 
 ## Tracking Data
 

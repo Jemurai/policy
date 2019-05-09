@@ -4,7 +4,10 @@ This policy describes how systems security will be handled.
 
 ## Security Standards
 
-Production server systems shall be hardened.
+Production server systems shall be hardened.  Part of hardening a system is disabling services and capabilities that are not needed.  [NIST800-53:CM-7](https://nvd.nist.gov/800-53/Rev4/control/CM-7)
+
+Parts of the hardening process will be codified in a baseline configuration.  All systems shall be subject to configuration management to ensure they are aligned to best practices.
+[NIST800-53:CM-1](https://nvd.nist.gov/800-53/Rev4/control/CM-1), [NIST800-53:CM-2](https://nvd.nist.gov/800-53/Rev4/control/CM-2)  Changes to baseline configurations will be subject to the normal Change Control process described in the Application Security Policy. [NIST800-53:CM-3](https://nvd.nist.gov/800-53/Rev4/control/CM-3), [NIST800-53:CM-6](https://nvd.nist.gov/800-53/Rev4/control/CM-6)
 
 ## Vulnerability Scanning
 
@@ -14,17 +17,32 @@ As described in the [Network Security Policy](./Network_Security_Policy.md), vul
 
 Unless otherwise identified, vendor patches shall be applied as soon as they are available.
 
-### Laptops and Personal Computers
+### Laptops and Desktop Computers
 
-Laptops and personal computers shall be enrolled in automatic updates to ensure they are patched as quickly as possible.
+Laptops and desktop computers shall be enrolled in automatic updates to ensure they are patched as quickly as possible.
 
-### Servers
+[NIST800-53:CM-1](https://nvd.nist.gov/800-53/Rev4/control/CM-1), [NIST800-53:CM-2](https://nvd.nist.gov/800-53/Rev4/control/CM-2)
 
-Servers are rebuilt at least monthly. Each time a server is rebuilt, it is fully updated and patched. Thus, servers will always be up to date within at least 30 days.
+### Servers, Containers and Virtual Machines
+
+Servers shall be patched within 30 days for all vendor supplied patches.
+
+In the event that servers are rebuilt frequently, that process must incorporate updates to the underlying OS and components that are used as a part of system provisioning.  This also applies if the server is virtualized in a VM or Container (Eg. Docker).
+
+[NIST800-53:CM-1](https://nvd.nist.gov/800-53/Rev4/control/CM-1), [NIST800-53:CM-2](https://nvd.nist.gov/800-53/Rev4/control/CM-2)
 
 ### Critical Patches
 
-In the event that there is a critical severity security issue, for example an unauthenticated remote command injection vulnerability that would allow an attacker to immediately take over a system - the explicit expectation is that the underlying vulnerability will be patched within 72 hours.
+In the event that there is a critical severity security issue, for example an unauthenticated remote command injection vulnerability that would allow an attacker to immediately take over a system - the explicit expectation is that the underlying vulnerability will be patched within 48 hours.
+
+## Security Monitoring and Auditing
+
+Servers and infrastructure shall be monitorable for health status and shall produce centralized security audits that include events around at least the following key activities:
+
+1. User provisioning / deprovisioning
+1. Logins / Failed logins
+1. Exceptions
+[NIST800-53:CA-7](https://nvd.nist.gov/800-53/Rev4/control/CA-7)
 
 ## DLP
 
