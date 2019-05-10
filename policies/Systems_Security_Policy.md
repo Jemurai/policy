@@ -15,7 +15,15 @@ As described in the [Network Security Policy](./Network_Security_Policy.md), vul
 
 ## Patching
 
-Unless otherwise identified, vendor patches shall be applied as soon as they are available.
+Unless otherwise identified, vendor patches shall be applied as soon as they are available.  The patching process shall be documented, implemented by a controlled group of operators using tools that are limited
+
+[NIST800-53:MA-1](https://nvd.nist.gov/800-53/Rev4/control/MA-1),
+[NIST800-53:MA-2](https://nvd.nist.gov/800-53/Rev4/control/MA-2),
+[NIST800-53:MA-3](https://nvd.nist.gov/800-53/Rev4/control/MA-3),
+[NIST800-53:MA-4](https://nvd.nist.gov/800-53/Rev4/control/MA-4),
+[NIST800-53:MA-5](https://nvd.nist.gov/800-53/Rev4/control/MA-5)
+
+{{company_name}} will obtain maintenance support contracts aligned to BCP needs and business priorities.  [NIST800-53:MA-6](https://nvd.nist.gov/800-53/Rev4/control/MA-6)
 
 ### Laptops and Desktop Computers
 
@@ -50,6 +58,10 @@ Since DLP (Data Loss Prevention) solutions inherently involve monitoring user be
 
 As an active alternative countermeasure, we offer training and clear definition of data classification measures.
 
+## Secure Data Deletion
+
+When systems are retired or reused by different users with different access levels, data must be securely deleted. [NIST800-53:MP-6](https://nvd.nist.gov/800-53/Rev4/control/MP-6) 
+
 ## Audience
 
 {{company_name}} engineers need to be aware of the policy.
@@ -59,9 +71,14 @@ As an active alternative countermeasure, we offer training and clear definition 
 | Tracking Item   | Detail |
 |-----------------|--------|
 | Policy Name     | Systems Security Policy |
-| Policy Owner    | Konda |
-| In Force Date   | 12/31/2017 |
-| Approval Date   | 12/31/2017 |
-| Update Date     | 12/31/2018 |
-| Approvers       | Konda |
-| Applies To      | Engineering |
+| Policy Owner    | {{owner}}  |
+| In Force Date   | {{in_force_date}} |
+| Update Date     | {{next_update_date}} |
+| Approvers       | {{approver}} |
+| Applies To      | All of {{company_name}} |
+
+### Version History
+
+| Version | Date | Approvers | Changes |
+|--|--|--|--|
+| 1.0 | {{approval_date}} | {{approver}} | Initial Policy |

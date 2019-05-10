@@ -4,6 +4,8 @@ This policy describes how {{company_name} will handle individuals private inform
 
 The policy includes both a website policy and other more general internal information about maintaining appropriate controls around privacy.
 
+[NIST800-53:PL-5](https://nvd.nist.gov/800-53/Rev4/control/PL-5)
+
 ## Website Policy
 
 Last Updated:  {{approval_date}}

@@ -37,7 +37,8 @@ Applications shall be monitorable for health status and shall produce security a
 * Potential security impact [NIST800-53:CM-4](https://nvd.nist.gov/800-53/Rev4/control/CM-4)
 * Who approved it
 
-[NIST800-53:AU-1](https://nvd.nist.gov/800-53/Rev4/control/AU-1), [NIST800-53:CA-6](https://nvd.nist.gov/800-53/Rev4/control/CA-6), [NIST800-53:CM-3](https://nvd.nist.gov/800-53/Rev4/control/CM-3)
+[NIST800-53:AU-1](https://nvd.nist.gov/800-53/Rev4/control/AU-1), [NIST800-53:CA-6](https://nvd.nist.gov/800-53/Rev4/control/CA-6), [NIST800-53:CM-3](https://nvd.nist.gov/800-53/Rev4/control/CM-3),
+[NIST800-53:MA-1](https://nvd.nist.gov/800-53/Rev4/control/MA-1)
 
 Changes may either be made:
 

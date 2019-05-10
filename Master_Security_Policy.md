@@ -6,6 +6,9 @@ Anything that is common across all of our policies is captured in the master pol
 
 Details about specific areas that may have a more directed audience are captured in those specific policies.
 
+[NIST800-53:PL-1](https://nvd.nist.gov/800-53/Rev4/control/PL-1),
+[NIST800-53:PL-6](https://nvd.nist.gov/800-53/Rev4/control/PL-6)
+
 ## Company Introduction and The Spirit of Security
 
 {{company_name}} takes security extremely seriously.  Our goal is to be explicit and clear about security whenever and wherever possible.
@@ -43,10 +46,13 @@ The following are {{company_name}}'s security policies.  We include their audien
 ## Responsiblity
 
 {{company_name}} shall designate a clear responsiblity for security to an acting security officer.  The security officer shall ultimately be responsible for policy adoption and implementation, and other aspects of effective implementation of security measures at {{company_name}}.
+[NIST800-53:PM-2](https://nvd.nist.gov/800-53/Rev4/control/PM-2), [NIST800-53:PM-3](https://nvd.nist.gov/800-53/Rev4/control/PM-3)
 
 In addition, the security officer will be responsible for maintaining industry contacts to ensure that their program and status continues to evolve and respond to important threats. [NIST800-53:AT-5](https://nvd.nist.gov/800-53/Rev4/control/AT-5)
 
-It shall be the designated security officer's responsibilty to develop and implement a plan around security.  This may be implemented through a project management tool, task tracker or security program tool but ultimately it is the security officers responsibility to understand and advance the program. [NIST800-53:CA-5](https://nvd.nist.gov/800-53/Rev4/control/CA-5), [NIST800-53:CA-6](https://nvd.nist.gov/800-53/Rev4/control/CA-6)
+It shall be the designated security officer's responsibilty to develop and implement a plan around security.  This may be implemented through a project management tool, task tracker or security program tool but ultimately it is the security officers responsibility to understand and advance the program. [NIST800-53:CA-5](https://nvd.nist.gov/800-53/Rev4/control/CA-5), [NIST800-53:CA-6](https://nvd.nist.gov/800-53/Rev4/control/CA-6), [NIST800-53:PL-2](https://nvd.nist.gov/800-53/Rev4/control/PL-2),
+[NIST800-53:PM-1](https://nvd.nist.gov/800-53/Rev4/control/PM-1)
+
 
 ## Approval Process
 
@@ -80,6 +86,8 @@ The process for reviewing policy violation shall be:
 1. If indicated, employee will be interviewed by security officer and information documented
 1. Employee will be warned and advised to follow policy
 1. If needed, the employee will be terminated
+
+[NIST800-53:PL-4](https://nvd.nist.gov/800-53/Rev4/control/PL-4)
 
 ## Alignment to Standards
 

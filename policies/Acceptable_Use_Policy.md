@@ -1,6 +1,7 @@
 # Acceptable Use Policy
 
 This policy describes how {{company_name}} employees will be expected to use the resources we provide, including laptops, cloud resources, security tools and more.
+[NIST800-53:PL-4](https://nvd.nist.gov/800-53/Rev4/control/PL-4)
 
 ## Personal Devices
 
@@ -12,11 +13,17 @@ It is not expected that employees use their personal devices for:
 1. Conducting security testing or code review
 1. This includes personal Dropbox or shared storage devices
 
-Additionally, personal devices should not be connected to the {{company_name}} internal network.  [NIST800-53:AC-18](https://nvd.nist.gov/800-53/Rev4/control/AC-18), [NIST800-53:AC-19](https://nvd.nist.gov/800-53/Rev4/control/AC-19)
+Additionally, personal devices should not be connected to the {{company_name}} internal network.  [NIST800-53:AC-18](https://nvd.nist.gov/800-53/Rev4/control/AC-18), [NIST800-53:AC-19](https://nvd.nist.gov/800-53/Rev4/control/AC-19), [NIST800-53:MP-1](https://nvd.nist.gov/800-53/Rev4/control/MP-1), [NIST800-53:MP-4](https://nvd.nist.gov/800-53/Rev4/control/MP-4)
 
 ## Company Devices
 
 For the purposes of getting work done, {{company_name}} employees and contractors may be granted access to computers (laptops). Such computers are intended for use doing work for {{company_name}}. It is expected that these devices will be handled in a safe and secure manner to the extent possible. In addition, it is expected that these devices will not be used for unlawful activities or paid work for other entities.
+
+Employees acknowledge that company devices likely contain data that is internal or secret and therefore any laptops will be encrypted with FDE (see Data Classification Policy) and removable media will be securely erased between uses.[NIST800-53:MP-1](https://nvd.nist.gov/800-53/Rev4/control/MP-1), [NIST800-53:MP-2](https://nvd.nist.gov/800-53/Rev4/control/MP-2), [NIST800-53:MP-4](https://nvd.nist.gov/800-53/Rev4/control/MP-4)
+
+At no point are backup tapes or physical media devices expected to be removed without explicit secure handling in place (eg. for backup tapes).
+[NIST800-53:MP-5](https://nvd.nist.gov/800-53/Rev4/control/MP-5)
+
 
 ## Cloud Resources
 
