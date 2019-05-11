@@ -2,6 +2,23 @@
 
 This policy describes how {{company_name}} will handle application security.
 
+## SDLC
+
+Any software being developed will use a defined Software Development Life Cycle (SDLC).  This SDLC will include security considerations such as:
+
+* Traceabilty of code to feature request
+* Code in SCCM
+* Scripted build process
+
+[NIST800-53:SA-3](https://nvd.nist.gov/800-53/Rev4/control/SA-3)
+
+In addition, {{company_name}} will use security engineering principles.  [NIST800-53:SA-8](https://nvd.nist.gov/800-53/Rev4/control/SA-8)
+
+## Licensing
+
+Any custom software using libraries must ensure that those libraries are not restricted for commercial use in the manner used.
+[NIST800-53:SA-6](https://nvd.nist.gov/800-53/Rev4/control/SA-6)
+
 ## Security Training
 
 All {{company_name}} employees writing code shall be trained in the OWASP Top 10 and other application security concepts.
@@ -27,8 +44,9 @@ Applications shall be monitorable for health status and shall produce security a
 ## AppSec Program Activities
 
 {{company_name}} shall run an Application Security Program that tracks applications and ensures that all applications are subjected to appropriate controls.
+[NIST800-53:SA-11](https://nvd.nist.gov/800-53/Rev4/control/SA-11)
 
-## Change Control
+## Change Control and Configuration Management
 
 {{company_name}} shall employ a change control process that enables a reviewer to see:
 
@@ -37,8 +55,7 @@ Applications shall be monitorable for health status and shall produce security a
 * Potential security impact [NIST800-53:CM-4](https://nvd.nist.gov/800-53/Rev4/control/CM-4)
 * Who approved it
 
-[NIST800-53:AU-1](https://nvd.nist.gov/800-53/Rev4/control/AU-1), [NIST800-53:CA-6](https://nvd.nist.gov/800-53/Rev4/control/CA-6), [NIST800-53:CM-3](https://nvd.nist.gov/800-53/Rev4/control/CM-3),
-[NIST800-53:MA-1](https://nvd.nist.gov/800-53/Rev4/control/MA-1)
+[NIST800-53:AU-1](https://nvd.nist.gov/800-53/Rev4/control/AU-1), [NIST800-53:CA-6](https://nvd.nist.gov/800-53/Rev4/control/CA-6), [NIST800-53:CM-3](https://nvd.nist.gov/800-53/Rev4/control/CM-3), [NIST800-53:MA-1](https://nvd.nist.gov/800-53/Rev4/control/MA-1), [NIST800-53:PM-8](https://nvd.nist.gov/800-53/Rev4/control/PM-8), [NIST800-53:PM-10](https://nvd.nist.gov/800-53/Rev4/control/PM-10)
 
 Changes may either be made:
 
@@ -47,19 +64,27 @@ Changes may either be made:
 
 In no situations shall developers or other non operational roles have access to perform ad hoc changes on production systems.  [NIST800-53:CM-5](https://nvd.nist.gov/800-53/Rev4/control/CM-5)  In any case, there should be an explicit plan that describes how changes will be handled including what the processes are. [NIST800-53:CM-9](https://nvd.nist.gov/800-53/Rev4/control/CM-9)
 
+Changes to configuration should be reflected as changes in code and tracked in a source code management system. [NIST800-53:SA-10](https://nvd.nist.gov/800-53/Rev4/control/SA-10)
+
 ### Tiers
 
 {{company_name}} shall maintain three tiers of applications as follows.
 
 | Tier | Description | Controls |
 |------|-------------|----------|
-|  1   | Highest security, any public or delivered code. Any sensitive data handling. | Code Review, Training, Pen Testing, Dependency Hygiene |
-|  2   | Internal shared code | Security training, Code Review |
+|  1   | Highest security, any public or delivered code. Any sensitive data handling. | Training, Requirements, Code Review, Pen Testing, Dependency Hygiene |
+|  2   | Internal shared code | Security training, Code Review, Security requirements |
 |  3   | Internal proof of concept code | Security training |
 
 ### Inventory
 
 {{company_name}} shall maintain an application inventory and track tiers and activities in the inventory.
+
+## Architecture
+
+{{company_name}} shall maintain an enterprise architecture and actively plan around critical infrastructure.
+[NIST800-53:PM-7](https://nvd.nist.gov/800-53/Rev4/control/PM-7), [NIST800-53:PM-8](https://nvd.nist.gov/800-53/Rev4/control/PM-8)
+
 
 ## Audience
 

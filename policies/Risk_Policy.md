@@ -1,6 +1,6 @@
 # Risk Policy
 
-This policy describes how {{company_name}} will handle risk and risk management.
+This policy describes how {{company_name}} will handle risk and risk management.  [NIST800-53:PM-9](https://nvd.nist.gov/800-53/Rev4/control/PM-9)
 
 ## Risk Program
 
@@ -12,10 +12,12 @@ Risks may be identified by {{company_name}} employees or third parties.  Each ri
 
 In addition to detailed tracking, summary metrics shall be produced to support high level risk decisions.
 
+Part of the role of risk management will be to actively manage a risk management program and to identify critical business processes.  [NIST800-53:PM-10](https://nvd.nist.gov/800-53/Rev4/control/PM-10),[NIST800-53:PM-11](https://nvd.nist.gov/800-53/Rev4/control/PM-11).
+
 ## Security Assessments
 
 An element of managing risk is to conduct security assessments.  A security assessment is a process or project that confirms that security program policies and practices are being adhered to.
-[NIST800-53:CA-1](https://nvd.nist.gov/800-53/Rev4/control/CA-1), [NIST800-53:CA-2](https://nvd.nist.gov/800-53/Rev4/control/CA-2)
+[NIST800-53:CA-1](https://nvd.nist.gov/800-53/Rev4/control/CA-1), [NIST800-53:CA-2](https://nvd.nist.gov/800-53/Rev4/control/CA-2), [NIST800-53:RA-1](https://nvd.nist.gov/800-53/Rev4/control/RA-1), [NIST800-53:RA-3](https://nvd.nist.gov/800-53/Rev4/control/RA-3)
 
 ## Threat Intelligence
 

@@ -1,6 +1,6 @@
 # Identity and Access Management Policy
 
-The identity and access management (IAM) policy provides specific guidance around how access to resources shall be managed at {{company_name}}.  ([NIST800-53:IA-1](https://nvd.nist.gov/800-53/Rev4/control/IA-1) [NIST800-53:AC-1](https://nvd.nist.gov/800-53/Rev4/control/AC-1))
+The identity and access management (IAM) policy provides specific guidance around how access to resources shall be managed at {{company_name}}.  ([NIST800-53:IA-1](https://nvd.nist.gov/800-53/Rev4/control/IA-1), [NIST800-53:AC-1](https://nvd.nist.gov/800-53/Rev4/control/AC-1))
 
 Identity is about how we know who a given person is.  Generally, this is handled by authentication to a specific system, most commonly with a username and a password.
 
@@ -8,9 +8,9 @@ Access management is about how we manage which resources a person should have ac
 
 ## Provisioning 
 
-All provisioning of identities (users) and access shall be approved by management and tracked. ([NIST800-53:AC-4](https://nvd.nist.gov/800-53/Rev4/control/AC-4)), [NIST800-53:IA-4](https://nvd.nist.gov/800-53/Rev4/control/IA-4)
+All provisioning of identities (users) and access shall be approved by management and tracked. ([NIST800-53:AC-4](https://nvd.nist.gov/800-53/Rev4/control/AC-4)), [NIST800-53:IA-4](https://nvd.nist.gov/800-53/Rev4/control/IA-4), [NIST800-53:PS-1](https://nvd.nist.gov/800-53/Rev4/control/PS-1)
 
-In addition, as accounts are approved, due consideration shall be given to what account type they are.  All accounts shall be identifyable as individual, group, system, applicatoin, guest, anonymous and temporary. ([NIST800-53:AC-2](https://nvd.nist.gov/800-53/Rev4/control/AC-2)) 
+In addition, as accounts are approved, due consideration shall be given to what account type they are.  All accounts shall be identifyable as individual, group, system, application, guest, anonymous and temporary. ([NIST800-53:AC-2](https://nvd.nist.gov/800-53/Rev4/control/AC-2)).  Positions shall be categorized and mapped to particular privileges.  This may be done through roles.  [NIST800-53:PS-2](https://nvd.nist.gov/800-53/Rev4/control/PS-2)
 
 ## Unique User Ids
 
@@ -27,7 +27,10 @@ At {{company_name}}, this translates in some specific ways.
 1. Employees should never have access to data unless they are specifically working on a project that requires it.
 1. Employees should only ever have access to data that is relevant to their job function.  For example, engineers need not have access to financial or HR data.
 1. Only data that is explicitly intended to be public and accessed without authentication should ever be accessed without authentication. ([NIST800-53:AC-14](https://nvd.nist.gov/800-53/Rev4/control/AC-14))
-1. For systems that are public (eg. blog), there are explicitly designated people that may post information. ([NIST800-53:AC-22](https://nvd.nist.gov/800-53/Rev4/control/AC-22))
+1. For systems that are public (eg. blog), there are explicitly designated people that may post information. ([NIST800-53:AC-22](https://nvd.nist.gov/800-53/Rev4/control/AC-22), [NIST800-53:SC-14](https://nvd.nist.gov/800-53/Rev4/control/SC-14))
+1. Employee access shall be reviewed.  [NIST800-53:PS-3](https://nvd.nist.gov/800-53/Rev4/control/PS-3)
+1. Changes to employee roles shall be reflected in updated access levels (or restrictions).  [NIST800-53:PS-5](https://nvd.nist.gov/800-53/Rev4/control/PS-5)
+1. Users with access to sensitive data shall have signed an employment agreement.  [NIST800-53:PS-6](https://nvd.nist.gov/800-53/Rev4/control/PS-6)
 
 In terms of separation of duties, it is imperative that systems in production be traceable to an exact process that provisioned them and that suitable controls be in place to prevent abuse.  That can be accomplished with controls around strict separation of duties, where one team may develop software and another would be responsible for running it.  It may also be accomplished by fully automating the deployment process in a DevOps process that can be audited.  ([NIST800-53:AC-5](https://nvd.nist.gov/800-53/Rev4/control/AC-5))  See also the Change Control section of the Application Security Policy.
 
@@ -79,9 +82,12 @@ In cases where {{company_name}} is employing cryptography, access to keys or ope
 
 Deprovisioning must be completed within two hours of the initiation request.
 
+[NIST800-53:PS-4](https://nvd.nist.gov/800-53/Rev4/control/PS-4), [NIST800-53:PS-5](https://nvd.nist.gov/800-53/Rev4/control/PS-5)
+
 ## Monthly Auditing
 
 On a monthly basis, {{company_name}} shall review access to systems and ensure that least privilege is applied.
+[NIST800-53:PS-3](https://nvd.nist.gov/800-53/Rev4/control/PS-3)
 
 ## Gaps
 

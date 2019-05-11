@@ -6,14 +6,15 @@ Anything that is common across all of our policies is captured in the master pol
 
 Details about specific areas that may have a more directed audience are captured in those specific policies.
 
-[NIST800-53:PL-1](https://nvd.nist.gov/800-53/Rev4/control/PL-1),
-[NIST800-53:PL-6](https://nvd.nist.gov/800-53/Rev4/control/PL-6)
+[NIST800-53:PL-1](https://nvd.nist.gov/800-53/Rev4/control/PL-1), [NIST800-53:PL-6](https://nvd.nist.gov/800-53/Rev4/control/PL-6)
 
 ## Company Introduction and The Spirit of Security
 
 {{company_name}} takes security extremely seriously.  Our goal is to be explicit and clear about security whenever and wherever possible.
 
 At the same time, we want to be agile and quick to adapt.  The policies herein are designed to allow us to find a balance between appropriate security measures for our employees, clients and partners - and a pragmatic solution that allows us to support our business interests.
+
+To ensure that we adequately account for security, any major overall or project budget shall specifically include a line item for security.  [NIST800-53:SA-2](https://nvd.nist.gov/800-53/Rev4/control/SA-2)
 
 ## Policies and Procedures
 
@@ -45,14 +46,12 @@ The following are {{company_name}}'s security policies.  We include their audien
 
 ## Responsiblity
 
-{{company_name}} shall designate a clear responsiblity for security to an acting security officer.  The security officer shall ultimately be responsible for policy adoption and implementation, and other aspects of effective implementation of security measures at {{company_name}}.
-[NIST800-53:PM-2](https://nvd.nist.gov/800-53/Rev4/control/PM-2), [NIST800-53:PM-3](https://nvd.nist.gov/800-53/Rev4/control/PM-3)
+{{company_name}} shall designate a clear responsiblity for security to an acting security officer.  The security officer shall ultimately be responsible for policy adoption and implementation, and other aspects of effective implementation of security measures at {{company_name}}. [NIST800-53:PM-2](https://nvd.nist.gov/800-53/Rev4/control/PM-2), [NIST800-53:PM-3](https://nvd.nist.gov/800-53/Rev4/control/PM-3) The security program shall incorporate key metrics including:  policy coverage, training coverage, open risk items/period, open incidents/period. [NIST800-53:PM-6](https://nvd.nist.gov/800-53/Rev4/control/PM-6)
 
-In addition, the security officer will be responsible for maintaining industry contacts to ensure that their program and status continues to evolve and respond to important threats. [NIST800-53:AT-5](https://nvd.nist.gov/800-53/Rev4/control/AT-5)
+In addition, the security officer will be responsible for maintaining industry contacts to ensure that their program and status continues to evolve and respond to important threats. [NIST800-53:AT-5](https://nvd.nist.gov/800-53/Rev4/control/AT-5)  In addition, the security officer or a designated team member shall receive security alerts and advisories for technology that is in place at {{company_name}}. [NIST800-53:SI-5](https://nvd.nist.gov/800-53/Rev4/control/SI-5)
 
 It shall be the designated security officer's responsibilty to develop and implement a plan around security.  This may be implemented through a project management tool, task tracker or security program tool but ultimately it is the security officers responsibility to understand and advance the program. [NIST800-53:CA-5](https://nvd.nist.gov/800-53/Rev4/control/CA-5), [NIST800-53:CA-6](https://nvd.nist.gov/800-53/Rev4/control/CA-6), [NIST800-53:PL-2](https://nvd.nist.gov/800-53/Rev4/control/PL-2),
-[NIST800-53:PM-1](https://nvd.nist.gov/800-53/Rev4/control/PM-1)
-
+[NIST800-53:PM-1](https://nvd.nist.gov/800-53/Rev4/control/PM-1), [NIST800-53:PM-4](https://nvd.nist.gov/800-53/Rev4/control/PM-4) 
 
 ## Approval Process
 
@@ -87,7 +86,8 @@ The process for reviewing policy violation shall be:
 1. Employee will be warned and advised to follow policy
 1. If needed, the employee will be terminated
 
-[NIST800-53:PL-4](https://nvd.nist.gov/800-53/Rev4/control/PL-4)
+[NIST800-53:PL-4](https://nvd.nist.gov/800-53/Rev4/control/PL-4),
+[NIST800-53:PS-8](https://nvd.nist.gov/800-53/Rev4/control/PS-8)
 
 ## Alignment to Standards
 

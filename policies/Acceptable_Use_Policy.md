@@ -3,6 +3,11 @@
 This policy describes how {{company_name}} employees will be expected to use the resources we provide, including laptops, cloud resources, security tools and more.
 [NIST800-53:PL-4](https://nvd.nist.gov/800-53/Rev4/control/PL-4)
 
+## Access To Data
+
+Prior to receiving access to {{company_name}} data, employees must sign access agreements and acknowledge security policies.
+[NIST800-53:PS-6](https://nvd.nist.gov/800-53/Rev4/control/PS-6)  Contractors or other non-employee staff and resources must sign appropriate confidentiality agreements prior to being given access to data.  [NIST800-53:PS-7](https://nvd.nist.gov/800-53/Rev4/control/PS-7)
+
 ## Personal Devices
 
 It is acceptable for employees to use their personal smart phones for email and messaging.
@@ -24,20 +29,11 @@ Employees acknowledge that company devices likely contain data that is internal 
 At no point are backup tapes or physical media devices expected to be removed without explicit secure handling in place (eg. for backup tapes).
 [NIST800-53:MP-5](https://nvd.nist.gov/800-53/Rev4/control/MP-5)
 
-
 ## Cloud Resources
 
 In the course of providing services, {{company_name}} employees shall have access to training resources and other cloud based services ranging from vulnerability scanning systems to CRM systems to shared storage
 like Drive.  Throughout, employees are expected to use these systems in appropriate and intended manners.  Without exception, these systems should be tracked as part of the vendor management program as defined in the Partner Security Policy.
 [NIST800-53:AC-20](https://nvd.nist.gov/800-53/Rev4/control/AC-20)
-
-## Security Tools
-
-{{company_name}} employees shall never use security tools provided at work for testing other 3rd parties without explicit approval.  Generally, the exceptions may be granted for volunteer activities but not for commercial arrangements.  In all cases, we will want a clear statement of liability to be in place.
-
-All content shared with {{company_name}} employees is intended to be used internally.  Sharing or adapting internal {{company_name}} content with 3rd parties or for ongoing personal development outside of {{company_name}} is strictly prohibited.
-
-Content can include training materials, templates, checklists and any other internally facing material.
 
 ## Sharing Data and Documents
 

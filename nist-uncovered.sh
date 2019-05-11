@@ -2,16 +2,14 @@
 
 allItems=$(cat ./nist-items.txt)
 count=0
-covered=0
+uncovered=0
 for item in $allItems; do
     let "count=count+1"
     itemCount=`grep -ir "$item" Master_Security_Policy.md ./policies/ | wc -l` 
-    if [ $itemCount != 0 ]; then
-        echo "$item is covered"
-        let "covered=covered+1"
-    else
+    if [ $itemCount == 0 ]; then
+        let "uncovered=uncovered+1"
         echo "None found for $item"
     fi
 done
 
-echo "Coverage: $covered out of $count"
+echo "Uncovered: $uncovered out of $count"

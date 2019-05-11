@@ -4,14 +4,18 @@ This policy describes how systems security will be handled.
 
 ## Security Standards
 
-Production server systems shall be hardened.  Part of hardening a system is disabling services and capabilities that are not needed.  [NIST800-53:CM-7](https://nvd.nist.gov/800-53/Rev4/control/CM-7)
+Production server systems shall be hardened.  Part of hardening a system is disabling services and capabilities that are not needed.  [NIST800-53:CM-7](https://nvd.nist.gov/800-53/Rev4/control/CM-7)  {{company_name}} and third party systems must be used in a secure configuration. [NIST800-53:SA-5](https://nvd.nist.gov/800-53/Rev4/control/SA-5)  
 
 Parts of the hardening process will be codified in a baseline configuration.  All systems shall be subject to configuration management to ensure they are aligned to best practices.
 [NIST800-53:CM-1](https://nvd.nist.gov/800-53/Rev4/control/CM-1), [NIST800-53:CM-2](https://nvd.nist.gov/800-53/Rev4/control/CM-2)  Changes to baseline configurations will be subject to the normal Change Control process described in the Application Security Policy. [NIST800-53:CM-3](https://nvd.nist.gov/800-53/Rev4/control/CM-3), [NIST800-53:CM-6](https://nvd.nist.gov/800-53/Rev4/control/CM-6)
 
+## Installling Software
+
+Users may have rights to install software on their systems (local or server) provided it is needed, meets license requirements [NIST800-53:SA-6](https://nvd.nist.gov/800-53/Rev4/control/SA-6) is run with a secure configuration and goes through the Partner process if applicable.  [NIST800-53:SA-7](https://nvd.nist.gov/800-53/Rev4/control/SA-7)
+
 ## Vulnerability Scanning
 
-As described in the [Network Security Policy](./Network_Security_Policy.md), vulnerability scanning will be performed at least quarterly.
+As described in the [Network Security Policy](./Network_Security_Policy.md), vulnerability scanning will be performed at least quarterly. [NIST800-53:RA-5](https://nvd.nist.gov/800-53/Rev4/control/RA-5)
 
 ## Patching
 
@@ -28,8 +32,9 @@ Unless otherwise identified, vendor patches shall be applied as soon as they are
 ### Laptops and Desktop Computers
 
 Laptops and desktop computers shall be enrolled in automatic updates to ensure they are patched as quickly as possible.
-
 [NIST800-53:CM-1](https://nvd.nist.gov/800-53/Rev4/control/CM-1), [NIST800-53:CM-2](https://nvd.nist.gov/800-53/Rev4/control/CM-2)
+
+Shared computers must be physically marked as shared so that a user knows this. [NIST800-53:SC-15](https://nvd.nist.gov/800-53/Rev4/control/SC-15)
 
 ### Servers, Containers and Virtual Machines
 
@@ -57,6 +62,14 @@ Servers and infrastructure shall be monitorable for health status and shall prod
 Since DLP (Data Loss Prevention) solutions inherently involve monitoring user behavior and intercepting traffic or analyzing data in ways that inherently compromise security, we do not employ DLP solutions.
 
 As an active alternative countermeasure, we offer training and clear definition of data classification measures.
+
+## Mobile Code
+
+Browsers will be expected to support JavaScript and PDF.  Java, ActiveX, Postscript, Shockwave, Flash and VBScript will not be supported.
+
+VBScript may be supported in Spreadsheets.
+
+[NIST800-53:SC-18](https://nvd.nist.gov/800-53/Rev4/control/SC-18)
 
 ## Secure Data Deletion
 

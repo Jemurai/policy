@@ -1,6 +1,8 @@
 # Partner and Third Party Security Policy
 
-This policy describes how {{company_name}} will handle partners and third parties.
+This policy describes how {{company_name}} will handle partners, third parties, SaaS and service providers. [NIST800-53:SA-1](https://nvd.nist.gov/800-53/Rev4/control/SA-1), [NIST800-53:SA-9](https://nvd.nist.gov/800-53/Rev4/control/SA-9)
+
+Note that acquisitions will be treated as Partners for the purpose of security and reviewed with the same process. [NIST800-53:SA-4](https://nvd.nist.gov/800-53/Rev4/control/SA-4)
 
 ## Vendor Management Program
 
@@ -11,6 +13,8 @@ Vendors shall also be re-evaluated when contracts or service delivery changes.  
 Vendor security issues (breaches) shall also be explicitly tracked.
 
 Vendors in turn will be asked to provide evidence of their security program and the security of their vendors.
+
+To ensure that we adequately account for security, any major overall or project budget shall specifically include a line item for security.  [NIST800-53:SA-2](https://nvd.nist.gov/800-53/Rev4/control/SA-2)
 
 ## Access to Data
 
