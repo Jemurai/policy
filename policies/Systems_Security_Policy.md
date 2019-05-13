@@ -73,7 +73,7 @@ VBScript may be supported in Spreadsheets.
 
 ## Secure Data Deletion
 
-When systems are retired or reused by different users with different access levels, data must be securely deleted. [NIST800-53:MP-6](https://nvd.nist.gov/800-53/Rev4/control/MP-6) 
+When systems are retired or reused by different users with different access levels, data must be securely deleted. [NIST800-53:MP-6](https://nvd.nist.gov/800-53/Rev4/control/MP-6)
 
 ## Audience
 

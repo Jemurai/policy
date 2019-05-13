@@ -17,7 +17,7 @@ On a weekly basis the tracker shall be reviewed by the acting security officer a
 
 Note that incidents are expected to require emergency handling.  It is expected that any new incident be reviewed within 4 hours and triaged within 24 hours.
 
-### Handling
+### Incident Handling
 
 Incidents must be reported immediately to the security officer.  [NIST800-53:IR-7](https://nvd.nist.gov/800-53/Rev4/control/IR-7)  The security officer should enlist external experts, delegate within the organization and develop an incident response team such that the organization's ability to respond to incidents is structured and repeatable.
 

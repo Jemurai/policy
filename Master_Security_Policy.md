@@ -51,7 +51,7 @@ The following are {{company_name}}'s security policies.  We include their audien
 In addition, the security officer will be responsible for maintaining industry contacts to ensure that their program and status continues to evolve and respond to important threats. [NIST800-53:AT-5](https://nvd.nist.gov/800-53/Rev4/control/AT-5)  In addition, the security officer or a designated team member shall receive security alerts and advisories for technology that is in place at {{company_name}}. [NIST800-53:SI-5](https://nvd.nist.gov/800-53/Rev4/control/SI-5)
 
 It shall be the designated security officer's responsibilty to develop and implement a plan around security.  This may be implemented through a project management tool, task tracker or security program tool but ultimately it is the security officers responsibility to understand and advance the program. [NIST800-53:CA-5](https://nvd.nist.gov/800-53/Rev4/control/CA-5), [NIST800-53:CA-6](https://nvd.nist.gov/800-53/Rev4/control/CA-6), [NIST800-53:PL-2](https://nvd.nist.gov/800-53/Rev4/control/PL-2),
-[NIST800-53:PM-1](https://nvd.nist.gov/800-53/Rev4/control/PM-1), [NIST800-53:PM-4](https://nvd.nist.gov/800-53/Rev4/control/PM-4) 
+[NIST800-53:PM-1](https://nvd.nist.gov/800-53/Rev4/control/PM-1), [NIST800-53:PM-4](https://nvd.nist.gov/800-53/Rev4/control/PM-4)
 
 ## Approval Process
 

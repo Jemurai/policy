@@ -18,7 +18,7 @@ This Privacy Policy describes how your personal information is collected, used, 
 
 We work hard not to collect information we don't explicitly need and avoid integrating tools that collect data in unsolicited ways.
 
-During the course of online interactions, it is customary to collect information that your web browser provides including: 
+During the course of online interactions, it is customary to collect information that your web browser provides including:
 
 * IP Address
 * Web Browser
@@ -28,7 +28,7 @@ Additionally, as you browse the Site, we collect information about the individua
 
 We collect Device Information using the following technologies:
 
-* “Cookies” are data files that are placed on your device or computer and often include an anonymous unique identifier. For more information about cookies, and how to disable cookies, visit http://www.allaboutcookies.org.
+* “Cookies” are data files that are placed on your device or computer and often include an anonymous unique identifier. For more information about cookies, and how to disable cookies, visit [allaboutcookies.org](http://www.allaboutcookies.org).
 
 * “Log files” track actions occurring on the Site, and collect data including your IP address, browser type, Internet service provider, referring/exit pages, and date/time stamps.
 * “Web beacons,” “tags,” and “pixels” are electronic files used to record information about how you browse the Site.
@@ -45,7 +45,7 @@ We share Personal Data internally to provide our Services and for internal admin
 
 We share Personal Data with a limited number of our service providers. We have service providers that provide services on our behalf, such as website hosting, data analysis, information technology and related infrastructure, customer service, email delivery, and auditing services. These service providers may need to access Personal Data to perform their services. We authorize such service providers to use or disclose the Personal Data only as necessary to perform services on our behalf or comply with legal requirements. We require such service providers to contractually commit to protect the security and confidentiality of Personal Data they process on our behalf. Our service providers are predominantly located in the United States of America.
 
-We share your Personal Information with third parties to help us use your Personal Information, as described above. For example, we may use Google Analytics to help us understand how our customers use the Site–you can read more about how Google uses your Personal Information here: https://www.google.com/intl/en/policies/privacy/. You can also opt-out of Google Analytics here: https://tools.google.com/dlpage/gaoptout.
+We share your Personal Information with third parties to help us use your Personal Information, as described above. For example, we may use Google Analytics to help us understand how our customers use the Site–you can read more about how Google uses your Personal Information [here](https://www.google.com/intl/en/policies/privacy/). You can also opt-out of Google Analytics [here](https://tools.google.com/dlpage/gaoptout).
 
 Finally, we may also share your Personal Information to comply with applicable laws and regulations, to respond to a subpoena, search warrant or other lawful request for information we receive, or to otherwise protect our rights.
 
@@ -93,7 +93,7 @@ All {{company_name}} employees need to be aware of the policy.  Any external use
 | Approvers       | {{approver}} |
 | Applies To      | All of {{company_name}} |
 
-### Version History 
+### Version History
 
 | Version | Date | Approvers | Changes |
 |--|--|--|--|

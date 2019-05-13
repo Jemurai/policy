@@ -22,7 +22,6 @@ In any case where systems are developed or multiple computers are joined togethe
 
 [NIST800-53:SC-2](https://nvd.nist.gov/800-53/Rev4/control/SC-2), [NIST800-53:SC-4](https://nvd.nist.gov/800-53/Rev4/control/SC-4), [NIST800-53:SC-7](https://nvd.nist.gov/800-53/Rev4/control/SC-7), [NIST800-53:SC-32](https://nvd.nist.gov/800-53/Rev4/control/SC-32)
 
-
 ### Default Port Status
 
 Between network segments, only the ports required for data access shall be opened.

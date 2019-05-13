@@ -55,7 +55,7 @@ All communications everywhere must be encrypted with TLS.
 * TLS 1.2 or above will be preferred.
 
 Areas where this is not used for data in transit shall be tracked as risks per the Risk Policy.
-[NIST800-53:SC-12](https://nvd.nist.gov/800-53/Rev4/control/SC-12), [NIST800-53:SC-13](https://nvd.nist.gov/800-53/Rev4/control/SC-13) 
+[NIST800-53:SC-12](https://nvd.nist.gov/800-53/Rev4/control/SC-12), [NIST800-53:SC-13](https://nvd.nist.gov/800-53/Rev4/control/SC-13)
 
 ### Key Management
 

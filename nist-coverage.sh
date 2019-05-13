@@ -5,7 +5,7 @@ count=0
 covered=0
 for item in $allItems; do
     let "count=count+1"
-    itemCount=`grep -ir "$item" Master_Security_Policy.md ./policies/ | wc -l` 
+    itemCount=`grep -ir "[$item]" Master_Security_Policy.md ./policies/ | wc -l` 
     if [ $itemCount != 0 ]; then
         echo "$item is covered"
         let "covered=covered+1"

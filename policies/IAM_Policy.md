@@ -6,7 +6,7 @@ Identity is about how we know who a given person is.  Generally, this is handled
 
 Access management is about how we manage which resources a person should have access to.  Should they be able to log in to a time tracking system, JIRA, etc.  Which projects should they be assigned?  Which projects should they be administrators or managers for?
 
-## Provisioning 
+## Provisioning
 
 All provisioning of identities (users) and access shall be approved by management and tracked. ([NIST800-53:AC-4](https://nvd.nist.gov/800-53/Rev4/control/AC-4)), [NIST800-53:IA-4](https://nvd.nist.gov/800-53/Rev4/control/IA-4), [NIST800-53:PS-1](https://nvd.nist.gov/800-53/Rev4/control/PS-1)
 
@@ -109,7 +109,7 @@ All {{company_name}} employees need to be aware of the policy.
 | Approvers       | {{approver}} |
 | Applies To      | All of {{company_name}} |
 
-### Version History 
+### Version History
 
 | Version | Date | Approvers | Changes |
 |--|--|--|--|

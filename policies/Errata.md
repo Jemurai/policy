@@ -6,33 +6,33 @@ This document contains exceptions and details about areas that are intentionally
 
 Certain NIST Items were introduced and then removed or have an Impact level of None:
 
-* AC-12
-* AC-13
-* AC-15
-* AU-13
-* AU-14
-* CA-4
-* CP-5
-* PE-19
-* PL-3
-* RA-4
-* SA-14
-* SC-6
-* SC-11
-* SC-16
-* SC-25
-* SC-26
-* SC-27
-* SC-29
-* SC-30
-* SC-31
-* SC-33
-* SC-34
-* SI-13
+* [AC-12](https://nvd.nist.gov/800-53/Rev4/control/AC-12)
+* [AC-13]
+* [AC-15]
+* [AU-13]
+* [AU-14]
+* [CA-4]
+* [CP-5]
+* [PE-19]
+* [PL-3]
+* [RA-4]
+* [SA-14]
+* [SC-6]
+* [SC-11]
+* [SC-16]
+* [SC-25]
+* [SC-26]
+* [SC-27]
+* [SC-29]
+* [SC-30]
+* [SC-31]
+* [SC-33]
+* [SC-34]
+* [SI-13]
 
 ## HIGH Impact Level Items
 
-Since we aim to meet Moderate impact level, some controls are not required: 
+Since we aim to meet Moderate impact level, some controls are not required:
 
 * [AU-10](https://nvd.nist.gov/800-53/Rev4/control/AU-10)
 * [SA-12](https://nvd.nist.gov/800-53/Rev4/control/SA-12)

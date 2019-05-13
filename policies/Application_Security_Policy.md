@@ -72,9 +72,21 @@ Changes to configuration should be reflected as changes in code and tracked in a
 
 | Tier | Description | Controls |
 |------|-------------|----------|
-|  1   | Highest security, any public or delivered code. Any sensitive data handling. | Training, Requirements, Code Review, Pen Testing, Dependency Hygiene |
+|  1   | Highest security, any public or delivered code. Any sensitive data handling. | Training, Requirements, Code Review, Pen Testing, Dependency Hygiene, File Analysis, Signal Integration |
 |  2   | Internal shared code | Security training, Code Review, Security requirements |
 |  3   | Internal proof of concept code | Security training |
+
+* Training - Security Top 10 Training for Developers
+* Requirements - Security is incorporated into requirements
+* Code Review - Secure code review is done by peers to check for potential security issues [NIST800-53:SI-7](https://nvd.nist.gov/800-53/Rev4/control/SI-7) ensuring proper:
+  * Input restriction [NIST800-53:SI-9](https://nvd.nist.gov/800-53/Rev4/control/SI-9)
+  * Input validation [NIST800-53:SI-10](https://nvd.nist.gov/800-53/Rev4/control/SI-10)
+  * Error handling [NIST800-53:SI-11](https://nvd.nist.gov/800-53/Rev4/control/SI-11)
+  * Output handling [NIST800-53:SI-12](https://nvd.nist.gov/800-53/Rev4/control/SI-12)
+* Penetration Testing - Ethical hacking exercises
+* Dependency hygeine - Refers to keeping library dependencies updated and monitoring for vulnerabilities in 3rd party libraries. [NIST800-53:SI-1](https://nvd.nist.gov/800-53/Rev4/control/SI-1), [NIST800-53:SI-2](https://nvd.nist.gov/800-53/Rev4/control/SI-2)
+* File Analysis - refers to running checks to ensure uploaded or shared files are not malicious code. [NIST800-53:SI-3](https://nvd.nist.gov/800-53/Rev4/control/SI-3)
+* Signal Integration - refers to reporting security events from the system to a centralized logging system so that security monitoring can be effective and inclusive of application events.  [NIST800-53:SI-4](https://nvd.nist.gov/800-53/Rev4/control/SI-4)
 
 ### Inventory
 
@@ -84,7 +96,6 @@ Changes to configuration should be reflected as changes in code and tracked in a
 
 {{company_name}} shall maintain an enterprise architecture and actively plan around critical infrastructure.
 [NIST800-53:PM-7](https://nvd.nist.gov/800-53/Rev4/control/PM-7), [NIST800-53:PM-8](https://nvd.nist.gov/800-53/Rev4/control/PM-8)
-
 
 ## Audience
 
