@@ -6,11 +6,15 @@ Anything that is common across all of our policies is captured in the master pol
 
 Details about specific areas that may have a more directed audience are captured in those specific policies.
 
+[NIST800-53:PL-1](https://nvd.nist.gov/800-53/Rev4/control/PL-1), [NIST800-53:PL-6](https://nvd.nist.gov/800-53/Rev4/control/PL-6)
+
 ## Company Introduction and The Spirit of Security
 
 {{company_name}} takes security extremely seriously.  Our goal is to be explicit and clear about security whenever and wherever possible.
 
 At the same time, we want to be agile and quick to adapt.  The policies herein are designed to allow us to find a balance between appropriate security measures for our employees, clients and partners - and a pragmatic solution that allows us to support our business interests.
+
+To ensure that we adequately account for security, any major overall or project budget shall specifically include a line item for security.  [NIST800-53:SA-2](https://nvd.nist.gov/800-53/Rev4/control/SA-2)
 
 ## Policies and Procedures
 
@@ -22,24 +26,36 @@ In some cases, our policies may specify some explicit requirements or steps.  Th
 
 ## Company Policies
 
-The following are our policies.  We include their audience in the table so that we can help people find the policies that are most relevant to them.
+The following are {{company_name}}'s security policies.  We include their audience in the table so that people can find the policies that are most relevant to them.
 
-| Policy | Audience | 
+| Policy | Audience |
 |--------|----------|
-| [Privacy Policy](policies/Privacy_Policy.md) | Everyone |
-| [Asset Management Policy](policies/Asset_Management_Policy.md) | IT |
-| [Identity and Access Management Policy](policies/IAM_Policy.md) | IT |
 | [Acceptable Use Policy](policies/Acceptable_Use_Policy.md) | Everyone |
+| [Application Security Policy](policies/Application_Security_Policy.md) | Engineering |
+| [Asset Management Policy](policies/Asset_Management_Policy.md) | IT |
+| [BCP Policy](policies/BCP_Policy.md) | IT |
+| [Data Classification Policy](policies/Data_Classification_Policy.md) | IT, Engineering |
+| [Identity and Access Management Policy](policies/IAM_Policy.md) | IT |
+| [Incident Response Policy](policies/Incident_Response_Policy.md) | IT, Mgmt |
+| [Network Security Policy](policies/Network_Security_Policy.md) | IT |
+| [Partner Security Policy](policies/Partner_Security_Policy.md) | IT |
+| [Physical Security Policy](policies/Physical_Security_Policy.md) | IT |
+| [Privacy Policy](policies/Privacy_Policy.md) | Everyone |
+| [Risk Policy](policies/Risk_Policy.md) | Management |
+| [Systems Security Policy](policies/Systems_Security_Policy.md) | IT |
 
 ## Responsiblity
 
-{{company_name}} shall designate a clear responsiblity for security to an acting security officer.  The security officer shall ultimately be responsible for policy adoption and implementation, and other aspects of effective implementation of security measures at {{company_name}}.
+{{company_name}} shall designate a clear responsiblity for security to an acting security officer.  The security officer shall ultimately be responsible for policy adoption and implementation, and other aspects of effective implementation of security measures at {{company_name}}. [NIST800-53:PM-2](https://nvd.nist.gov/800-53/Rev4/control/PM-2), [NIST800-53:PM-3](https://nvd.nist.gov/800-53/Rev4/control/PM-3) The security program shall incorporate key metrics including:  policy coverage, training coverage, open risk items/period, open incidents/period. [NIST800-53:PM-6](https://nvd.nist.gov/800-53/Rev4/control/PM-6)
 
-In addition, the security officer will be responsible for maintaining industry contacts to ensure that their program and status continues to evolve and respond to important threats. [NIST800-53:AT-5](https://nvd.nist.gov/800-53/Rev4/control/AT-5)
+In addition, the security officer will be responsible for maintaining industry contacts to ensure that their program and status continues to evolve and respond to important threats. [NIST800-53:AT-5](https://nvd.nist.gov/800-53/Rev4/control/AT-5)  In addition, the security officer or a designated team member shall receive security alerts and advisories for technology that is in place at {{company_name}}. [NIST800-53:SI-5](https://nvd.nist.gov/800-53/Rev4/control/SI-5)
+
+It shall be the designated security officer's responsibilty to develop and implement a plan around security.  This may be implemented through a project management tool, task tracker or security program tool but ultimately it is the security officers responsibility to understand and advance the program. [NIST800-53:CA-5](https://nvd.nist.gov/800-53/Rev4/control/CA-5), [NIST800-53:CA-6](https://nvd.nist.gov/800-53/Rev4/control/CA-6), [NIST800-53:PL-2](https://nvd.nist.gov/800-53/Rev4/control/PL-2),
+[NIST800-53:PM-1](https://nvd.nist.gov/800-53/Rev4/control/PM-1), [NIST800-53:PM-4](https://nvd.nist.gov/800-53/Rev4/control/PM-4)
 
 ## Approval Process
 
-Each policy will have designated approvers representing the stakeholders for the area described by the policy.  Each change to policy shall be submitted in a github pull request and approvals tracked through pull request approval.
+Each policy will have designated approvers representing the stakeholders for the area described by the policy.  Each change to policy shall be reviewed and approved by the policy approvers.  The approval process shall be tracked in the policies and in documents capturing the approval either in a system or by hand.
 
 ## Update Process
 
@@ -70,15 +86,19 @@ The process for reviewing policy violation shall be:
 1. Employee will be warned and advised to follow policy
 1. If needed, the employee will be terminated
 
+[NIST800-53:PL-4](https://nvd.nist.gov/800-53/Rev4/control/PL-4),
+[NIST800-53:PS-8](https://nvd.nist.gov/800-53/Rev4/control/PS-8)
+
 ## Alignment to Standards
 
 {{company_name}}'s policies and operating practices are designed to meet industry standard security practices including:
 
 * Aligned to NIST 800-53
-* Clear coverage of SIG Lite
 * Coverage of NIST Cybersecurity Framework
 
-To make it clear how we are interpreting and meeting the standards, policies shall be annotated with tags for:  NIST-CSF, NIST-800-53 and SIGLite controls.
+To make it clear how we are interpreting and meeting the standards, policies shall be annotated with tags for:  NIST-CSF and NIST-800-53 controls.
+
+We are implementing MODERATE Impact level controls.
 
 ## Tracking Data
 
@@ -95,8 +115,8 @@ Each policy shall have have tracking data at the end of the policy that captures
 | Approvers       | {{approver}} |
 | Applies To      | All of {{company_name}} |
 
-### Version History 
+### Version History
 
-| Version | Date | Approvers | Changes | 
+| Version | Date | Approvers | Changes |
 |--|--|--|--|
 | 1.0 | {{approval_date}} | {{approver}} | Initial Policy |

@@ -1,10 +1,11 @@
 # Data Classification Policy
 
 This policy describes the different types of data that {{company_name}} handles and defines how it needs to be protected.
+[NIST800-53:RA-2](https://nvd.nist.gov/800-53/Rev4/control/RA-2)
 
 ## Levels of Data Sensitivity
 
-To keep our processes simple, we will define 4 broad tiers of data sensitivity.
+To keep our processes simple, we will define 3 broad tiers of data sensitivity.
 
 | Tier | Description | Examples |
 | -----|-------------|----------|
@@ -41,6 +42,7 @@ Full disk encryption is appropriate for Tier 2 and Tier 3 data.  Disk level encr
 TDE is mandatory on any system we build where the technology supports it.
 
 Column and row based encryption is required for Tier 1 data.
+[NIST800-53:SC-28](https://nvd.nist.gov/800-53/Rev4/control/SC-28)
 
 ### In Transit
 
@@ -53,6 +55,7 @@ All communications everywhere must be encrypted with TLS.
 * TLS 1.2 or above will be preferred.
 
 Areas where this is not used for data in transit shall be tracked as risks per the Risk Policy.
+[NIST800-53:SC-12](https://nvd.nist.gov/800-53/Rev4/control/SC-12), [NIST800-53:SC-13](https://nvd.nist.gov/800-53/Rev4/control/SC-13)
 
 ### Key Management
 
@@ -67,6 +70,10 @@ It is expected that all Tier 1 and 2 data handled will be encrypted at rest usin
 It is expected that all Tier 1 and 2 data will be encrypted in transit.
 
 All Tier 1 and 2 data shall have access controls in place to ensure that only intended consumers can access data.
+
+The flows of Tier 1 and Tier 2 data shall be documented, with flows being tracked and approved. [NIST800-53:AC-4](https://nvd.nist.gov/800-53/Rev4/control/AC-4)
+
+Any sharing of data in Tier 1 or Tier 2 with third parties shall be tracked as a specific risk and approved.  [NIST800-53:CA-3](https://nvd.nist.gov/800-53/Rev4/control/CA-3)
 
 ## Labeling Ownership
 

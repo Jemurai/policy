@@ -1,6 +1,7 @@
 # Incident Response Policy
 
 This policy describes how {{company_name}} will handle security incidents.
+[NIST800-53:IR-1](https://nvd.nist.gov/800-53/Rev4/control/IR-1)
 
 ## Handling
 
@@ -16,11 +17,11 @@ On a weekly basis the tracker shall be reviewed by the acting security officer a
 
 Note that incidents are expected to require emergency handling.  It is expected that any new incident be reviewed within 4 hours and triaged within 24 hours.
 
-### Reporting
+### Incident Handling
 
-Incidents should be reported immediately to the security officer.
+Incidents must be reported immediately to the security officer.  [NIST800-53:IR-7](https://nvd.nist.gov/800-53/Rev4/control/IR-7)  The security officer should enlist external experts, delegate within the organization and develop an incident response team such that the organization's ability to respond to incidents is structured and repeatable.
 
-Anyone internal or external can report a security incident by addressing an email to security@{{company_name}}.com.
+Anyone internal or external can report a security incident by addressing an email to security@{{company_name}}.com, which will trigger an incident to be handled by the security officer.
 
 Reporting incidents must include:
 
@@ -28,6 +29,15 @@ Reporting incidents must include:
 * Description - without actual sensitive data
 * Scope of Systems Effected
 * Any Remediation Activities Already Underway
+
+[NIST800-53:IR-4](https://nvd.nist.gov/800-53/Rev4/control/IR-4)
+[NIST800-53:IR-5](https://nvd.nist.gov/800-53/Rev4/control/IR-5)
+[NIST800-53:IR-6](https://nvd.nist.gov/800-53/Rev4/control/IR-6)
+[NIST800-53:IR-8](https://nvd.nist.gov/800-53/Rev4/control/IR-8)
+
+### Training
+
+Training shall be provided around incident response so that general employees and specialists responding know their roles and responsibilities. [NIST800-53:IR-2](https://nvd.nist.gov/800-53/Rev4/control/IR-2).
 
 ## Internal Information Distribution
 
@@ -48,7 +58,8 @@ To ensure that we are prepared for escalating incidents, we will have the follow
 * Law Enforcement Contacts
 * Contacts with One or More Forensics Firms
 
-In addition, we will conduct quarterly tabletop exercises to test incident response handling.
+In addition, we will have plans for how to respond to an incident and will conduct quarterly tabletop exercises to test incident response handling.  [NIST800-53:IR-3](https://nvd.nist.gov/800-53/Rev4/control/IR-3)
+[NIST800-53:IR-8](https://nvd.nist.gov/800-53/Rev4/control/IR-8)
 
 ## Audience
 
