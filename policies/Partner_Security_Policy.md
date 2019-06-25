@@ -33,10 +33,11 @@ Data may only be shared with Vendors that can demonstrate that they have policie
 | Tracking Item   | Detail |
 |-----------------|--------|
 | Policy Name     | Partner and Third Party Security Policy |
-| Policy Owner    | {{owner}}  |
+| Policy Owner    | {{owner}} |
+| Approvers       | {{approver}} |
+| Approval Date   | {{approval_date}} |
 | In Force Date   | {{in_force_date}} |
 | Update Date     | {{next_update_date}} |
-| Approvers       | {{approver}} |
 | Applies To      | All of {{company_name}} |
 
 ### Version History
