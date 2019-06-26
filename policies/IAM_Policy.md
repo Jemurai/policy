@@ -74,7 +74,7 @@ For any other system that supports MFA with SSO, this will be required for {{com
 
 ### Password Complexity and History
 
-It is expected that {{company_name} employees will use a password manager to assist with selection and management of complex passwords.
+It is expected that {{company_name}} employees will use a password manager to assist with selection and management of complex passwords.
 
 In the event that a password manager cannot be used, users must select complex passwords for systems they use both for {{company_name}} and for any projects with third parties.
 
