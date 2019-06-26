@@ -59,16 +59,9 @@ Training shall be tracked to ensure that employees and contractors have had appr
 
 ## Consequences for Policy Violation
 
-Policy violation can result in employee termination.
+Policy violation may result in employee termination.
 
-The process for reviewing policy violation shall be:
-
-1. The policy violation shall be documented in writing.
-1. The security officer will review documentation.
-1. If deemed a violation, it will be triaged to ascertain severity
-1. If indicated, employee will be interviewed by security officer and information documented
-1. Employee will be warned and advised to follow policy
-1. If needed, the employee will be terminated
+The process for reviewing a policy violation shall be established and managed by {{company_name}} HR.
 
 ## Alignment to Standards
 
