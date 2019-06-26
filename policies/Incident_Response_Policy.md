@@ -47,7 +47,7 @@ Subsequent distribution and information sharing shall be limited to staff that n
 
 ### Notification
 
-Although notification laws may be in place with differing timelines, we aim to have aggressively open notificaiton policies.  To that end, we will notify any 3rd party, client, vendor or partner effected by an incident within 24 hours of the incident and potential breach.
+Although notification laws may be in place with differing timelines, we aim to have aggressively open notification policies.  To that end, we will notify any 3rd party, client, vendor or partner effected by an incident within 24 hours of the incident and potential breach.
 
 The security officer shall be on point in terms of the notification.
 
