@@ -34,17 +34,17 @@ be used for unlawful activities or paid work for other entities.
 
 Employees acknowledge that company devices likely contain data that is internal or secret and therefore any laptops
 will be encrypted with FDE (see Data Classification Policy) and removable media will be securely erased between uses.
-[NIST800-53:MP-1](https://nvd.nist.gov/800-53/Rev4/control/MP-1), 
+[NIST800-53:MP-1](https://nvd.nist.gov/800-53/Rev4/control/MP-1),
 [NIST800-53:MP-2](https://nvd.nist.gov/800-53/Rev4/control/MP-2),
 [NIST800-53:MP-4](https://nvd.nist.gov/800-53/Rev4/control/MP-4)
 
 At no point are backup tapes or physical media devices expected to be removed without explicit secure handling in
-place (eg. for backup tapes). [NIST800-53:MP-5](https://nvd.nist.gov/800-53/Rev4/control/MP-5)
+place (e.g.. for backup tapes). [NIST800-53:MP-5](https://nvd.nist.gov/800-53/Rev4/control/MP-5)
 
 ## Cloud Resources
 
 In the course of providing services, {{company_name}} employees shall have access to training resources and other cloud
-based services ranging from vulnerability scanning systems to CRM systems to shared storage like Drive. Throughout, 
+based services ranging from vulnerability scanning systems to CRM systems to shared storage like Drive. Throughout,
 employees are expected to use these systems in appropriate and intended manners.  Without exception, these systems
 should be tracked as part of the vendor management program as defined in the Partner Security Policy.
 [NIST800-53:AC-20](https://nvd.nist.gov/800-53/Rev4/control/AC-20)

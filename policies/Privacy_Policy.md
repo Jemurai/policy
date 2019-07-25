@@ -89,7 +89,7 @@ You have choices regarding our use and disclosure of your Personal Data:
    request(s) as soon as reasonably practicable. Please note that if you opt-out of receiving marketing-related emails
    from us, we may still send you important administrative messages that are required to provide you with our Services.
 1. How you can see or change your account Personal Data. If You would like to review, correct, or update Personal Data
-   that You have previously disclosed to us, You may do so by signing in to your JASP account or by contacting us.
+   that You have previously disclosed to us, You may do so by signing in to your account or by contacting us.
 1. Your data protection rights. Depending on your location and subject to applicable law, you may have the following
    rights with regard to the Personal Data we control about you:
    The right to request confirmation of whether {{company_name}} processes Personal Data relating to you, and if so, to
@@ -124,8 +124,8 @@ We may update this privacy policy from time to time in order to reflect, for exa
 for other operational, legal or regulatory reasons. The “Last updated” legend at the top of this Privacy Policy
 indicates when this Privacy Policy was last revised. Any changes are effective when we post the revised Privacy
 Policy on the Site. We may provide you with disclosures and alerts regarding the Privacy Policy or Personal Data
-collected by posting them on our website and, if you are a User, by contacting you through your JASP Dashboard or
-associated email address.
+collected by posting them on our website and, if you are a User, by contacting you through the Site or the
+email address associated with your User.
 
 ## Audience
 
