@@ -23,7 +23,7 @@ goes through the Partner process if applicable.  [NIST800-53:SA-7](https://nvd.n
 
 ## Vulnerability Scanning
 
-As described in the [Network Security Policy](./Network_Security_Policy.md), vulnerability scanning will be performed
+As described in the Network Security Policy, vulnerability scanning will be performed
 at least quarterly. [NIST800-53:RA-5](https://nvd.nist.gov/800-53/Rev4/control/RA-5)
 
 ## Patching
@@ -43,7 +43,8 @@ shall be documented, implemented by a controlled group of operators using tools 
 ### Laptops and Desktop Computers
 
 Laptops and desktop computers shall be enrolled in automatic updates to ensure they are patched as quickly as possible.
-[NIST800-53:CM-1](https://nvd.nist.gov/800-53/Rev4/control/CM-1), [NIST800-53:CM-2](https://nvd.nist.gov/800-53/Rev4/control/CM-2)
+[NIST800-53:CM-1](https://nvd.nist.gov/800-53/Rev4/control/CM-1),
+[NIST800-53:CM-2](https://nvd.nist.gov/800-53/Rev4/control/CM-2)
 
 Shared computers must be physically marked as shared so that a user knows this.
 [NIST800-53:SC-15](https://nvd.nist.gov/800-53/Rev4/control/SC-15)
@@ -56,7 +57,8 @@ In the event that servers are rebuilt frequently, that process must incorporate 
 components that are used as a part of system provisioning.  This also applies if the server is virtualized in a VM or
 Container (e.g. Docker).
 
-[NIST800-53:CM-1](https://nvd.nist.gov/800-53/Rev4/control/CM-1), [NIST800-53:CM-2](https://nvd.nist.gov/800-53/Rev4/control/CM-2)
+[NIST800-53:CM-1](https://nvd.nist.gov/800-53/Rev4/control/CM-1),
+[NIST800-53:CM-2](https://nvd.nist.gov/800-53/Rev4/control/CM-2)
 
 ### Critical Patches
 
@@ -66,25 +68,25 @@ underlying vulnerability will be patched within 48 hours.
 
 ## Security Monitoring and Auditing
 
-Servers and infrastructure shall be monitorable for health status and shall produce centralized security audits that
-include events around at least the following key activities:
+Servers and infrastructure shall provide health status which can be monitored and produce centralized security
+audits that include (at a minimum) events related to the following key activities:
 
 1. User provisioning / deprovisioning
-1. Logins / Failed logins
+1. Successful and failed login attempts
 1. Exceptions
 
 [NIST800-53:CA-7](https://nvd.nist.gov/800-53/Rev4/control/CA-7)
 
-## DLP
+## Data Loss Prevention
 
-Since DLP (Data Loss Prevention) solutions inherently involve monitoring user behavior and intercepting traffic or
+Since Data Loss Prevention (DLP) solutions inherently involve monitoring user behavior and intercepting traffic or
 analyzing data in ways that inherently compromise security, we do not employ DLP solutions.
 
 As an active alternative countermeasure, we offer training and clear definition of data classification measures.
 
 ## Mobile Code
 
-Browsers will be expected to support JavaScript and PDF.  Java, ActiveX, Postscript, Shockwave, Flash and VBScript
+Browsers will be expected to support JavaScript and PDF.  Java, ActiveX, Postscript, Shockwave, Flash, and VBScript
 will not be supported.
 
 VBScript may be supported in Spreadsheets.

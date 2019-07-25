@@ -25,7 +25,7 @@ undergone an official audit, it maintains a mapping of controls against the ISO 
 information security program is driven by alignment to this framework and an understanding of any potential
 evolving threats.
 
-### Independent Third Party Review 
+### Independent Third Party Review
 
 {{company_name}} has partnered with independent security resources to ensure it is properly executing its security
 program. We believe that consistent monitoring of our platform through regular vulnerability assessments and
@@ -51,7 +51,7 @@ security, we train on the OWASP Top 10 and do both internal and external code re
 
 {{company_name}} secures all data in transit via TLS. Systems are configured to require the TLS protocol, meeting
 industry standards for externally facing systems. You can view an up to date assessment of our TLS configurations
-by visiting https://www.ssllabs.com/ssltest/analyze.html?d={{company_name}}.com&latest.
+by visiting [SSL Labs SSL Test](https://www.ssllabs.com/ssltest/analyze.html?d={{company_name}}.com&latest).
 
 Symmetric encryption (AES-256) is used to protect data at rest. This ensures that data is only viewable by
 authorized users.
@@ -60,7 +60,7 @@ authorized users.
 
 {{company_name}}’s environment is highly-restricted by design. Access controls are in place to ensure that data is only
 available to appropriate parties. Internally, {{company_name}} employees may be granted access to the {{company_name}}
-platform for administration purposes only. 
+platform for administration purposes only.
 
 ### Data Processed by {{company_name}} Technology
 
@@ -81,6 +81,6 @@ unnecessary risk.
 
 {{company_name}} has a completed SIGLite security questionnaire which can be made available for your review.
 
-## Questions? 
+## Questions
 
 Contact {{company_name}} at security@{{company_name}}.com.

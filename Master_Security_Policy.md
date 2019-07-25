@@ -20,7 +20,8 @@ At the same time, we want to be agile and quick to adapt.  The policies herein a
 balance between appropriate security measures for our employees, clients and partners - and a pragmatic solution
 that allows us to support our business interests.
 
-To ensure that we adequately account for security, any major overall or project budget shall specifically include a line item for security.  [NIST800-53:SA-2](https://nvd.nist.gov/800-53/Rev4/control/SA-2)
+To ensure that we adequately account for security, any major overall or project budget shall specifically include a
+line item for security.  [NIST800-53:SA-2](https://nvd.nist.gov/800-53/Rev4/control/SA-2)
 
 ## Policies and Procedures
 
@@ -46,7 +47,7 @@ find the policies that are most relevant to them.
 | [BCP Policy](policies/BCP_Policy.md) | IT |
 | [Data Classification Policy](policies/Data_Classification_Policy.md) | IT, Engineering |
 | [Identity and Access Management Policy](policies/IAM_Policy.md) | IT |
-| [Incident Response Policy](policies/Incident_Response_Policy.md) | IT, Mgmt |
+| [Incident Response Policy](policies/Incident_Response_Policy.md) | IT, Management |
 | [Network Security Policy](policies/Network_Security_Policy.md) | IT |
 | [Partner Security Policy](policies/Partner_Security_Policy.md) | IT |
 | [Physical Security Policy](policies/Physical_Security_Policy.md) | IT |
@@ -56,23 +57,27 @@ find the policies that are most relevant to them.
 
 ## Responsibility
 
-{{company_name}} shall designate a clear responsiblity for security to an acting security officer.  The security
+{{company_name}} shall designate a clear responsibility for security to an acting security officer.  The security
 officer shall ultimately be responsible for policy adoption and implementation, and other aspects of effective
-implementation of security measures at {{company_name}}. [NIST800-53:PM-2](https://nvd.nist.gov/800-53/Rev4/control/PM-2),
+implementation of security measures at {{company_name}}.
+[NIST800-53:PM-2](https://nvd.nist.gov/800-53/Rev4/control/PM-2),
 [NIST800-53:PM-3](https://nvd.nist.gov/800-53/Rev4/control/PM-3) The security program shall incorporate key metrics
 including:  policy coverage, training coverage, open risk items/period, open incidents/period.
 [NIST800-53:PM-6](https://nvd.nist.gov/800-53/Rev4/control/PM-6)
 
 In addition, the security officer will be responsible for maintaining industry contacts to ensure that their program
-and status continues to evolve and respond to important threats. [NIST800-53:AT-5](https://nvd.nist.gov/800-53/Rev4/control/AT-5) 
-In addition, the security officer or a designated team member shall receive security alerts and advisories for
-technology that is in place at {{company_name}}. [NIST800-53:SI-5](https://nvd.nist.gov/800-53/Rev4/control/SI-5)
+and status continues to evolve and respond to important threats.
+[NIST800-53:AT-5](https://nvd.nist.gov/800-53/Rev4/control/AT-5) The security officer (or a designated team member)
+shall receive security alerts and advisories for technology that is in place at {{company_name}}.
+[NIST800-53:SI-5](https://nvd.nist.gov/800-53/Rev4/control/SI-5)
 
 It shall be the designated security officer's responsibility to develop and implement a plan around security.  This
 may be implemented through a project management tool, task tracker or security program tool but ultimately it is the
 security officers responsibility to understand and advance the program.
-[NIST800-53:CA-5](https://nvd.nist.gov/800-53/Rev4/control/CA-5), [NIST800-53:CA-6](https://nvd.nist.gov/800-53/Rev4/control/CA-6),
-[NIST800-53:PL-2](https://nvd.nist.gov/800-53/Rev4/control/PL-2), [NIST800-53:PM-1](https://nvd.nist.gov/800-53/Rev4/control/PM-1),
+[NIST800-53:CA-5](https://nvd.nist.gov/800-53/Rev4/control/CA-5),
+[NIST800-53:CA-6](https://nvd.nist.gov/800-53/Rev4/control/CA-6),
+[NIST800-53:PL-2](https://nvd.nist.gov/800-53/Rev4/control/PL-2),
+[NIST800-53:PM-1](https://nvd.nist.gov/800-53/Rev4/control/PM-1),
 [NIST800-53:PM-4](https://nvd.nist.gov/800-53/Rev4/control/PM-4)
 
 ## Approval Process
@@ -108,9 +113,8 @@ Training shall be tracked to ensure that employees and contractors have had appr
 
 Policy violation may result in employee termination.
 
-The specific process for handling a policy violation shall be established and managed by {{company_name}} HR, with defined tracking and notification processes.
-	
-[NIST800-53:PL-4](https://nvd.nist.gov/800-53/Rev4/control/PL-4),
+The specific process for handling a policy violation shall be established and managed by {{company_name}} HR,
+with defined tracking and notification processes. [NIST800-53:PL-4](https://nvd.nist.gov/800-53/Rev4/control/PL-4),
 [NIST800-53:PS-8](https://nvd.nist.gov/800-53/Rev4/control/PS-8)
 
 ## Alignment to Standards
@@ -120,7 +124,7 @@ The specific process for handling a policy violation shall be established and ma
 * Aligned to NIST 800-53
 * Coverage of NIST Cybersecurity Framework
 
-To make it clear how we are interpreting and meeting the standards, policies shall be annotated with tags for: 
+To make it clear how we are interpreting and meeting the standards, policies shall be annotated with tags for:
 NIST-CSF and NIST-800-53 controls.
 
 We are implementing MODERATE Impact level controls.

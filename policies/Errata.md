@@ -7,28 +7,28 @@ This document contains exceptions and details about areas that are intentionally
 Certain NIST Items were introduced and then removed or have an Impact level of None:
 
 * [AC-12](https://nvd.nist.gov/800-53/Rev4/control/AC-12)
-* [AC-13]
-* [AC-15]
-* [AU-13]
-* [AU-14]
-* [CA-4]
-* [CP-5]
-* [PE-19]
-* [PL-3]
-* [RA-4]
-* [SA-14]
-* [SC-6]
-* [SC-11]
-* [SC-16]
-* [SC-25]
-* [SC-26]
-* [SC-27]
-* [SC-29]
-* [SC-30]
-* [SC-31]
-* [SC-33]
-* [SC-34]
-* [SI-13]
+* [AC-13](https://nvd.nist.gov/800-53/Rev4/control/AC-13)
+* [AC-15](https://nvd.nist.gov/800-53/Rev4/control/AC-15)
+* [AU-13](https://nvd.nist.gov/800-53/Rev4/control/AU-13)
+* [AU-14](https://nvd.nist.gov/800-53/Rev4/control/AU-14)
+* [CA-4](https://nvd.nist.gov/800-53/Rev4/control/CA-4)
+* [CP-5](https://nvd.nist.gov/800-53/Rev4/control/CP-5)
+* [PE-19](https://nvd.nist.gov/800-53/Rev4/control/PE-19)
+* [PL-3](https://nvd.nist.gov/800-53/Rev4/control/PL-3)
+* [RA-4](https://nvd.nist.gov/800-53/Rev4/control/RA-4)
+* [SA-14](https://nvd.nist.gov/800-53/Rev4/control/SA-14)
+* [SC-6](https://nvd.nist.gov/800-53/Rev4/control/SC-6)
+* [SC-11](https://nvd.nist.gov/800-53/Rev4/control/SC-11)
+* [SC-16](https://nvd.nist.gov/800-53/Rev4/control/SC-16)
+* [SC-25](https://nvd.nist.gov/800-53/Rev4/control/SC-25)
+* [SC-26](https://nvd.nist.gov/800-53/Rev4/control/SC-26)
+* [SC-27](https://nvd.nist.gov/800-53/Rev4/control/SC-27)
+* [SC-29](https://nvd.nist.gov/800-53/Rev4/control/SC-29)
+* [SC-30](https://nvd.nist.gov/800-53/Rev4/control/SC-30)
+* [SC-31](https://nvd.nist.gov/800-53/Rev4/control/SC-31)
+* [SC-33](https://nvd.nist.gov/800-53/Rev4/control/SC-33)
+* [SC-34](https://nvd.nist.gov/800-53/Rev4/control/SC-34)
+* [SI-13](https://nvd.nist.gov/800-53/Rev4/control/SI-13)
 
 ## HIGH Impact Level Items
 
