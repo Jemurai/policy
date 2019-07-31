@@ -1,6 +1,7 @@
 # {{company_name}} Security FAQ
 
 <!-- markdownlint-disable MD026 -->
+
 ## Q: Tell me about {{company_name}}’s Security Program?
 
 {{company_name}} has a robust security program based on NIST standards which we map to ISO-27001 and SIG Lite as well
