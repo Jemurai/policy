@@ -51,7 +51,7 @@ security, we train on the OWASP Top 10 and do both internal and external code re
 
 {{company_name}} secures all data in transit via TLS. Systems are configured to require the TLS protocol, meeting
 industry standards for externally facing systems. You can view an up to date assessment of our TLS configurations
-by visiting [SSL Labs SSL Test](https://www.ssllabs.com/ssltest/analyze.html?d={{company_name}}.com&latest).
+by visiting [SSL Labs SSL Test](https://www.ssllabs.com/ssltest/analyze.html?d={{company_domain}}&latest).
 
 Symmetric encryption (AES-256) is used to protect data at rest. This ensures that data is only viewable by
 authorized users.
@@ -83,4 +83,4 @@ unnecessary risk.
 
 ## Questions
 
-Contact {{company_name}} at security@{{company_name}}.com.
+Contact {{company_name}} at security@{{company_domain}}.

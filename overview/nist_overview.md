@@ -137,4 +137,4 @@ With detailed requirements, we can assess our current maturity and build a progr
 specific areas based on organizational priorities.
 
 We are confident that we are using NIST in the intended, industry standard, ways and welcome further questions to
-our security team at security@{{company_name}}.com.
+our security team at security@{{company_domain}}.
