@@ -9,7 +9,7 @@ crystal clear and don't need to be repeated.
 
 Details about specific areas that may have a more directed audience are captured in those specific policies.
 
-[NIST800-53:PL-1](https://nvd.nist.gov/800-53/Rev4/control/PL-1), [NIST800-53:PL-6](https://nvd.nist.gov/800-53/Rev4/control/PL-6)
+[NIST800-53:PL-1](https://nvd.nist.gov/800-53/Rev4/control/PL-1)
 
 ## Company Introduction and The Spirit of Security
 
