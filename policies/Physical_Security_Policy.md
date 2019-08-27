@@ -73,4 +73,3 @@ Note that peripherals such as computer monitors or mice are not considered sensi
 | Version | Date | Approvers | Changes |
 |--|--|--|--|
 | 1.0 | {{approval_date}} | {{approver}} | Initial Policy |
-| 1.1 | {{approval_date}} | {{approver}} | Updated to address different office spaces |
