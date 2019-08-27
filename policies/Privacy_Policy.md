@@ -2,7 +2,7 @@
 
 This policy describes how {{company_name}} will handle individual's private information.  
 
-The policy aims to provide clear information for users and/or customers, to provide clear direction to {{company_name}} employees, and to keep {{company_name}} compliant with international data privacy regulations.
+The policy aims to provide clear information for users and/or customers, to provide clear direction to {{company_name}} employees, and to keep {{company_name}} compliant with all applicable local, state, federal, and international data privacy regulations.
 
 The policy includes both a section specifically around website policies and more general information about maintaining appropriate controls around privacy that apply to both the website and any applications we may build.
 
