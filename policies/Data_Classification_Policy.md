@@ -41,7 +41,7 @@ Full disk encryption is appropriate for Tier 1 and Tier 2 data.  Disk level encr
 
 TDE is mandatory on any system we build where the technology supports it.
 
-Column and row based encryption is required for Tier 0 data.
+Column or row based encryption is required for Tier 0 data.
 [NIST800-53:SC-28](https://nvd.nist.gov/800-53/Rev4/control/SC-28)
 
 ### In Transit
@@ -106,4 +106,3 @@ All {{company_name}} employees need to be aware of the policy.
 | Version | Date | Approvers | Changes |
 |--|--|--|--|
 | 1.0 | {{approval_date}} | {{approver}} | Initial Policy |
-| 1.1 | {{approval_date}} | {{approver}} | Change Tier Numbers, Add to Destruction |
