@@ -34,7 +34,7 @@ Physical security measures should minimize the risk of physical, environmental d
 
 ### Company Offices
 
-A dedicated Company Office is a physically separate locked facility that is dedicated to Company business.  
+A Company Office is a dedicated, physically separate, and locked facility that is dedicated to Company business.  
 
 Only current active {{company_name}} employees shall have access to {{company_name}} offices.  Keys to the office will be tracked with assets.  See the Asset Management Policy.
 
