@@ -117,7 +117,6 @@ PL-2
 PL-3
 PL-4
 PL-5
-PL-6
 PM-1
 PM-2
 PM-3
