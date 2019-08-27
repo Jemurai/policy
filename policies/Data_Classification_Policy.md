@@ -9,23 +9,23 @@ To keep our processes simple, we will define 3 broad tiers of data sensitivity.
 
 | Tier | Description | Examples |
 | -----|-------------|----------|
-| 1 | Secret | Passwords, Account Numbers, PHI, PII, SSN.  |
-| 2 | Internal | Internal processes and practices. |
-| 3 | Public | Job descriptions. Anything posted on the web. |
+| 0 | Secret | Passwords, Account Numbers, PHI, PII, SSN.  |
+| 1 | Internal | Internal processes and practices. |
+| 2 | Public | Job descriptions. Anything posted on the web. |
 
 ### Specific Examples
 
-1. {{company_name}} Leadership Structure - Tier 3 - Public
-1. {{company_name}} Code Review Checklist - Tier 2 - Internal
-1. {{company_name}} Employee Salary - Tier 1 - Secret
-1. {{company_name}} Employee SSN - Tier 1 - Secret
-1. Client Name - Tier 2 - Internal
-1. Client Project - Tier 2 - Internal
-1. Partner Name - Tier 2 - Internal
-1. Partner Fees - Tier 2 - Internal
-1. Any personal health information - Tier 1 - Secret
-1. Any personally identifiable information - Tier 1 - Secret
-1. Any financial account numbers - Tier 1 - Secret
+1. {{company_name}} Leadership Structure - Tier 2 - Public
+1. {{company_name}} Code Review Checklist - Tier 1 - Internal
+1. {{company_name}} Employee Salary - Tier 0 - Secret
+1. {{company_name}} Employee SSN - Tier 0 - Secret
+1. Client Name - Tier 1 - Internal
+1. Client Project - Tier 1 - Internal
+1. Partner Name - Tier 1 - Internal
+1. Partner Fees - Tier 1 - Internal
+1. Any personal health information - Tier 0 - Secret
+1. Any personally identifiable information - Tier 0 - Secret
+1. Any financial account numbers - Tier 0 - Secret
 
 ## Encryption
 
@@ -37,11 +37,11 @@ We see three different types of encryption at rest:
 1. Transparent database encryption (TDE) - database file encrypted
 1. Column / Row based encryption
 
-Full disk encryption is appropriate for Tier 2 and Tier 3 data.  Disk level encryption is required for all cloud storage.
+Full disk encryption is appropriate for Tier 1 and Tier 2 data.  Disk level encryption is required for all cloud storage.
 
 TDE is mandatory on any system we build where the technology supports it.
 
-Column and row based encryption is required for Tier 1 data.
+Column or row based encryption is required for Tier 0 data.
 [NIST800-53:SC-28](https://nvd.nist.gov/800-53/Rev4/control/SC-28)
 
 ### In Transit
@@ -67,13 +67,13 @@ In other cases, keys and secrets will be kept in a secure storage option (Eg. AW
 
 It is expected that all Tier 1 and 2 data handled will be encrypted at rest using at least full disk encryption.  Further, it is expected that any Tier 1 data that is incorporated into a {{company_name}} application and stored in a database will be encrypted at rest using column and/or row based encryption.
 
-It is expected that all Tier 1 and 2 data will be encrypted in transit.
+It is expected that all Tier 0 and 1 data will be encrypted in transit.
 
-All Tier 1 and 2 data shall have access controls in place to ensure that only intended consumers can access data.
+All Tier 0 and 1 data shall have access controls in place to ensure that only intended consumers can access data.
 
-The flows of Tier 1 and Tier 2 data shall be documented, with flows being tracked and approved. [NIST800-53:AC-4](https://nvd.nist.gov/800-53/Rev4/control/AC-4)
+The flows of Tier 0 and Tier 1 data shall be documented, with flows being tracked and approved. [NIST800-53:AC-4](https://nvd.nist.gov/800-53/Rev4/control/AC-4)
 
-Any sharing of data in Tier 1 or Tier 2 with third parties shall be tracked as a specific risk and approved.  [NIST800-53:CA-3](https://nvd.nist.gov/800-53/Rev4/control/CA-3)
+Any sharing of data in Tier 0 or Tier 1 with third parties shall be tracked as a specific risk and approved.  [NIST800-53:CA-3](https://nvd.nist.gov/800-53/Rev4/control/CA-3)
 
 ## Labeling Ownership
 
@@ -82,6 +82,8 @@ Wherever possible, data stewardship shall be captured and self documented throug
 ## Destruction
 
 In the event that a client requests data be destroyed, {{company_name}} will track that request in a ticketing system and follow a process to ensure that the data is fully purged from the {{company_name}} systems.
+
+In the event that {{company_name}} has scoped data on storage media, and the owner of that laptop or other media leaves or the machine is to be returned, the machine will be wiped in accordance with [NIST 800-88](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf).  Specifically, data will be Cleared before reusing with another company user and data will be Purged before being released to a new owner.
 
 ## Audience
 
