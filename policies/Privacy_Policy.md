@@ -12,7 +12,7 @@ This policy is intended to align to [NIST800-53:PL-5](https://nvd.nist.gov/800-5
 
 At {{company_name}} we work hard not to collect information we don't explicitly need and avoid integrating tools that collect data in unsolicited ways.
 
-During the course of online interactions, it is customary to collect information that your web browser provides including:
+During the course of online interactions with our website (Site), it is customary to collect information that your web browser provides including:
 
 * IP Address
 * Web Browser
