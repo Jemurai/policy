@@ -99,4 +99,3 @@ Any external user must have access to view the Website section of the policy.
 | Version | Date | Approvers | Changes |
 |--|--|--|--|
 | 1.0 | {{approval_date}} | {{approver}} | Initial Policy |
-| 1.1 | {{approval_date}} | {{approver}} | Clarify website versus application |
