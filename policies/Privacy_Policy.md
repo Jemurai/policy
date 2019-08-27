@@ -26,7 +26,7 @@ We collect Device Information using the following technologies:
 * “Log files” track actions occurring on the Site, and collect data including your IP address, browser type, Internet service provider, referring/exit pages, and date/time stamps.
 * “Web beacons,” “tags,” and “pixels” are electronic files used to record information about how you browse the Site.
 
-Additionally when you make purchase Services or attempt to purchase Services through the Site, we collect certain information from you, including your name, billing address, shipping address, payment information (including credit card numbers), email address, and phone number. We refer to this information as “Order Information.”
+Additionally when you purchase Services or attempt to purchase Services through the Site, we collect certain information from you, including your name, billing address, shipping address, payment information (including credit card numbers), email address, and phone number. We refer to this information as “Order Information.”
 
 When we talk about “Personal Information” in this Privacy Policy, we are talking both about Device Information and Order Information.
 
