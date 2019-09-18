@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-REPO_DIR="$(dirname $0)"
+REPO_DIR="$(dirname "$0")"
 OUTPUT_DIR="$REPO_DIR/export"
 OUTPUT_FORMAT="docx"
 
-if ! $(which -s pandoc)
+if ! command -v pandoc > /dev/null
 then
     echo Pandoc is not installed. Please install Pandoc and try again.
     echo Installation instructions can be found at https://pandoc.org/installing.html
@@ -19,9 +19,16 @@ then
 fi
 
 
-pandoc -t ${OUTPUT_FORMAT} -o ${OUTPUT_DIR}/Master_Security_Policy.${OUTPUT_FORMAT} Master_Security_Policy.md
+pandoc -t ${OUTPUT_FORMAT} -o "${OUTPUT_DIR}/Master_Security_Policy.${OUTPUT_FORMAT}" Master_Security_Policy.md
 
-for policy in ${REPO_DIR}/policies/*.md
+for policy in "${REPO_DIR}"/policies/*.md
 do
-    pandoc -t ${OUTPUT_FORMAT} -o ${OUTPUT_DIR}/$(basename ${policy%%md})${OUTPUT_FORMAT} ${policy}
+    pandoc -t ${OUTPUT_FORMAT} -o "${OUTPUT_DIR}/$(basename "${policy%%md}")${OUTPUT_FORMAT}" "${policy}"
+done
+
+mkdir -p "${OUTPUT_DIR}/overview"
+
+for doc in "${REPO_DIR}"/overview/*.md
+do
+    pandoc -t ${OUTPUT_FORMAT} -o "${OUTPUT_DIR}/overview/$(basename "${doc%%md}")${OUTPUT_FORMAT}" "${doc}"
 done
