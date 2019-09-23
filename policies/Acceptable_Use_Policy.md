@@ -6,8 +6,10 @@ laptops, cloud resources, security tools and more.
 
 ## Access To Data
 
-Prior to receiving access to {{company_name}} data, employees must sign access agreements and acknowledge security policies.
-[NIST800-53:PS-6](https://nvd.nist.gov/800-53/Rev4/control/PS-6)  Contractors or other non-employee staff and resources must sign appropriate confidentiality agreements prior to being given access to data.  [NIST800-53:PS-7](https://nvd.nist.gov/800-53/Rev4/control/PS-7)
+Prior to receiving access to {{company_name}} data, employees must sign access agreements and acknowledge security
+policies. [NIST800-53:PS-6](https://nvd.nist.gov/800-53/Rev4/control/PS-6) Contractors or other non-employee staff
+and resources must sign appropriate confidentiality agreements prior to being given access to data.
+[NIST800-53:PS-7](https://nvd.nist.gov/800-53/Rev4/control/PS-7)
 
 ## Personal Devices
 

@@ -38,7 +38,7 @@ administrators must come through to access the management systems.
 
 ### Integration
 
-Integration with 3rd party systems shall be approved by {{company_name}} security officer. Both partner (vendor)
+Integration with 3rd party systems shall be approved by {{company_name}} security officer. Both partner/vendor
 security evaluation and data flow will also be considered when building connections to 3rd party systems.
 [NIST800-53:CA-3](https://nvd.nist.gov/800-53/Rev4/control/CA-3)
 

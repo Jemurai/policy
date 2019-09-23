@@ -61,29 +61,38 @@ Areas where this is not used for data in transit shall be tracked as risks per t
 
 In cases where we are handling private keys for certificates, they will be kept on the servers doing TLS as required.
 
-In other cases, keys and secrets will be kept in a secure storage option (Eg. AWS KMS).
+In other cases, keys and secrets will be kept in a secure storage option (e.g. AWS KMS).
 
 ## Data Handling
 
-It is expected that all Tier 1 and 2 data handled will be encrypted at rest using at least full disk encryption.  Further, it is expected that any Tier 1 data that is incorporated into a {{company_name}} application and stored in a database will be encrypted at rest using column and/or row based encryption.
+It is expected that all Tier 1 and 2 data handled will be encrypted at rest using at least full disk encryption.
+Further, it is expected that any Tier 1 data that is incorporated into a {{company_name}} application and stored in
+a database will be encrypted at rest using column and/or row based encryption.
 
 It is expected that all Tier 0 and 1 data will be encrypted in transit.
 
 All Tier 0 and 1 data shall have access controls in place to ensure that only intended consumers can access data.
 
-The flows of Tier 0 and Tier 1 data shall be documented, with flows being tracked and approved. [NIST800-53:AC-4](https://nvd.nist.gov/800-53/Rev4/control/AC-4)
+The flows of Tier 0 and Tier 1 data shall be documented, with flows being tracked and approved.
+[NIST800-53:AC-4](https://nvd.nist.gov/800-53/Rev4/control/AC-4)
 
-Any sharing of data in Tier 0 or Tier 1 with third parties shall be tracked as a specific risk and approved.  [NIST800-53:CA-3](https://nvd.nist.gov/800-53/Rev4/control/CA-3)
+Any sharing of data in Tier 0 or Tier 1 with third parties shall be tracked as a specific risk and approved.
+[NIST800-53:CA-3](https://nvd.nist.gov/800-53/Rev4/control/CA-3)
 
 ## Labeling Ownership
 
-Wherever possible, data stewardship shall be captured and self documented through file, folder, or other data item naming conventions.
+Wherever possible, data stewardship shall be captured and self documented through file, folder, or other data
+item naming conventions.
 
 ## Destruction
 
-In the event that a client requests data be destroyed, {{company_name}} will track that request in a ticketing system and follow a process to ensure that the data is fully purged from the {{company_name}} systems.
+In the event that a client requests data be destroyed, {{company_name}} will track that request in a ticketing
+system and follow a process to ensure that the data is fully purged from the {{company_name}} systems.
 
-In the event that {{company_name}} has scoped data on storage media, and the owner of that laptop or other media leaves or the machine is to be returned, the machine will be wiped in accordance with [NIST 800-88](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf).  Specifically, data will be Cleared before reusing with another company user and data will be Purged before being released to a new owner.
+In the event that {{company_name}} has scoped data on storage media, and the owner of that laptop or other media
+leaves or the machine is to be returned, the machine will be wiped in accordance with
+[NIST 800-88](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf). Specifically, data will
+be Cleared before reusing with another company user and data will be Purged before being released to a new owner.
 
 ## Audience
 

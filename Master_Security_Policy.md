@@ -135,7 +135,27 @@ Each policy shall have have tracking data at the end of the policy that captures
 The tracking data shall include all of the fields included below in the Master Security Policy Tracking and the
 Version History that follows.
 
-### Master Security Policy Tracking
+## Policy Exceptions
+
+While all reasonable attempts shall be made to implement all policies and controls in all applicable systems as
+outlined in their respective policies. It may not be possible to implement all policies and/or controls in
+all circumstances. In such cases, if possible compensating controls shall be implemented. Policy/control exceptions
+shall not be considered lightly.
+
+### Policy Exception Procedure
+
+Proposed exceptions to policy shall be well documented and presented to {{approver}} (or their designee) for review
+and approval. Each exception request should include the following:
+
+1. Policy and control or controls to which an exception is necessary.
+1. List of the systems/devices/etc to which the exception applies.
+1. Evidence for why the indicated controls cannot be implemented.
+1. Details of compensating controls put in place in lieu of those required by policy. Where implementation of
+   compensating controls is not possible or impractical, documentation shall also be provided.
+
+Exceptions shall be logged in the risk register along with the corresponding planning and evidence documents.
+
+## Master Security Policy Tracking
 
 | Tracking Item   | Detail |
 |-----------------|--------|
