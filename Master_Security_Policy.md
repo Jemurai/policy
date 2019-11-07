@@ -67,7 +67,7 @@ including:  policy coverage, training coverage, open risk items/period, open inc
 
 In addition, the security officer will be responsible for maintaining industry contacts to ensure that their program
 and status continues to evolve and respond to important threats.
-[NIST800-53:AT-5](https://nvd.nist.gov/800-53/Rev4/control/AT-5) The security officer (or a designated team member)
+[NIST800-53:PM-15](https://nvd.nist.gov/800-53/Rev4/control/PM-15) The security officer (or a designated team member)
 shall receive security alerts and advisories for technology that is in place at {{company_name}}.
 [NIST800-53:SI-5](https://nvd.nist.gov/800-53/Rev4/control/SI-5)
 
@@ -127,7 +127,7 @@ with defined tracking and notification processes. [NIST800-53:PL-4](https://nvd.
 To make it clear how we are interpreting and meeting the standards, policies shall be annotated with tags for:
 NIST-CSF and NIST-800-53 controls.
 
-We are implementing MODERATE Impact level controls.
+We are implementing **MODERATE** Impact level controls.
 
 ## Tracking Data
 
