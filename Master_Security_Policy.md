@@ -41,19 +41,19 @@ find the policies that are most relevant to them.
 
 | Policy | Audience |
 |--------|----------|
-| [Acceptable Use Policy](policies/Acceptable_Use_Policy.md) | Everyone |
-| [Application Security Policy](policies/Application_Security_Policy.md) | Engineering |
-| [Asset Management Policy](policies/Asset_Management_Policy.md) | IT |
-| [BCP Policy](policies/BCP_Policy.md) | IT |
-| [Data Classification Policy](policies/Data_Classification_Policy.md) | IT, Engineering |
-| [Identity and Access Management Policy](policies/IAM_Policy.md) | IT |
-| [Incident Response Policy](policies/Incident_Response_Policy.md) | IT, Management |
-| [Network Security Policy](policies/Network_Security_Policy.md) | IT |
-| [Partner Security Policy](policies/Partner_Security_Policy.md) | IT |
-| [Physical Security Policy](policies/Physical_Security_Policy.md) | IT |
-| [Privacy Policy](policies/Privacy_Policy.md) | Everyone |
-| [Risk Policy](policies/Risk_Policy.md) | Management |
-| [Systems Security Policy](policies/Systems_Security_Policy.md) | IT |
+| Acceptable Use Policy | Everyone |
+| Application Security Policy | Engineering |
+| Asset Management Policy | IT |
+| BCP Policy | IT |
+| Data Classification Policy | IT, Engineering |
+| Identity and Access Management Policy | IT |
+| Incident Response Policy | IT, Management |
+| Network Security Policy | IT |
+| Partner Security Policy | IT |
+| Physical Security Policy | IT |
+| Privacy Policy | Everyone |
+| Risk Policy | Management |
+| Systems Security Policy | IT |
 
 ## Responsibility
 
