@@ -16,7 +16,9 @@ Physical security measures at data centers must include:
 * Control network connections [NIST800-53:PE-4](https://nvd.nist.gov/800-53/Rev4/control/PE-4)
 * Prevent physical access to output devices.  [NIST800-53:PE-5](https://nvd.nist.gov/800-53/Rev4/control/PE-5)
 * Building monitored for unauthorized access.  [NIST800-53:PE-6](https://nvd.nist.gov/800-53/Rev4/control/PE-6)
-* Visitor access limited, managed and tracked.  [NIST800-53:PE-7](https://nvd.nist.gov/800-53/Rev4/control/PE-7), [NIST800-53:PE-8](https://nvd.nist.gov/800-53/Rev4/control/PE-8)
+* Visitor access limited, managed and tracked.  [NIST800-53:PE-2](https://nvd.nist.gov/800-53/Rev4/control/PE-2),
+  [NIST800-53:PE-3](https://nvd.nist.gov/800-53/Rev4/control/PE-3)
+  [NIST800-53:PE-8](https://nvd.nist.gov/800-53/Rev4/control/PE-8)
 * Protected power, emergency shutoff, emergency backup power, emergency lighting
   [NIST800-53:PE-9](https://nvd.nist.gov/800-53/Rev4/control/PE-9),
   [NIST800-53:PE-10](https://nvd.nist.gov/800-53/Rev4/control/PE-10),

@@ -6,8 +6,6 @@ The policy aims to provide clear information for users and/or customers, to prov
 
 The policy includes both a section specifically around website policies and more general information about maintaining appropriate controls around privacy that apply to both the website and any applications we may build.
 
-This policy is intended to align to [NIST800-53:PL-5](https://nvd.nist.gov/800-53/Rev4/control/PL-5).
-
 ## Website Privacy
 
 At {{company_name}} we work hard not to collect information we don't explicitly need and avoid integrating tools that collect data in unsolicited ways.

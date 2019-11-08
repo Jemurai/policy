@@ -84,7 +84,6 @@ availability requirements. [NIST800-53:SC-5](https://nvd.nist.gov/800-53/Rev4/co
 
 All traffic external to the company will be transmitted over TLS where integrity and confidentiality can be ensured.
 [NIST800-53:SC-8](https://nvd.nist.gov/800-53/Rev4/control/SC-8),
-[NIST800-53:SC-9](https://nvd.nist.gov/800-53/Rev4/control/SC-9),
 [NIST800-53:SC-12](https://nvd.nist.gov/800-53/Rev4/control/SC-12),
 [NIST800-53:SC-13](https://nvd.nist.gov/800-53/Rev4/control/SC-13),
 [NIST800-53:SC-14](https://nvd.nist.gov/800-53/Rev4/control/SC-14)
@@ -96,6 +95,7 @@ Certificates shall be obtained from a commercial certificate authority or Let's 
 
 * All network connections should close at the completion of a session or a period of inactivity.
   [NIST800-53:SC-10](https://nvd.nist.gov/800-53/Rev4/control/SC-10)
+  [NIST800-53:AC-12](https://nvd.nist.gov/800-53/Rev4/control/AC-12)
 * Any VoIP systems shall be authorized and monitored. [NIST800-53:SC-19](https://nvd.nist.gov/800-53/Rev4/control/SC-19)
 * Session authenticity shall be maintained. [NIST800-53:SC-23](https://nvd.nist.gov/800-53/Rev4/control/SC-23)
 * DNS shall be fault tolerant. [NIST800-53:SC-20](https://nvd.nist.gov/800-53/Rev4/control/SC-20),

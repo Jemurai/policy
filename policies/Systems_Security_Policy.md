@@ -18,7 +18,7 @@ Security Policy. [NIST800-53:CM-3](https://nvd.nist.gov/800-53/Rev4/control/CM-3
 ## Installing Software
 
 Users may have rights to install software on their systems (local or server) provided it is needed, meets license
-requirements [NIST800-53:SA-6](https://nvd.nist.gov/800-53/Rev4/control/SA-6) is run with a secure configuration and
+requirements [NIST800-53:CM-10](https://nvd.nist.gov/800-53/Rev4/control/CM-10) is run with a secure configuration and
 goes through the Partner process if applicable.  [NIST800-53:SA-7](https://nvd.nist.gov/800-53/Rev4/control/SA-7)
 
 ## Vulnerability Scanning

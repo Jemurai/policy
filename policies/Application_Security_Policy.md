@@ -18,7 +18,7 @@ In addition, {{company_name}} will use security engineering principles. [NIST800
 ## Licensing
 
 Any custom software using libraries must ensure that those libraries are not restricted for commercial use in the
-manner used. [NIST800-53:SA-6](https://nvd.nist.gov/800-53/Rev4/control/SA-6)
+manner used. [NIST800-53:CM-10](https://nvd.nist.gov/800-53/Rev4/control/CM-10)
 
 ## Security Training
 

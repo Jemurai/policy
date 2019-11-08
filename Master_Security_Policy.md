@@ -41,19 +41,19 @@ find the policies that are most relevant to them.
 
 | Policy | Audience |
 |--------|----------|
-| [Acceptable Use Policy](policies/Acceptable_Use_Policy.md) | Everyone |
-| [Application Security Policy](policies/Application_Security_Policy.md) | Engineering |
-| [Asset Management Policy](policies/Asset_Management_Policy.md) | IT |
-| [BCP Policy](policies/BCP_Policy.md) | IT |
-| [Data Classification Policy](policies/Data_Classification_Policy.md) | IT, Engineering |
-| [Identity and Access Management Policy](policies/IAM_Policy.md) | IT |
-| [Incident Response Policy](policies/Incident_Response_Policy.md) | IT, Management |
-| [Network Security Policy](policies/Network_Security_Policy.md) | IT |
-| [Partner Security Policy](policies/Partner_Security_Policy.md) | IT |
-| [Physical Security Policy](policies/Physical_Security_Policy.md) | IT |
-| [Privacy Policy](policies/Privacy_Policy.md) | Everyone |
-| [Risk Policy](policies/Risk_Policy.md) | Management |
-| [Systems Security Policy](policies/Systems_Security_Policy.md) | IT |
+| Acceptable Use Policy | Everyone |
+| Application Security Policy | Engineering |
+| Asset Management Policy | IT |
+| BCP Policy | IT |
+| Data Classification Policy | IT, Engineering |
+| Identity and Access Management Policy | IT |
+| Incident Response Policy | IT, Management |
+| Network Security Policy | IT |
+| Partner Security Policy | IT |
+| Physical Security Policy | IT |
+| Privacy Policy | Everyone |
+| Risk Policy | Management |
+| Systems Security Policy | IT |
 
 ## Responsibility
 
@@ -67,7 +67,7 @@ including:  policy coverage, training coverage, open risk items/period, open inc
 
 In addition, the security officer will be responsible for maintaining industry contacts to ensure that their program
 and status continues to evolve and respond to important threats.
-[NIST800-53:AT-5](https://nvd.nist.gov/800-53/Rev4/control/AT-5) The security officer (or a designated team member)
+[NIST800-53:PM-15](https://nvd.nist.gov/800-53/Rev4/control/PM-15) The security officer (or a designated team member)
 shall receive security alerts and advisories for technology that is in place at {{company_name}}.
 [NIST800-53:SI-5](https://nvd.nist.gov/800-53/Rev4/control/SI-5)
 
@@ -127,7 +127,7 @@ with defined tracking and notification processes. [NIST800-53:PL-4](https://nvd.
 To make it clear how we are interpreting and meeting the standards, policies shall be annotated with tags for:
 NIST-CSF and NIST-800-53 controls.
 
-We are implementing MODERATE Impact level controls.
+We are implementing **MODERATE** Impact level controls.
 
 ## Tracking Data
 
