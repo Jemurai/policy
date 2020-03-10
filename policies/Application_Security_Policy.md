@@ -26,8 +26,7 @@ All {{company_name}} employees writing code shall be trained in the OWASP Top 10
 
 ## Code Review
 
-All code delivered as part of a {{company_name}} product or consulting solution shall be peer reviewed for security.
-This shall be done through GitHub pull requests or another suitable review mechanism that tracks approval.
+All code delivered as part of a {{company_name}} product or consulting solution shall be peer reviewed for security.  This shall be done through Source Code Management (SCM) Systems such as GitHub, BitBucket or similar, with pull requests or another suitable review mechanism that tracks approval.
 
 ## Penetration Testing
 
