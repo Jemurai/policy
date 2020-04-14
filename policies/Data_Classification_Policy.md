@@ -9,75 +9,94 @@ To keep our processes simple, we will define 3 broad tiers of data sensitivity.
 
 | Tier | Description | Examples |
 | -----|-------------|----------|
-| 0 | Secret | Passwords, Account Numbers, PHI, PII, SSN.  |
-| 1 | Internal | Internal processes and practices. |
-| 2 | Public | Job descriptions. Anything posted on the web. |
+| 1 | Restricted | Passwords, Account Numbers, PHI, PII, SSN.  |
+| 2 | Internal | Internal processes and practices. |
+| 3 | Public | Job descriptions. Anything posted on the web. |
 
-### Specific Examples
+### Data Classification Examples
 
-1. {{company_name}} Leadership Structure - Tier 2 - Public
-1. {{company_name}} Code Review Checklist - Tier 1 - Internal
-1. {{company_name}} Employee Salary - Tier 0 - Secret
-1. {{company_name}} Employee SSN - Tier 0 - Secret
-1. Client Name - Tier 1 - Internal
-1. Client Project - Tier 1 - Internal
-1. Partner Name - Tier 1 - Internal
-1. Partner Fees - Tier 1 - Internal
-1. Any personal health information - Tier 0 - Secret
-1. Any personally identifiable information - Tier 0 - Secret
-1. Any financial account numbers - Tier 0 - Secret
+Below are some specific examples of data grouped into their data classification
+tier as required by this policy.
+
+#### Tier 1 — Restricted
+
+* {{company_name}} Employee Salary
+* {{company_name}} Employee SSN
+* Any personal health information
+* Any personally identifiable information
+* Any financial account numbers
+
+#### Tier 2 — Internal
+
+* {{company_name}} Code Review Checklist
+* Client Name
+* Client Project
+* Partner Name
+* Partner Fees
+
+#### Tier 3 — Public
+
+* {{company_name}} Leadership Structure
 
 ## Encryption
 
+Encryption is an essential control for protecting data should it be exfiltrated.
+The type and granularity of encryption required varies by tier.
+
 ### At Rest
 
-We see three different types of encryption at rest:
+There are three primary types of encryption at rest:
 
-1. Full disk encryption
-1. Transparent database encryption (TDE) - database file encrypted
-1. Column / Row based encryption
+1. Full disk encryption (FDE)
+1. Transparent data encryption (TDE) - often used by database engines. Encrypts
+   the database files on disk and backups.
+1. Database Column / Row based encryption
 
-Full disk encryption is appropriate for Tier 1 and Tier 2 data.  Disk level encryption is required for all cloud storage.
+Full disk encryption is appropriate for Tier 2 and Tier 3 data.  Disk level
+encryption is required for all cloud storage.
 
-TDE is mandatory on any system we build where the technology supports it.
+TDE is mandatory on any system built by {{company_name}} where the technology
+supports it.
 
-Column or row based encryption is required for Tier 0 data.
+Column or row based encryption is required for Tier 1 data.
 [NIST800-53:SC-28](https://nvd.nist.gov/800-53/Rev4/control/SC-28)
 
 ### In Transit
 
-All communications everywhere must be encrypted with TLS.
+All communications everywhere must be encrypted with TLS. TLS 1.2 or above
+is strongly preferred.
 
 ### Algorithms
 
-* RSA with 2048 (or more) bit keys will be preferred.
-* AES-256-GCM will be preferred for symmetric encryption.
-* TLS 1.2 or above will be preferred.
+* For asymmetric encryption RSA with 2048 (or more) bit keys is preferred.
+* For symmetric encryption AES-256-GCM is preferred.
 
 Areas where this is not used for data in transit shall be tracked as risks per the Risk Policy.
-[NIST800-53:SC-12](https://nvd.nist.gov/800-53/Rev4/control/SC-12), [NIST800-53:SC-13](https://nvd.nist.gov/800-53/Rev4/control/SC-13)
+[NIST800-53:SC-12](https://nvd.nist.gov/800-53/Rev4/control/SC-12),[NIST800-53:SC-13](https://nvd.nist.gov/800-53/Rev4/control/SC-13)
 
 ### Key Management
 
-In cases where we are handling private keys for certificates, they will be kept on the servers doing TLS as required.
+In cases where private keys for certificates are handled, they will be kept on the servers doing TLS as required.
 
 In other cases, keys and secrets will be kept in a secure storage option (e.g. AWS KMS).
 
 ## Data Handling
 
-It is expected that all Tier 1 and 2 data handled will be encrypted at rest using at least full disk encryption.
-Further, it is expected that any Tier 1 data that is incorporated into a {{company_name}} application and stored in
-a database will be encrypted at rest using column and/or row based encryption.
+It is expected that all Tier 2 and 3 data handled be encrypted at rest
+using at least full disk encryption. Further, it is expected that any Tier 2
+data that is incorporated into a {{company_name}} application and stored in a
+database be encrypted at rest using column and/or row based encryption.
 
-It is expected that all Tier 0 and 1 data will be encrypted in transit.
+It is expected that all Tier 1 and 2 data be encrypted in transit.
 
-All Tier 0 and 1 data shall have access controls in place to ensure that only intended consumers can access data.
+All Tier 1 and 2 data shall have access controls in place to ensure that only
+intended consumers are permitted to access data.
 
-The flows of Tier 0 and Tier 1 data shall be documented, with flows being tracked and approved.
-[NIST800-53:AC-4](https://nvd.nist.gov/800-53/Rev4/control/AC-4)
+The flows of Tier 1 and Tier 2 data shall be documented, with flows being
+tracked and approved. [NIST800-53:AC-4](https://nvd.nist.gov/800-53/Rev4/control/AC-4)
 
-Any sharing of data in Tier 0 or Tier 1 with third parties shall be tracked as a specific risk and approved.
-[NIST800-53:CA-3](https://nvd.nist.gov/800-53/Rev4/control/CA-3)
+Any sharing of data in Tier 1 or Tier 2 with third parties shall be tracked as
+a specific risk and approved. [NIST800-53:CA-3](https://nvd.nist.gov/800-53/Rev4/control/CA-3)
 
 ## Labeling Ownership
 
@@ -86,13 +105,15 @@ item naming conventions.
 
 ## Destruction
 
-In the event that a client requests data be destroyed, {{company_name}} will track that request in a ticketing
-system and follow a process to ensure that the data is fully purged from the {{company_name}} systems.
+In the event that a client requests data be destroyed, {{company_name}} shall
+track that request in a ticketing system and follow a process to ensure that
+the data is fully purged from the {{company_name}} systems and the systems of
+any third party with whom the data were shared.
 
-In the event that {{company_name}} has scoped data on storage media, and the owner of that laptop or other media
-leaves or the machine is to be returned, the machine will be wiped in accordance with
-[NIST 800-88](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf). Specifically, data will
-be Cleared before reusing with another company user and data will be Purged before being released to a new owner.
+In the event that {{company_name}} has scoped data on storage media, and the
+owner of that laptop or other media leaves or the machine is to be returned,
+the machine shall be wiped in accordance with [NIST 800-88](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf). Specifically, data shall be Cleared before reusing with another company user
+and data shall be Purged before being released to a new owner.
 
 ## Audience
 
