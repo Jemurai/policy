@@ -34,7 +34,7 @@ For the purposes of getting work done, {{company_name}} employees and contractor
 be handled in a safe and secure manner to the extent possible. In addition, it is expected that these devices will not
 be used for unlawful activities or paid work for other entities.
 
-Employees acknowledge that company devices likely contain data that is internal or secret and therefore any laptops
+Employees acknowledge that company devices likely contain data that is restricted or internal and therefore any laptops
 will be encrypted with FDE (see Data Classification Policy) and removable media will be securely erased between uses.
 [NIST800-53:MP-1](https://nvd.nist.gov/800-53/Rev4/control/MP-1),
 [NIST800-53:MP-2](https://nvd.nist.gov/800-53/Rev4/control/MP-2),
