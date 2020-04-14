@@ -5,7 +5,7 @@ This policy describes how {{company_name}} will handle network security.
 
 ## Internal
 
-## Segmentation
+### Segmentation
 
 In any case where systems are developed or multiple computers are joined together, the network shall be segmented such that:
 
@@ -42,11 +42,11 @@ Integration with 3rd party systems shall be approved by {{company_name}} securit
 security evaluation and data flow will also be considered when building connections to 3rd party systems.
 [NIST800-53:CA-3](https://nvd.nist.gov/800-53/Rev4/control/CA-3)
 
-## Wireless
+### Wireless
 
 {{company_name}} may use wireless networks in offices. Such wireless networks should not be public and should use
-current industry standard security configurations (e.g. no WEP). In the event that they are shared networks, a VPN
-should be used to isolate company traffic from other traffic on the local wireless network.  
+current industry standard security configurations (i.e. not WEP). In the event that they are shared networks, a VPN
+should be used to isolate company traffic from other traffic on the local wireless network.
 
 If {{company_name}} allows personal devices to connect to wireless networks, these must be public networks not
 the company internal network. [NIST800-53:AC-18](https://nvd.nist.gov/800-53/Rev4/control/AC-18),
@@ -54,7 +54,8 @@ the company internal network. [NIST800-53:AC-18](https://nvd.nist.gov/800-53/Rev
 
 ## External
 
-Any port being open externally other than 22, 80 and 443 shall require a specific exception and will be tracked.
+Any port being open externally other than 22, 80 and 443 shall require a
+specific exception and must be tracked.
 
 ### Vulnerability Scanning
 
@@ -66,23 +67,23 @@ patched properly.
 Customers may conduct their own security assessments of {{company_name}} applications. These must:
 
 1. Be scheduled in advance at a mutually agreeable time
-1. Be co-ordinated and scoped clearly with our security officer
-1. Include communication of any findings or issues identified back to {{company_name}}
+1. Be coordinated and scoped clearly with the security officer
+1. Require communication of any findings or issues identified back to {{company_name}}
 
 [NIST800-53:CA-1](https://nvd.nist.gov/800-53/Rev4/control/CA-1)
 
-## Denial Of Service
+## Denial of Service
 
 If it is deemed critical for an application, {{company_name}} will leverage denial of service protection to support
 availability requirements. [NIST800-53:SC-5](https://nvd.nist.gov/800-53/Rev4/control/SC-5)
 
 ## SPAM
 
-{{company_name}} will leverage email platform integrated SPAM protection.  [NIST800-53:SI-8](https://nvd.nist.gov/800-53/Rev4/control/SI-8)
+{{company_name}} shall leverage email platform integrated SPAM protection.  [NIST800-53:SI-8](https://nvd.nist.gov/800-53/Rev4/control/SI-8)
 
 ## All Traffic on TLS
 
-All traffic external to the company will be transmitted over TLS where integrity and confidentiality can be ensured.
+All traffic external to the company shall be transmitted over TLS where integrity and confidentiality can be ensured.
 [NIST800-53:SC-8](https://nvd.nist.gov/800-53/Rev4/control/SC-8),
 [NIST800-53:SC-12](https://nvd.nist.gov/800-53/Rev4/control/SC-12),
 [NIST800-53:SC-13](https://nvd.nist.gov/800-53/Rev4/control/SC-13),
