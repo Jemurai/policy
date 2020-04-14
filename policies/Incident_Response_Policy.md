@@ -27,7 +27,7 @@ Incidents must be reported immediately to the security officer.
 experts, delegate within the organization and develop an incident response team such that the organization's ability
 to respond to incidents is structured and repeatable.
 
-Anyone internal or external can report a security incident by addressing an email to security@{{company_name}}.com,
+Anyone internal or external can report a security incident by addressing an email to security@{{company_domain}},
 which will trigger an incident to be handled by the security officer.
 
 Reporting incidents must include:
