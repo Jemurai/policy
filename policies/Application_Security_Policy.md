@@ -1,6 +1,6 @@
 # Application Security Policy
 
-This policy describes how {{company_name}} will handle application security.
+This policy describes how {{company_name}} will handle application security.  In addition to governing software built in house, this policy also applies to all outsourced and partner developed software as applicable.
 
 ## SDLC
 
@@ -117,6 +117,18 @@ Changes to configuration should be reflected as changes in code and tracked in a
 {{company_name}} shall maintain an enterprise architecture and actively plan around critical infrastructure.
 [NIST800-53:PM-7](https://nvd.nist.gov/800-53/Rev4/control/PM-7),
 [NIST800-53:PM-8](https://nvd.nist.gov/800-53/Rev4/control/PM-8)
+
+## Applying To Third Parties
+
+To apply the policy to third party projects, we will use the Application Inventory and track security controls that are applied to the provided software.
+
+Some of the controls from above apply in all cases:
+
+* Security Training
+* Licensing
+* Architecture
+
+In some cases, additional controls may apply.  If possible, these requirements will be included as part of the contractual obligations of the third party.  As third party projects are kicked off, the security requirements will be communicated.  When code is delivered, it will be tested and reviewed according to the processes described here.
 
 ## Audience
 
