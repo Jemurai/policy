@@ -15,6 +15,11 @@ security considerations such as:
 
 In addition, {{company_name}} will use security engineering principles. [NIST800-53:SA-8](https://nvd.nist.gov/800-53/Rev4/control/SA-8)
 
+The SDLC shall include organization appropriate unit, integration and acceptance testing processes.
+
+Test data shall be deliberately chosen and selected to ensure it does not include protected information.
+Typically that means test data may not be a direct copy of production data.
+
 ## Licensing
 
 Any custom software using libraries must ensure that those libraries are not restricted for commercial use in the
