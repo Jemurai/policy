@@ -82,7 +82,7 @@ security officers responsibility to understand and advance the program.
 
 While the security officer has responsibility for the security program, the commitment to security comes from
 the top and represents a priority of executive management.  To the extent that {{company_name}} has a board
-of directors and an executive leadership team, these leaders will be aware of the security policies and program
+of directors and an executive leadership team, these leaders are aware of the security policies and program
 activities and are expected to establish and maintain integrity and ethical values while providing critical
 and appropriate oversight and direction.
 
