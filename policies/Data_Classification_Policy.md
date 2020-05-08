@@ -107,7 +107,7 @@ item naming conventions.
 
 When it comes to data retention and destruction, there are competing priorities
 from a privacy and security perspective.  Some regulations suggest that personal information
-should only be stored for the shortest possible time that it is needed.  Others mandage that
+should only be stored for the shortest possible time that it is needed.  Others mandate that
 data be retained to ensure proper investigations can be conducted.
 
 {{company_name}} works to find an appropriate balance between these competing priorities.
