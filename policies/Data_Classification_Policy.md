@@ -130,8 +130,6 @@ Some information may be retained for a longer term for the following reasons:
 * Ensuring the continuity of services
 * Direct communications with {{company_name}}
 
-### Destruction 
-
 In the event that a client requests data be destroyed, {{company_name}} shall
 track that request in a ticketing system and follow a process to ensure that
 the data is fully purged from the {{company_name}} systems and the systems of
