@@ -116,7 +116,7 @@ we tend to favor retention and security over aggressive removal and privacy.
 
 Most customer and user information is retained until they request that it be deleted.  In
 some cases, this data may be archived proactively after an extended period of inactivity;
-but we do not have rules enforcing that at this time.  We do have explicit processes 
+but we do not have rules enforcing that at this time.  We do have explicit processes
 outlined below to ensure that data deletion is complete and standards aligned.
 
 In some cases, when individual data is deleted, we may retain pseudonmymous aggregate
