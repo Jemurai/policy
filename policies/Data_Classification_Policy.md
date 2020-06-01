@@ -80,6 +80,16 @@ In cases where private keys for certificates are handled, they will be kept on t
 
 In other cases, keys and secrets will be kept in a secure storage option (e.g. AWS KMS).
 
+## Passwords
+
+In an ideal scenario, we should leverage single sign on (SSO) with their existing identity store (via SAML, OAuth or similar) to avoid having to store user passwords at all.
+
+In the event that the system stores or transmits passwords, these should be cryptographically protected.  The best approach 
+is usually to store passwords after hashing them with a salt and an adaptively slow hashing algorithm such as bcrypt, scrypt 
+or PBKDF2.  Such hashed passwords cannot be "reversed" or exposed.  In the event that the password needs to be accessed 
+somehow, then it should be encrypted with a strong encryption algorithm such as AES-256 and ideally a user specific key.  
+Access to any password that can be reversed must be auditable.
+
 ## Data Handling
 
 It is expected that all Tier 2 and 3 data handled be encrypted at rest
