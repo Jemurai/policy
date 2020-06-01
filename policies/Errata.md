@@ -65,3 +65,12 @@ Other NIST Items are unrealistic for small and mid sized companies to achieve.  
 
 * [AC-16](https://nvd.nist.gov/800-53/Rev4/control/AC-16)
 * [MP-3](https://nvd.nist.gov/800-53/Rev4/control/MP-3)
+
+## CMMC Gaps
+
+CMMC introduces a number of deeper and more advanced controls that simply aren't practical for small and mid sized companies.  They are included here as follows: 
+
+* IR.4.101
+* IR.5.106
+* IR.5.108
+
