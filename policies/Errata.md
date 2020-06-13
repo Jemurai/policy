@@ -76,3 +76,5 @@ CMMC introduces a number of deeper and more advanced controls that simply aren't
 * IR.5.108
 * AC.5.024
 * CM.5.074
+* RM.5.152
+* RM.5.155
