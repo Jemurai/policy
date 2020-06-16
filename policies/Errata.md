@@ -82,3 +82,8 @@ CMMC introduces a number of deeper and more advanced controls that simply aren't
 * SA.4.171
 * SI.5.222
 * SI.5.223
+* SC.4.202
+* SC.5.208
+* SC.4.229
+* SC.5.230
+* SC.5.198
