@@ -103,7 +103,32 @@ a specific risk and approved. [NIST800-53:CA-3](https://nvd.nist.gov/800-53/Rev4
 Wherever possible, data stewardship shall be captured and self documented through file, folder, or other data
 item naming conventions.
 
-## Destruction
+## Data Retention, Archival and Destruction
+
+When it comes to data retention and destruction, there are competing priorities
+from a privacy and security perspective.  Some regulations suggest that personal information
+should only be stored for the shortest possible time that it is needed.  Others mandate that
+data be retained to ensure proper investigations can be conducted.
+
+{{company_name}} works to find an appropriate balance between these competing priorities.
+Since we do not sell customer data, and are not collecting it for advertising purposes,
+we tend to favor retention and security over aggressive removal and privacy.
+
+Most customer and user information is retained until they request that it be deleted.  In
+some cases, this data may be archived proactively after an extended period of inactivity;
+but we do not have rules enforcing that at this time.  We do have explicit processes
+outlined below to ensure that data deletion is complete and standards aligned.
+
+In some cases, when individual data is deleted, we may retain pseudonmymous aggregate
+data to preserve system operation for the organization or group they are part of.
+
+Some information may be retained for a longer term for the following reasons:
+
+* Security, fraud and abuse prevention
+* Financial record-keeping
+* Complying with legal or regulatory requirements
+* Ensuring the continuity of services
+* Direct communications with {{company_name}}
 
 In the event that a client requests data be destroyed, {{company_name}} shall
 track that request in a ticketing system and follow a process to ensure that

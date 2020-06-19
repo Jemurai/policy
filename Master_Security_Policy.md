@@ -80,6 +80,12 @@ security officers responsibility to understand and advance the program.
 [NIST800-53:PM-1](https://nvd.nist.gov/800-53/Rev4/control/PM-1),
 [NIST800-53:PM-4](https://nvd.nist.gov/800-53/Rev4/control/PM-4)
 
+While the security officer has responsibility for the security program, the commitment to security comes from
+the top and represents a priority of executive management.  To the extent that {{company_name}} has a board
+of directors and an executive leadership team, these leaders are aware of the security policies and program
+activities and are expected to establish and maintain integrity and ethical values while providing critical
+and appropriate oversight and direction.
+
 ## Approval Process
 
 Each policy will have designated approvers representing the stakeholders for the area described by the policy. Each
