@@ -125,7 +125,7 @@ Changes to configuration should be reflected as changes in code and tracked in a
 
 ## Applying To Third Parties
 
-To apply the policy to third party projects, we will use the Application Inventory and track security controls that are applied to the provided software.
+The Application Inventory shall be used to track the status of security controls specified in this policy as they apply to the practices of applications in use which are developed by a third party.
 
 Some of the controls from above apply in all cases:
 
