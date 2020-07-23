@@ -133,7 +133,7 @@ All third parties must (at a minimum) implement the following controls as descri
 * Licensing
 * Architecture
 
-In some cases, additional controls may apply.  If possible, these requirements will be included as part of the contractual obligations of the third party.  As third party projects are kicked off, the security requirements will be communicated.  When code is delivered, it will be tested and reviewed according to the processes described here.
+In some cases, additional controls may be required.  Security control requirements shall be included as a contractual obligations of the third party in all new contracts.  These requirements shall be clearly communicated at the commencement of all third party projects. All source code delivered shall be tested and reviewed according to the processes described in this policy and any associated procedures.
 
 ## Audience
 
