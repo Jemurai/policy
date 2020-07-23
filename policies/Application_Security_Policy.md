@@ -18,7 +18,7 @@ In addition, {{company_name}} will use security engineering principles. [NIST800
 The SDLC shall include organization appropriate unit, integration and acceptance testing processes.
 
 Test data shall be deliberately chosen and selected to ensure it does not include protected information.
-Typically that means test data may not be a direct copy of production data.
+This means test data may not be a direct copy of production data.
 
 ## Licensing
 
