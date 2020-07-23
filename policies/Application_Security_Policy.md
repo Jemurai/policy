@@ -1,6 +1,6 @@
 # Application Security Policy
 
-This policy describes how {{company_name}} will handle application security.
+This policy describes how {{company_name}} will handle application security.  In addition to governing software built in house, this policy also applies to all outsourced and partner developed software as applicable.
 
 ## SDLC
 
@@ -14,6 +14,11 @@ security considerations such as:
 [NIST800-53:SA-3](https://nvd.nist.gov/800-53/Rev4/control/SA-3)
 
 In addition, {{company_name}} will use security engineering principles. [NIST800-53:SA-8](https://nvd.nist.gov/800-53/Rev4/control/SA-8)
+
+The SDLC shall include organization appropriate unit, integration and acceptance testing processes.
+
+Test data shall be deliberately chosen and selected to ensure it does not include protected information.
+This means test data may not be a direct copy of production data.
 
 ## Licensing
 
@@ -117,6 +122,18 @@ Changes to configuration should be reflected as changes in code and tracked in a
 {{company_name}} shall maintain an enterprise architecture and actively plan around critical infrastructure.
 [NIST800-53:PM-7](https://nvd.nist.gov/800-53/Rev4/control/PM-7),
 [NIST800-53:PM-8](https://nvd.nist.gov/800-53/Rev4/control/PM-8)
+
+## Applying To Third Parties
+
+The Application Inventory shall be used to track the status of security controls specified in this policy as they apply to the practices of applications in use which are developed by a third party.
+
+All third parties must (at a minimum) implement the following controls as described above:
+
+* Security Training
+* Licensing
+* Architecture
+
+In some cases, additional controls may be required.  Security control requirements shall be included as a contractual obligations of the third party in all new contracts.  These requirements shall be clearly communicated at the commencement of all third party projects. All source code delivered shall be tested and reviewed according to the processes described in this policy and any associated procedures.
 
 ## Audience
 
