@@ -3,9 +3,14 @@
 This repository contains security policy templates that can be adopted by organizations of different sizes.
 It is in support of securityprogram.io.
 
-## Version
+## Versions
 
-This version is for Month 1 of your security program.
+There are several branches which we intend to support different levels program:
+
+* main - is for the most complete NIST 800-53 aligned policies
+* simple - is for the simplest policy you can start with
+
+We are exploring additional levels and a progressive flow through the branches.
 
 ## How To Use the Templates
 
